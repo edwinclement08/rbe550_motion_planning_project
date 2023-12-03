@@ -1,4 +1,9 @@
+import numpy as np
+from scipy.stats import norm
 from pprint import pprint
+import math
+from math import sqrt
+
 class Board:
     def __init__(self, board):
         self.board = board
@@ -37,6 +42,50 @@ class Board:
             down.append((self.h-1, i))
         visitor_fn('up', up)
         visitor_fn('down', down)
+
+    def get_norm_pdf(self):
+        pass
+    
+    '''
+    number_of_cells has to be odd, or it will be made one
+    '''
+    def gaussians(self, number_of_cells, deviation):
+        if number_of_cells % 2 == 0:
+            number_of_cells = number_of_cells + 1
+        
+        print(number_of_cells)
+
+        neighbours_to_left = (number_of_cells - 1) / 2
+        rows = number_of_cells
+        cols = rows
+        probs = np.zeros((rows, cols))
+        # steps = np.zeros((rows, cols, 2))
+        steps = []
+        
+        center = (neighbours_to_left, neighbours_to_left)
+        for i in range(rows):
+            for j in range(cols):
+                dist = sqrt((i-center[0])**2 + (j-center[1])**2)
+                print(dist)
+                probs[i][j] = norm.pdf(dist, loc=0, scale=deviation)
+                # steps[i][j] = (i - center[0], j -center[1])
+
+                steps.append((i - center[0], j -center[1]))
+
+        # print("Probability Matrix")
+        # pprint(np.round(probs, 3))
+        # print("row step")
+        # pprint(steps)
+
+        return probs,steps
+    
+    def probs_for_adjacent(self, i, j, cell_box_width, deviation):
+        probs, steps = self.gaussians(cell_box_width, deviation)
+
+        probs_at_actual = []
+        for (i, j) in steps:
+
+
 
     def adjacent_cells(self, i, j):
         cells = []
@@ -113,9 +162,7 @@ class GridWorldMaker():
                     next_point = self.configs['action_map'](action, i, j)
                     next_state = self.board.state(*next_point)
                     neighbours = self.board.adjacent_cells(*next_point)
-
-                    obs = obs_prob - noise_value * (self.board.h - next_state//self.board.h -1)
-                    self.temp[i][j] = round(obs,2)
+                    gaussians = self.board.gaussians(3, 1)
 
                     lines.append(template.format(a=action, sj=next_state,
                                                  oj=next_state, p=obs))
