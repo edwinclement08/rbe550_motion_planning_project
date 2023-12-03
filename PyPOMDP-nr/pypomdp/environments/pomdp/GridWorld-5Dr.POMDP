@@ -1,0 +1,4743 @@
+discount: 0.9
+values: reward
+actions: up down left right halt
+states: a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a48 a49 a50 a51 a52 a53 a54 a55 a56 a57 a58 a59 a60 a61 a62 a63 a64 a65 a66 a67 a68 a69 a70 a71 a72 a73 a74 a75 a76 a77 a78 a79 a80 a81 a82 a83 a84 a85 a86 a87 a88 a89 a90 a91 a92 a93 a94 a95 a96 a97 a98 a99
+observations: a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a48 a49 a50 a51 a52 a53 a54 a55 a56 a57 a58 a59 a60 a61 a62 a63 a64 a65 a66 a67 a68 a69 a70 a71 a72 a73 a74 a75 a76 a77 a78 a79 a80 a81 a82 a83 a84 a85 a86 a87 a88 a89 a90 a91 a92 a93 a94 a95 a96 a97 a98 a99 null
+start: a2
+
+R: up : a0 : *  : *       -10
+R: up : a1 : *  : *       -10
+R: up : a2 : *  : *       -10
+R: up : a3 : *  : *       -10
+R: up : a4 : *  : *       -10
+R: up : a5 : *  : *       -10
+R: up : a6 : *  : *       -10
+R: up : a7 : *  : *       -10
+R: up : a8 : *  : *       -10
+R: up : a9 : *  : *       -10
+R: up : a10 : *  : *       -1
+R: up : a11 : *  : *       -1
+R: up : a12 : *  : *       -1
+R: up : a13 : *  : *       -1
+R: up : a14 : *  : *       -1
+R: up : a15 : *  : *       -1
+R: up : a16 : *  : *       -1
+R: up : a17 : *  : *       -1
+R: up : a18 : *  : *       -1
+R: up : a19 : *  : *       -1
+R: up : a20 : *  : *       -1
+R: up : a21 : *  : *       -1
+R: up : a22 : *  : *       -1
+R: up : a23 : *  : *       -1
+R: up : a24 : *  : *       -1
+R: up : a25 : *  : *       -1
+R: up : a26 : *  : *       -1
+R: up : a27 : *  : *       -1
+R: up : a28 : *  : *       -1
+R: up : a29 : *  : *       -1
+R: up : a30 : *  : *       -1
+R: up : a31 : *  : *       -1
+R: up : a32 : *  : *       -1
+R: up : a33 : *  : *       -1
+R: up : a34 : *  : *       -1
+R: up : a35 : *  : *       -1
+R: up : a36 : *  : *       -1
+R: up : a37 : *  : *       -1
+R: up : a38 : *  : *       -1
+R: up : a39 : *  : *       40
+R: up : a40 : *  : *       -1
+R: up : a41 : *  : *       -1
+R: up : a42 : *  : *       -1
+R: up : a43 : *  : *       -1
+R: up : a44 : *  : *       -1
+R: up : a45 : *  : *       -1
+R: up : a46 : *  : *       -1
+R: up : a47 : *  : *       -1
+R: up : a48 : *  : *       -1
+R: up : a49 : *  : *       -1
+R: up : a50 : *  : *       -1
+R: up : a51 : *  : *       -1
+R: up : a52 : *  : *       -1
+R: up : a53 : *  : *       -1
+R: up : a54 : *  : *       -1
+R: up : a55 : *  : *       -1
+R: up : a56 : *  : *       -1
+R: up : a57 : *  : *       -1
+R: up : a58 : *  : *       -1
+R: up : a59 : *  : *       -1
+R: up : a60 : *  : *       -1
+R: up : a61 : *  : *       -1
+R: up : a62 : *  : *       -1
+R: up : a63 : *  : *       -1
+R: up : a64 : *  : *       -1
+R: up : a65 : *  : *       -1
+R: up : a66 : *  : *       -1
+R: up : a67 : *  : *       -1
+R: up : a68 : *  : *       -1
+R: up : a69 : *  : *       -1
+R: up : a70 : *  : *       -1
+R: up : a71 : *  : *       -1
+R: up : a72 : *  : *       -1
+R: up : a73 : *  : *       -1
+R: up : a74 : *  : *       -1
+R: up : a75 : *  : *       -1
+R: up : a76 : *  : *       -1
+R: up : a77 : *  : *       -1
+R: up : a78 : *  : *       -1
+R: up : a79 : *  : *       -1
+R: up : a80 : *  : *       -1
+R: up : a81 : *  : *       -1
+R: up : a82 : *  : *       -1
+R: up : a83 : *  : *       -1
+R: up : a84 : *  : *       -1
+R: up : a85 : *  : *       -1
+R: up : a86 : *  : *       -1
+R: up : a87 : *  : *       -1
+R: up : a88 : *  : *       -1
+R: up : a89 : *  : *       -1
+R: up : a90 : *  : *       -1
+R: up : a91 : *  : *       -1
+R: up : a92 : *  : *       -1
+R: up : a93 : *  : *       -1
+R: up : a94 : *  : *       -1
+R: up : a95 : *  : *       -1
+R: up : a96 : *  : *       -1
+R: up : a97 : *  : *       -1
+R: up : a98 : *  : *       -1
+R: up : a99 : *  : *       -1
+R: down : a0 : *  : *       -1
+R: down : a1 : *  : *       -1
+R: down : a2 : *  : *       -1
+R: down : a3 : *  : *       -1
+R: down : a4 : *  : *       -1
+R: down : a5 : *  : *       -1
+R: down : a6 : *  : *       -1
+R: down : a7 : *  : *       -1
+R: down : a8 : *  : *       -1
+R: down : a9 : *  : *       -1
+R: down : a10 : *  : *       -1
+R: down : a11 : *  : *       -1
+R: down : a12 : *  : *       -1
+R: down : a13 : *  : *       -1
+R: down : a14 : *  : *       -1
+R: down : a15 : *  : *       -1
+R: down : a16 : *  : *       -1
+R: down : a17 : *  : *       -1
+R: down : a18 : *  : *       -1
+R: down : a19 : *  : *       40
+R: down : a20 : *  : *       -1
+R: down : a21 : *  : *       -1
+R: down : a22 : *  : *       -1
+R: down : a23 : *  : *       -1
+R: down : a24 : *  : *       -1
+R: down : a25 : *  : *       -1
+R: down : a26 : *  : *       -1
+R: down : a27 : *  : *       -1
+R: down : a28 : *  : *       -1
+R: down : a29 : *  : *       -1
+R: down : a30 : *  : *       -1
+R: down : a31 : *  : *       -1
+R: down : a32 : *  : *       -1
+R: down : a33 : *  : *       -1
+R: down : a34 : *  : *       -1
+R: down : a35 : *  : *       -1
+R: down : a36 : *  : *       -1
+R: down : a37 : *  : *       -1
+R: down : a38 : *  : *       -1
+R: down : a39 : *  : *       -1
+R: down : a40 : *  : *       -1
+R: down : a41 : *  : *       -1
+R: down : a42 : *  : *       -1
+R: down : a43 : *  : *       -1
+R: down : a44 : *  : *       -1
+R: down : a45 : *  : *       -1
+R: down : a46 : *  : *       -1
+R: down : a47 : *  : *       -1
+R: down : a48 : *  : *       -1
+R: down : a49 : *  : *       -1
+R: down : a50 : *  : *       -1
+R: down : a51 : *  : *       -1
+R: down : a52 : *  : *       -1
+R: down : a53 : *  : *       -1
+R: down : a54 : *  : *       -1
+R: down : a55 : *  : *       -1
+R: down : a56 : *  : *       -1
+R: down : a57 : *  : *       -1
+R: down : a58 : *  : *       -1
+R: down : a59 : *  : *       -1
+R: down : a60 : *  : *       -1
+R: down : a61 : *  : *       -1
+R: down : a62 : *  : *       -1
+R: down : a63 : *  : *       -1
+R: down : a64 : *  : *       -1
+R: down : a65 : *  : *       -1
+R: down : a66 : *  : *       -1
+R: down : a67 : *  : *       -1
+R: down : a68 : *  : *       -1
+R: down : a69 : *  : *       -1
+R: down : a70 : *  : *       -1
+R: down : a71 : *  : *       -1
+R: down : a72 : *  : *       -1
+R: down : a73 : *  : *       -1
+R: down : a74 : *  : *       -1
+R: down : a75 : *  : *       -1
+R: down : a76 : *  : *       -1
+R: down : a77 : *  : *       -1
+R: down : a78 : *  : *       -1
+R: down : a79 : *  : *       -1
+R: down : a80 : *  : *       -1
+R: down : a81 : *  : *       -1
+R: down : a82 : *  : *       -1
+R: down : a83 : *  : *       -1
+R: down : a84 : *  : *       -1
+R: down : a85 : *  : *       -1
+R: down : a86 : *  : *       -1
+R: down : a87 : *  : *       -1
+R: down : a88 : *  : *       -1
+R: down : a89 : *  : *       -1
+R: down : a90 : *  : *       -10
+R: down : a91 : *  : *       -10
+R: down : a92 : *  : *       -10
+R: down : a93 : *  : *       -10
+R: down : a94 : *  : *       -10
+R: down : a95 : *  : *       -10
+R: down : a96 : *  : *       -10
+R: down : a97 : *  : *       -10
+R: down : a98 : *  : *       -10
+R: down : a99 : *  : *       -10
+R: left : a0 : *  : *       -10
+R: left : a1 : *  : *       -1
+R: left : a2 : *  : *       -1
+R: left : a3 : *  : *       -1
+R: left : a4 : *  : *       -1
+R: left : a5 : *  : *       -1
+R: left : a6 : *  : *       -1
+R: left : a7 : *  : *       -1
+R: left : a8 : *  : *       -1
+R: left : a9 : *  : *       -1
+R: left : a10 : *  : *       -10
+R: left : a11 : *  : *       -1
+R: left : a12 : *  : *       -1
+R: left : a13 : *  : *       -1
+R: left : a14 : *  : *       -1
+R: left : a15 : *  : *       -1
+R: left : a16 : *  : *       -1
+R: left : a17 : *  : *       -1
+R: left : a18 : *  : *       -1
+R: left : a19 : *  : *       -1
+R: left : a20 : *  : *       -10
+R: left : a21 : *  : *       -1
+R: left : a22 : *  : *       -1
+R: left : a23 : *  : *       -1
+R: left : a24 : *  : *       -1
+R: left : a25 : *  : *       -1
+R: left : a26 : *  : *       -1
+R: left : a27 : *  : *       -1
+R: left : a28 : *  : *       -1
+R: left : a29 : *  : *       -1
+R: left : a30 : *  : *       -10
+R: left : a31 : *  : *       -1
+R: left : a32 : *  : *       -1
+R: left : a33 : *  : *       -1
+R: left : a34 : *  : *       -1
+R: left : a35 : *  : *       -1
+R: left : a36 : *  : *       -1
+R: left : a37 : *  : *       -1
+R: left : a38 : *  : *       -1
+R: left : a39 : *  : *       -1
+R: left : a40 : *  : *       -10
+R: left : a41 : *  : *       -1
+R: left : a42 : *  : *       -1
+R: left : a43 : *  : *       -1
+R: left : a44 : *  : *       -1
+R: left : a45 : *  : *       -1
+R: left : a46 : *  : *       -1
+R: left : a47 : *  : *       -1
+R: left : a48 : *  : *       -1
+R: left : a49 : *  : *       -1
+R: left : a50 : *  : *       -10
+R: left : a51 : *  : *       -1
+R: left : a52 : *  : *       -1
+R: left : a53 : *  : *       -1
+R: left : a54 : *  : *       -1
+R: left : a55 : *  : *       -1
+R: left : a56 : *  : *       -1
+R: left : a57 : *  : *       -1
+R: left : a58 : *  : *       -1
+R: left : a59 : *  : *       -1
+R: left : a60 : *  : *       -10
+R: left : a61 : *  : *       -1
+R: left : a62 : *  : *       -1
+R: left : a63 : *  : *       -1
+R: left : a64 : *  : *       -1
+R: left : a65 : *  : *       -1
+R: left : a66 : *  : *       -1
+R: left : a67 : *  : *       -1
+R: left : a68 : *  : *       -1
+R: left : a69 : *  : *       -1
+R: left : a70 : *  : *       -10
+R: left : a71 : *  : *       -1
+R: left : a72 : *  : *       -1
+R: left : a73 : *  : *       -1
+R: left : a74 : *  : *       -1
+R: left : a75 : *  : *       -1
+R: left : a76 : *  : *       -1
+R: left : a77 : *  : *       -1
+R: left : a78 : *  : *       -1
+R: left : a79 : *  : *       -1
+R: left : a80 : *  : *       -10
+R: left : a81 : *  : *       -1
+R: left : a82 : *  : *       -1
+R: left : a83 : *  : *       -1
+R: left : a84 : *  : *       -1
+R: left : a85 : *  : *       -1
+R: left : a86 : *  : *       -1
+R: left : a87 : *  : *       -1
+R: left : a88 : *  : *       -1
+R: left : a89 : *  : *       -1
+R: left : a90 : *  : *       -10
+R: left : a91 : *  : *       -1
+R: left : a92 : *  : *       -1
+R: left : a93 : *  : *       -1
+R: left : a94 : *  : *       -1
+R: left : a95 : *  : *       -1
+R: left : a96 : *  : *       -1
+R: left : a97 : *  : *       -1
+R: left : a98 : *  : *       -1
+R: left : a99 : *  : *       -1
+R: right : a0 : *  : *       -1
+R: right : a1 : *  : *       -1
+R: right : a2 : *  : *       -1
+R: right : a3 : *  : *       -1
+R: right : a4 : *  : *       -1
+R: right : a5 : *  : *       -1
+R: right : a6 : *  : *       -1
+R: right : a7 : *  : *       -1
+R: right : a8 : *  : *       -1
+R: right : a9 : *  : *       -10
+R: right : a10 : *  : *       -1
+R: right : a11 : *  : *       -1
+R: right : a12 : *  : *       -1
+R: right : a13 : *  : *       -1
+R: right : a14 : *  : *       -1
+R: right : a15 : *  : *       -1
+R: right : a16 : *  : *       -1
+R: right : a17 : *  : *       -1
+R: right : a18 : *  : *       -1
+R: right : a19 : *  : *       -10
+R: right : a20 : *  : *       -1
+R: right : a21 : *  : *       -1
+R: right : a22 : *  : *       -1
+R: right : a23 : *  : *       -1
+R: right : a24 : *  : *       -1
+R: right : a25 : *  : *       -1
+R: right : a26 : *  : *       -1
+R: right : a27 : *  : *       -1
+R: right : a28 : *  : *       40
+R: right : a29 : *  : *       -10
+R: right : a30 : *  : *       -1
+R: right : a31 : *  : *       -1
+R: right : a32 : *  : *       -1
+R: right : a33 : *  : *       -1
+R: right : a34 : *  : *       -1
+R: right : a35 : *  : *       -1
+R: right : a36 : *  : *       -1
+R: right : a37 : *  : *       -1
+R: right : a38 : *  : *       -1
+R: right : a39 : *  : *       -10
+R: right : a40 : *  : *       -1
+R: right : a41 : *  : *       -1
+R: right : a42 : *  : *       -1
+R: right : a43 : *  : *       -1
+R: right : a44 : *  : *       -1
+R: right : a45 : *  : *       -1
+R: right : a46 : *  : *       -1
+R: right : a47 : *  : *       -1
+R: right : a48 : *  : *       -1
+R: right : a49 : *  : *       -10
+R: right : a50 : *  : *       -1
+R: right : a51 : *  : *       -1
+R: right : a52 : *  : *       -1
+R: right : a53 : *  : *       -1
+R: right : a54 : *  : *       -1
+R: right : a55 : *  : *       -1
+R: right : a56 : *  : *       -1
+R: right : a57 : *  : *       -1
+R: right : a58 : *  : *       -1
+R: right : a59 : *  : *       -10
+R: right : a60 : *  : *       -1
+R: right : a61 : *  : *       -1
+R: right : a62 : *  : *       -1
+R: right : a63 : *  : *       -1
+R: right : a64 : *  : *       -1
+R: right : a65 : *  : *       -1
+R: right : a66 : *  : *       -1
+R: right : a67 : *  : *       -1
+R: right : a68 : *  : *       -1
+R: right : a69 : *  : *       -10
+R: right : a70 : *  : *       -1
+R: right : a71 : *  : *       -1
+R: right : a72 : *  : *       -1
+R: right : a73 : *  : *       -1
+R: right : a74 : *  : *       -1
+R: right : a75 : *  : *       -1
+R: right : a76 : *  : *       -1
+R: right : a77 : *  : *       -1
+R: right : a78 : *  : *       -1
+R: right : a79 : *  : *       -10
+R: right : a80 : *  : *       -1
+R: right : a81 : *  : *       -1
+R: right : a82 : *  : *       -1
+R: right : a83 : *  : *       -1
+R: right : a84 : *  : *       -1
+R: right : a85 : *  : *       -1
+R: right : a86 : *  : *       -1
+R: right : a87 : *  : *       -1
+R: right : a88 : *  : *       -1
+R: right : a89 : *  : *       -10
+R: right : a90 : *  : *       -1
+R: right : a91 : *  : *       -1
+R: right : a92 : *  : *       -1
+R: right : a93 : *  : *       -1
+R: right : a94 : *  : *       -1
+R: right : a95 : *  : *       -1
+R: right : a96 : *  : *       -1
+R: right : a97 : *  : *       -1
+R: right : a98 : *  : *       -1
+R: right : a99 : *  : *       -10
+R: halt : a0 : *  : *       -1
+R: halt : a1 : *  : *       -1
+R: halt : a2 : *  : *       -1
+R: halt : a3 : *  : *       -1
+R: halt : a4 : *  : *       -1
+R: halt : a5 : *  : *       -1
+R: halt : a6 : *  : *       -1
+R: halt : a7 : *  : *       -1
+R: halt : a8 : *  : *       -1
+R: halt : a9 : *  : *       -1
+R: halt : a10 : *  : *       -1
+R: halt : a11 : *  : *       -1
+R: halt : a12 : *  : *       -1
+R: halt : a13 : *  : *       -1
+R: halt : a14 : *  : *       -1
+R: halt : a15 : *  : *       -1
+R: halt : a16 : *  : *       -1
+R: halt : a17 : *  : *       -1
+R: halt : a18 : *  : *       -1
+R: halt : a19 : *  : *       -1
+R: halt : a20 : *  : *       -1
+R: halt : a21 : *  : *       -1
+R: halt : a22 : *  : *       -1
+R: halt : a23 : *  : *       -1
+R: halt : a24 : *  : *       -1
+R: halt : a25 : *  : *       -1
+R: halt : a26 : *  : *       -1
+R: halt : a27 : *  : *       -1
+R: halt : a28 : *  : *       -1
+R: halt : a29 : *  : *       40
+R: halt : a30 : *  : *       -1
+R: halt : a31 : *  : *       -1
+R: halt : a32 : *  : *       -1
+R: halt : a33 : *  : *       -1
+R: halt : a34 : *  : *       -1
+R: halt : a35 : *  : *       -1
+R: halt : a36 : *  : *       -1
+R: halt : a37 : *  : *       -1
+R: halt : a38 : *  : *       -1
+R: halt : a39 : *  : *       -1
+R: halt : a40 : *  : *       -1
+R: halt : a41 : *  : *       -1
+R: halt : a42 : *  : *       -1
+R: halt : a43 : *  : *       -1
+R: halt : a44 : *  : *       -1
+R: halt : a45 : *  : *       -1
+R: halt : a46 : *  : *       -1
+R: halt : a47 : *  : *       -1
+R: halt : a48 : *  : *       -1
+R: halt : a49 : *  : *       -1
+R: halt : a50 : *  : *       -1
+R: halt : a51 : *  : *       -1
+R: halt : a52 : *  : *       -1
+R: halt : a53 : *  : *       -1
+R: halt : a54 : *  : *       -1
+R: halt : a55 : *  : *       -1
+R: halt : a56 : *  : *       -1
+R: halt : a57 : *  : *       -1
+R: halt : a58 : *  : *       -1
+R: halt : a59 : *  : *       -1
+R: halt : a60 : *  : *       -1
+R: halt : a61 : *  : *       -1
+R: halt : a62 : *  : *       -1
+R: halt : a63 : *  : *       -1
+R: halt : a64 : *  : *       -1
+R: halt : a65 : *  : *       -1
+R: halt : a66 : *  : *       -1
+R: halt : a67 : *  : *       -1
+R: halt : a68 : *  : *       -1
+R: halt : a69 : *  : *       -1
+R: halt : a70 : *  : *       -1
+R: halt : a71 : *  : *       -1
+R: halt : a72 : *  : *       -1
+R: halt : a73 : *  : *       -1
+R: halt : a74 : *  : *       -1
+R: halt : a75 : *  : *       -1
+R: halt : a76 : *  : *       -1
+R: halt : a77 : *  : *       -1
+R: halt : a78 : *  : *       -1
+R: halt : a79 : *  : *       -1
+R: halt : a80 : *  : *       -1
+R: halt : a81 : *  : *       -1
+R: halt : a82 : *  : *       -1
+R: halt : a83 : *  : *       -1
+R: halt : a84 : *  : *       -1
+R: halt : a85 : *  : *       -1
+R: halt : a86 : *  : *       -1
+R: halt : a87 : *  : *       -1
+R: halt : a88 : *  : *       -1
+R: halt : a89 : *  : *       -1
+R: halt : a90 : *  : *       -1
+R: halt : a91 : *  : *       -1
+R: halt : a92 : *  : *       -1
+R: halt : a93 : *  : *       -1
+R: halt : a94 : *  : *       -1
+R: halt : a95 : *  : *       -1
+R: halt : a96 : *  : *       -1
+R: halt : a97 : *  : *       -1
+R: halt : a98 : *  : *       -1
+R: halt : a99 : *  : *       -1
+T: up : a0 : a0         1.0
+T: up : a1 : a1         1.0
+T: up : a2 : a2         1.0
+T: up : a3 : a3         1.0
+T: up : a4 : a4         1.0
+T: up : a5 : a5         1.0
+T: up : a6 : a6         1.0
+T: up : a7 : a7         1.0
+T: up : a8 : a8         1.0
+T: up : a9 : a9         1.0
+T: up : a10 : a0         1.0
+T: up : a11 : a1         1.0
+T: up : a12 : a2         1.0
+T: up : a13 : a3         1.0
+T: up : a14 : a4         1.0
+T: up : a15 : a5         1.0
+T: up : a16 : a6         1.0
+T: up : a17 : a7         1.0
+T: up : a18 : a8         1.0
+T: up : a19 : a9         1.0
+T: up : a20 : a10         1.0
+T: up : a21 : a11         1.0
+T: up : a22 : a12         1.0
+T: up : a23 : a13         1.0
+T: up : a24 : a14         1.0
+T: up : a25 : a15         1.0
+T: up : a26 : a16         1.0
+T: up : a27 : a17         1.0
+T: up : a28 : a18         1.0
+T: up : a29 : a19         1.0
+T: up : a30 : a20         1.0
+T: up : a31 : a21         1.0
+T: up : a32 : a22         1.0
+T: up : a33 : a23         1.0
+T: up : a34 : a24         1.0
+T: up : a35 : a25         1.0
+T: up : a36 : a26         1.0
+T: up : a37 : a27         1.0
+T: up : a38 : a28         1.0
+T: up : a39 : a29         1.0
+T: up : a40 : a30         1.0
+T: up : a41 : a31         1.0
+T: up : a42 : a32         1.0
+T: up : a43 : a33         1.0
+T: up : a44 : a34         1.0
+T: up : a45 : a35         1.0
+T: up : a46 : a36         1.0
+T: up : a47 : a37         1.0
+T: up : a48 : a38         1.0
+T: up : a49 : a39         1.0
+T: up : a50 : a40         1.0
+T: up : a51 : a41         1.0
+T: up : a52 : a42         1.0
+T: up : a53 : a43         1.0
+T: up : a54 : a44         1.0
+T: up : a55 : a45         1.0
+T: up : a56 : a46         1.0
+T: up : a57 : a47         1.0
+T: up : a58 : a48         1.0
+T: up : a59 : a49         1.0
+T: up : a60 : a50         1.0
+T: up : a61 : a51         1.0
+T: up : a62 : a52         1.0
+T: up : a63 : a53         1.0
+T: up : a64 : a54         1.0
+T: up : a65 : a55         1.0
+T: up : a66 : a56         1.0
+T: up : a67 : a57         1.0
+T: up : a68 : a58         1.0
+T: up : a69 : a59         1.0
+T: up : a70 : a60         1.0
+T: up : a71 : a61         1.0
+T: up : a72 : a62         1.0
+T: up : a73 : a63         1.0
+T: up : a74 : a64         1.0
+T: up : a75 : a65         1.0
+T: up : a76 : a66         1.0
+T: up : a77 : a67         1.0
+T: up : a78 : a68         1.0
+T: up : a79 : a69         1.0
+T: up : a80 : a70         1.0
+T: up : a81 : a71         1.0
+T: up : a82 : a72         1.0
+T: up : a83 : a73         1.0
+T: up : a84 : a74         1.0
+T: up : a85 : a75         1.0
+T: up : a86 : a76         1.0
+T: up : a87 : a77         1.0
+T: up : a88 : a78         1.0
+T: up : a89 : a79         1.0
+T: up : a90 : a80         1.0
+T: up : a91 : a81         1.0
+T: up : a92 : a82         1.0
+T: up : a93 : a83         1.0
+T: up : a94 : a84         1.0
+T: up : a95 : a85         1.0
+T: up : a96 : a86         1.0
+T: up : a97 : a87         1.0
+T: up : a98 : a88         1.0
+T: up : a99 : a89         1.0
+T: down : a0 : a10         1.0
+T: down : a1 : a11         1.0
+T: down : a2 : a12         1.0
+T: down : a3 : a13         1.0
+T: down : a4 : a14         1.0
+T: down : a5 : a15         1.0
+T: down : a6 : a16         1.0
+T: down : a7 : a17         1.0
+T: down : a8 : a18         1.0
+T: down : a9 : a19         1.0
+T: down : a10 : a20         1.0
+T: down : a11 : a21         1.0
+T: down : a12 : a22         1.0
+T: down : a13 : a23         1.0
+T: down : a14 : a24         1.0
+T: down : a15 : a25         1.0
+T: down : a16 : a26         1.0
+T: down : a17 : a27         1.0
+T: down : a18 : a28         1.0
+T: down : a19 : a29         1.0
+T: down : a20 : a30         1.0
+T: down : a21 : a31         1.0
+T: down : a22 : a32         1.0
+T: down : a23 : a33         1.0
+T: down : a24 : a34         1.0
+T: down : a25 : a35         1.0
+T: down : a26 : a36         1.0
+T: down : a27 : a37         1.0
+T: down : a28 : a38         1.0
+T: down : a29 : a39         1.0
+T: down : a30 : a40         1.0
+T: down : a31 : a41         1.0
+T: down : a32 : a42         1.0
+T: down : a33 : a43         1.0
+T: down : a34 : a44         1.0
+T: down : a35 : a45         1.0
+T: down : a36 : a46         1.0
+T: down : a37 : a47         1.0
+T: down : a38 : a48         1.0
+T: down : a39 : a49         1.0
+T: down : a40 : a50         1.0
+T: down : a41 : a51         1.0
+T: down : a42 : a52         1.0
+T: down : a43 : a53         1.0
+T: down : a44 : a54         1.0
+T: down : a45 : a55         1.0
+T: down : a46 : a56         1.0
+T: down : a47 : a57         1.0
+T: down : a48 : a58         1.0
+T: down : a49 : a59         1.0
+T: down : a50 : a60         1.0
+T: down : a51 : a61         1.0
+T: down : a52 : a62         1.0
+T: down : a53 : a63         1.0
+T: down : a54 : a64         1.0
+T: down : a55 : a65         1.0
+T: down : a56 : a66         1.0
+T: down : a57 : a67         1.0
+T: down : a58 : a68         1.0
+T: down : a59 : a69         1.0
+T: down : a60 : a70         1.0
+T: down : a61 : a71         1.0
+T: down : a62 : a72         1.0
+T: down : a63 : a73         1.0
+T: down : a64 : a74         1.0
+T: down : a65 : a75         1.0
+T: down : a66 : a76         1.0
+T: down : a67 : a77         1.0
+T: down : a68 : a78         1.0
+T: down : a69 : a79         1.0
+T: down : a70 : a80         1.0
+T: down : a71 : a81         1.0
+T: down : a72 : a82         1.0
+T: down : a73 : a83         1.0
+T: down : a74 : a84         1.0
+T: down : a75 : a85         1.0
+T: down : a76 : a86         1.0
+T: down : a77 : a87         1.0
+T: down : a78 : a88         1.0
+T: down : a79 : a89         1.0
+T: down : a80 : a90         1.0
+T: down : a81 : a91         1.0
+T: down : a82 : a92         1.0
+T: down : a83 : a93         1.0
+T: down : a84 : a94         1.0
+T: down : a85 : a95         1.0
+T: down : a86 : a96         1.0
+T: down : a87 : a97         1.0
+T: down : a88 : a98         1.0
+T: down : a89 : a99         1.0
+T: down : a90 : a90         1.0
+T: down : a91 : a91         1.0
+T: down : a92 : a92         1.0
+T: down : a93 : a93         1.0
+T: down : a94 : a94         1.0
+T: down : a95 : a95         1.0
+T: down : a96 : a96         1.0
+T: down : a97 : a97         1.0
+T: down : a98 : a98         1.0
+T: down : a99 : a99         1.0
+T: left : a0 : a0         1.0
+T: left : a1 : a0         1.0
+T: left : a2 : a1         1.0
+T: left : a3 : a2         1.0
+T: left : a4 : a3         1.0
+T: left : a5 : a4         1.0
+T: left : a6 : a5         1.0
+T: left : a7 : a6         1.0
+T: left : a8 : a7         1.0
+T: left : a9 : a8         1.0
+T: left : a10 : a10         1.0
+T: left : a11 : a10         1.0
+T: left : a12 : a11         1.0
+T: left : a13 : a12         1.0
+T: left : a14 : a13         1.0
+T: left : a15 : a14         1.0
+T: left : a16 : a15         1.0
+T: left : a17 : a16         1.0
+T: left : a18 : a17         1.0
+T: left : a19 : a18         1.0
+T: left : a20 : a20         1.0
+T: left : a21 : a20         1.0
+T: left : a22 : a21         1.0
+T: left : a23 : a22         1.0
+T: left : a24 : a23         1.0
+T: left : a25 : a24         1.0
+T: left : a26 : a25         1.0
+T: left : a27 : a26         1.0
+T: left : a28 : a27         1.0
+T: left : a29 : a28         1.0
+T: left : a30 : a30         1.0
+T: left : a31 : a30         1.0
+T: left : a32 : a31         1.0
+T: left : a33 : a32         1.0
+T: left : a34 : a33         1.0
+T: left : a35 : a34         1.0
+T: left : a36 : a35         1.0
+T: left : a37 : a36         1.0
+T: left : a38 : a37         1.0
+T: left : a39 : a38         1.0
+T: left : a40 : a40         1.0
+T: left : a41 : a40         1.0
+T: left : a42 : a41         1.0
+T: left : a43 : a42         1.0
+T: left : a44 : a43         1.0
+T: left : a45 : a44         1.0
+T: left : a46 : a45         1.0
+T: left : a47 : a46         1.0
+T: left : a48 : a47         1.0
+T: left : a49 : a48         1.0
+T: left : a50 : a50         1.0
+T: left : a51 : a50         1.0
+T: left : a52 : a51         1.0
+T: left : a53 : a52         1.0
+T: left : a54 : a53         1.0
+T: left : a55 : a54         1.0
+T: left : a56 : a55         1.0
+T: left : a57 : a56         1.0
+T: left : a58 : a57         1.0
+T: left : a59 : a58         1.0
+T: left : a60 : a60         1.0
+T: left : a61 : a60         1.0
+T: left : a62 : a61         1.0
+T: left : a63 : a62         1.0
+T: left : a64 : a63         1.0
+T: left : a65 : a64         1.0
+T: left : a66 : a65         1.0
+T: left : a67 : a66         1.0
+T: left : a68 : a67         1.0
+T: left : a69 : a68         1.0
+T: left : a70 : a70         1.0
+T: left : a71 : a70         1.0
+T: left : a72 : a71         1.0
+T: left : a73 : a72         1.0
+T: left : a74 : a73         1.0
+T: left : a75 : a74         1.0
+T: left : a76 : a75         1.0
+T: left : a77 : a76         1.0
+T: left : a78 : a77         1.0
+T: left : a79 : a78         1.0
+T: left : a80 : a80         1.0
+T: left : a81 : a80         1.0
+T: left : a82 : a81         1.0
+T: left : a83 : a82         1.0
+T: left : a84 : a83         1.0
+T: left : a85 : a84         1.0
+T: left : a86 : a85         1.0
+T: left : a87 : a86         1.0
+T: left : a88 : a87         1.0
+T: left : a89 : a88         1.0
+T: left : a90 : a90         1.0
+T: left : a91 : a90         1.0
+T: left : a92 : a91         1.0
+T: left : a93 : a92         1.0
+T: left : a94 : a93         1.0
+T: left : a95 : a94         1.0
+T: left : a96 : a95         1.0
+T: left : a97 : a96         1.0
+T: left : a98 : a97         1.0
+T: left : a99 : a98         1.0
+T: right : a0 : a1         1.0
+T: right : a1 : a2         1.0
+T: right : a2 : a3         1.0
+T: right : a3 : a4         1.0
+T: right : a4 : a5         1.0
+T: right : a5 : a6         1.0
+T: right : a6 : a7         1.0
+T: right : a7 : a8         1.0
+T: right : a8 : a9         1.0
+T: right : a9 : a9         1.0
+T: right : a10 : a11         1.0
+T: right : a11 : a12         1.0
+T: right : a12 : a13         1.0
+T: right : a13 : a14         1.0
+T: right : a14 : a15         1.0
+T: right : a15 : a16         1.0
+T: right : a16 : a17         1.0
+T: right : a17 : a18         1.0
+T: right : a18 : a19         1.0
+T: right : a19 : a19         1.0
+T: right : a20 : a21         1.0
+T: right : a21 : a22         1.0
+T: right : a22 : a23         1.0
+T: right : a23 : a24         1.0
+T: right : a24 : a25         1.0
+T: right : a25 : a26         1.0
+T: right : a26 : a27         1.0
+T: right : a27 : a28         1.0
+T: right : a28 : a29         1.0
+T: right : a29 : a29         1.0
+T: right : a30 : a31         1.0
+T: right : a31 : a32         1.0
+T: right : a32 : a33         1.0
+T: right : a33 : a34         1.0
+T: right : a34 : a35         1.0
+T: right : a35 : a36         1.0
+T: right : a36 : a37         1.0
+T: right : a37 : a38         1.0
+T: right : a38 : a39         1.0
+T: right : a39 : a39         1.0
+T: right : a40 : a41         1.0
+T: right : a41 : a42         1.0
+T: right : a42 : a43         1.0
+T: right : a43 : a44         1.0
+T: right : a44 : a45         1.0
+T: right : a45 : a46         1.0
+T: right : a46 : a47         1.0
+T: right : a47 : a48         1.0
+T: right : a48 : a49         1.0
+T: right : a49 : a49         1.0
+T: right : a50 : a51         1.0
+T: right : a51 : a52         1.0
+T: right : a52 : a53         1.0
+T: right : a53 : a54         1.0
+T: right : a54 : a55         1.0
+T: right : a55 : a56         1.0
+T: right : a56 : a57         1.0
+T: right : a57 : a58         1.0
+T: right : a58 : a59         1.0
+T: right : a59 : a59         1.0
+T: right : a60 : a61         1.0
+T: right : a61 : a62         1.0
+T: right : a62 : a63         1.0
+T: right : a63 : a64         1.0
+T: right : a64 : a65         1.0
+T: right : a65 : a66         1.0
+T: right : a66 : a67         1.0
+T: right : a67 : a68         1.0
+T: right : a68 : a69         1.0
+T: right : a69 : a69         1.0
+T: right : a70 : a71         1.0
+T: right : a71 : a72         1.0
+T: right : a72 : a73         1.0
+T: right : a73 : a74         1.0
+T: right : a74 : a75         1.0
+T: right : a75 : a76         1.0
+T: right : a76 : a77         1.0
+T: right : a77 : a78         1.0
+T: right : a78 : a79         1.0
+T: right : a79 : a79         1.0
+T: right : a80 : a81         1.0
+T: right : a81 : a82         1.0
+T: right : a82 : a83         1.0
+T: right : a83 : a84         1.0
+T: right : a84 : a85         1.0
+T: right : a85 : a86         1.0
+T: right : a86 : a87         1.0
+T: right : a87 : a88         1.0
+T: right : a88 : a89         1.0
+T: right : a89 : a89         1.0
+T: right : a90 : a91         1.0
+T: right : a91 : a92         1.0
+T: right : a92 : a93         1.0
+T: right : a93 : a94         1.0
+T: right : a94 : a95         1.0
+T: right : a95 : a96         1.0
+T: right : a96 : a97         1.0
+T: right : a97 : a98         1.0
+T: right : a98 : a99         1.0
+T: right : a99 : a99         1.0
+T: halt : a0 : a0         1.0
+T: halt : a1 : a1         1.0
+T: halt : a2 : a2         1.0
+T: halt : a3 : a3         1.0
+T: halt : a4 : a4         1.0
+T: halt : a5 : a5         1.0
+T: halt : a6 : a6         1.0
+T: halt : a7 : a7         1.0
+T: halt : a8 : a8         1.0
+T: halt : a9 : a9         1.0
+T: halt : a10 : a10         1.0
+T: halt : a11 : a11         1.0
+T: halt : a12 : a12         1.0
+T: halt : a13 : a13         1.0
+T: halt : a14 : a14         1.0
+T: halt : a15 : a15         1.0
+T: halt : a16 : a16         1.0
+T: halt : a17 : a17         1.0
+T: halt : a18 : a18         1.0
+T: halt : a19 : a19         1.0
+T: halt : a20 : a20         1.0
+T: halt : a21 : a21         1.0
+T: halt : a22 : a22         1.0
+T: halt : a23 : a23         1.0
+T: halt : a24 : a24         1.0
+T: halt : a25 : a25         1.0
+T: halt : a26 : a26         1.0
+T: halt : a27 : a27         1.0
+T: halt : a28 : a28         1.0
+T: halt : a29 : a29         1.0
+T: halt : a30 : a30         1.0
+T: halt : a31 : a31         1.0
+T: halt : a32 : a32         1.0
+T: halt : a33 : a33         1.0
+T: halt : a34 : a34         1.0
+T: halt : a35 : a35         1.0
+T: halt : a36 : a36         1.0
+T: halt : a37 : a37         1.0
+T: halt : a38 : a38         1.0
+T: halt : a39 : a39         1.0
+T: halt : a40 : a40         1.0
+T: halt : a41 : a41         1.0
+T: halt : a42 : a42         1.0
+T: halt : a43 : a43         1.0
+T: halt : a44 : a44         1.0
+T: halt : a45 : a45         1.0
+T: halt : a46 : a46         1.0
+T: halt : a47 : a47         1.0
+T: halt : a48 : a48         1.0
+T: halt : a49 : a49         1.0
+T: halt : a50 : a50         1.0
+T: halt : a51 : a51         1.0
+T: halt : a52 : a52         1.0
+T: halt : a53 : a53         1.0
+T: halt : a54 : a54         1.0
+T: halt : a55 : a55         1.0
+T: halt : a56 : a56         1.0
+T: halt : a57 : a57         1.0
+T: halt : a58 : a58         1.0
+T: halt : a59 : a59         1.0
+T: halt : a60 : a60         1.0
+T: halt : a61 : a61         1.0
+T: halt : a62 : a62         1.0
+T: halt : a63 : a63         1.0
+T: halt : a64 : a64         1.0
+T: halt : a65 : a65         1.0
+T: halt : a66 : a66         1.0
+T: halt : a67 : a67         1.0
+T: halt : a68 : a68         1.0
+T: halt : a69 : a69         1.0
+T: halt : a70 : a70         1.0
+T: halt : a71 : a71         1.0
+T: halt : a72 : a72         1.0
+T: halt : a73 : a73         1.0
+T: halt : a74 : a74         1.0
+T: halt : a75 : a75         1.0
+T: halt : a76 : a76         1.0
+T: halt : a77 : a77         1.0
+T: halt : a78 : a78         1.0
+T: halt : a79 : a79         1.0
+T: halt : a80 : a80         1.0
+T: halt : a81 : a81         1.0
+T: halt : a82 : a82         1.0
+T: halt : a83 : a83         1.0
+T: halt : a84 : a84         1.0
+T: halt : a85 : a85         1.0
+T: halt : a86 : a86         1.0
+T: halt : a87 : a87         1.0
+T: halt : a88 : a88         1.0
+T: halt : a89 : a89         1.0
+T: halt : a90 : a90         1.0
+T: halt : a91 : a91         1.0
+T: halt : a92 : a92         1.0
+T: halt : a93 : a93         1.0
+T: halt : a94 : a94         1.0
+T: halt : a95 : a95         1.0
+T: halt : a96 : a96         1.0
+T: halt : a97 : a97         1.0
+T: halt : a98 : a98         1.0
+T: halt : a99 : a99         1.0
+O: up : a0 : a0         0.49
+O: up : a0 : a1         0.17
+O: up : a0 : a10         0.17
+O: up : a0 : a11         0.17
+O: up : a1 : a1         0.49
+O: up : a1 : a0         0.10200000000000001
+O: up : a1 : a2         0.10200000000000001
+O: up : a1 : a10         0.10200000000000001
+O: up : a1 : a11         0.10200000000000001
+O: up : a1 : a12         0.10200000000000001
+O: up : a2 : a2         0.49
+O: up : a2 : a1         0.10200000000000001
+O: up : a2 : a3         0.10200000000000001
+O: up : a2 : a11         0.10200000000000001
+O: up : a2 : a12         0.10200000000000001
+O: up : a2 : a13         0.10200000000000001
+O: up : a3 : a3         0.49
+O: up : a3 : a2         0.10200000000000001
+O: up : a3 : a4         0.10200000000000001
+O: up : a3 : a12         0.10200000000000001
+O: up : a3 : a13         0.10200000000000001
+O: up : a3 : a14         0.10200000000000001
+O: up : a4 : a4         0.49
+O: up : a4 : a3         0.10200000000000001
+O: up : a4 : a5         0.10200000000000001
+O: up : a4 : a13         0.10200000000000001
+O: up : a4 : a14         0.10200000000000001
+O: up : a4 : a15         0.10200000000000001
+O: up : a5 : a5         0.49
+O: up : a5 : a4         0.10200000000000001
+O: up : a5 : a6         0.10200000000000001
+O: up : a5 : a14         0.10200000000000001
+O: up : a5 : a15         0.10200000000000001
+O: up : a5 : a16         0.10200000000000001
+O: up : a6 : a6         0.49
+O: up : a6 : a5         0.10200000000000001
+O: up : a6 : a7         0.10200000000000001
+O: up : a6 : a15         0.10200000000000001
+O: up : a6 : a16         0.10200000000000001
+O: up : a6 : a17         0.10200000000000001
+O: up : a7 : a7         0.49
+O: up : a7 : a6         0.10200000000000001
+O: up : a7 : a8         0.10200000000000001
+O: up : a7 : a16         0.10200000000000001
+O: up : a7 : a17         0.10200000000000001
+O: up : a7 : a18         0.10200000000000001
+O: up : a8 : a8         0.49
+O: up : a8 : a7         0.10200000000000001
+O: up : a8 : a9         0.10200000000000001
+O: up : a8 : a17         0.10200000000000001
+O: up : a8 : a18         0.10200000000000001
+O: up : a8 : a19         0.10200000000000001
+O: up : a9 : a9         0.49
+O: up : a9 : a8         0.17
+O: up : a9 : a18         0.17
+O: up : a9 : a19         0.17
+O: up : a10 : a10         0.53
+O: up : a10 : a0         0.094
+O: up : a10 : a1         0.094
+O: up : a10 : a11         0.094
+O: up : a10 : a20         0.094
+O: up : a10 : a21         0.094
+O: up : a11 : a11         0.53
+O: up : a11 : a0         0.05875
+O: up : a11 : a1         0.05875
+O: up : a11 : a2         0.05875
+O: up : a11 : a10         0.05875
+O: up : a11 : a12         0.05875
+O: up : a11 : a20         0.05875
+O: up : a11 : a21         0.05875
+O: up : a11 : a22         0.05875
+O: up : a12 : a12         0.53
+O: up : a12 : a1         0.05875
+O: up : a12 : a2         0.05875
+O: up : a12 : a3         0.05875
+O: up : a12 : a11         0.05875
+O: up : a12 : a13         0.05875
+O: up : a12 : a21         0.05875
+O: up : a12 : a22         0.05875
+O: up : a12 : a23         0.05875
+O: up : a13 : a13         0.53
+O: up : a13 : a2         0.05875
+O: up : a13 : a3         0.05875
+O: up : a13 : a4         0.05875
+O: up : a13 : a12         0.05875
+O: up : a13 : a14         0.05875
+O: up : a13 : a22         0.05875
+O: up : a13 : a23         0.05875
+O: up : a13 : a24         0.05875
+O: up : a14 : a14         0.53
+O: up : a14 : a3         0.05875
+O: up : a14 : a4         0.05875
+O: up : a14 : a5         0.05875
+O: up : a14 : a13         0.05875
+O: up : a14 : a15         0.05875
+O: up : a14 : a23         0.05875
+O: up : a14 : a24         0.05875
+O: up : a14 : a25         0.05875
+O: up : a15 : a15         0.53
+O: up : a15 : a4         0.05875
+O: up : a15 : a5         0.05875
+O: up : a15 : a6         0.05875
+O: up : a15 : a14         0.05875
+O: up : a15 : a16         0.05875
+O: up : a15 : a24         0.05875
+O: up : a15 : a25         0.05875
+O: up : a15 : a26         0.05875
+O: up : a16 : a16         0.53
+O: up : a16 : a5         0.05875
+O: up : a16 : a6         0.05875
+O: up : a16 : a7         0.05875
+O: up : a16 : a15         0.05875
+O: up : a16 : a17         0.05875
+O: up : a16 : a25         0.05875
+O: up : a16 : a26         0.05875
+O: up : a16 : a27         0.05875
+O: up : a17 : a17         0.53
+O: up : a17 : a6         0.05875
+O: up : a17 : a7         0.05875
+O: up : a17 : a8         0.05875
+O: up : a17 : a16         0.05875
+O: up : a17 : a18         0.05875
+O: up : a17 : a26         0.05875
+O: up : a17 : a27         0.05875
+O: up : a17 : a28         0.05875
+O: up : a18 : a18         0.53
+O: up : a18 : a7         0.05875
+O: up : a18 : a8         0.05875
+O: up : a18 : a9         0.05875
+O: up : a18 : a17         0.05875
+O: up : a18 : a19         0.05875
+O: up : a18 : a27         0.05875
+O: up : a18 : a28         0.05875
+O: up : a18 : a29         0.05875
+O: up : a19 : a19         0.53
+O: up : a19 : a8         0.094
+O: up : a19 : a9         0.094
+O: up : a19 : a18         0.094
+O: up : a19 : a28         0.094
+O: up : a19 : a29         0.094
+O: up : a20 : a20         0.57
+O: up : a20 : a10         0.08600000000000001
+O: up : a20 : a11         0.08600000000000001
+O: up : a20 : a21         0.08600000000000001
+O: up : a20 : a30         0.08600000000000001
+O: up : a20 : a31         0.08600000000000001
+O: up : a21 : a21         0.57
+O: up : a21 : a10         0.053750000000000006
+O: up : a21 : a11         0.053750000000000006
+O: up : a21 : a12         0.053750000000000006
+O: up : a21 : a20         0.053750000000000006
+O: up : a21 : a22         0.053750000000000006
+O: up : a21 : a30         0.053750000000000006
+O: up : a21 : a31         0.053750000000000006
+O: up : a21 : a32         0.053750000000000006
+O: up : a22 : a22         0.57
+O: up : a22 : a11         0.053750000000000006
+O: up : a22 : a12         0.053750000000000006
+O: up : a22 : a13         0.053750000000000006
+O: up : a22 : a21         0.053750000000000006
+O: up : a22 : a23         0.053750000000000006
+O: up : a22 : a31         0.053750000000000006
+O: up : a22 : a32         0.053750000000000006
+O: up : a22 : a33         0.053750000000000006
+O: up : a23 : a23         0.57
+O: up : a23 : a12         0.053750000000000006
+O: up : a23 : a13         0.053750000000000006
+O: up : a23 : a14         0.053750000000000006
+O: up : a23 : a22         0.053750000000000006
+O: up : a23 : a24         0.053750000000000006
+O: up : a23 : a32         0.053750000000000006
+O: up : a23 : a33         0.053750000000000006
+O: up : a23 : a34         0.053750000000000006
+O: up : a24 : a24         0.57
+O: up : a24 : a13         0.053750000000000006
+O: up : a24 : a14         0.053750000000000006
+O: up : a24 : a15         0.053750000000000006
+O: up : a24 : a23         0.053750000000000006
+O: up : a24 : a25         0.053750000000000006
+O: up : a24 : a33         0.053750000000000006
+O: up : a24 : a34         0.053750000000000006
+O: up : a24 : a35         0.053750000000000006
+O: up : a25 : a25         0.57
+O: up : a25 : a14         0.053750000000000006
+O: up : a25 : a15         0.053750000000000006
+O: up : a25 : a16         0.053750000000000006
+O: up : a25 : a24         0.053750000000000006
+O: up : a25 : a26         0.053750000000000006
+O: up : a25 : a34         0.053750000000000006
+O: up : a25 : a35         0.053750000000000006
+O: up : a25 : a36         0.053750000000000006
+O: up : a26 : a26         0.57
+O: up : a26 : a15         0.053750000000000006
+O: up : a26 : a16         0.053750000000000006
+O: up : a26 : a17         0.053750000000000006
+O: up : a26 : a25         0.053750000000000006
+O: up : a26 : a27         0.053750000000000006
+O: up : a26 : a35         0.053750000000000006
+O: up : a26 : a36         0.053750000000000006
+O: up : a26 : a37         0.053750000000000006
+O: up : a27 : a27         0.57
+O: up : a27 : a16         0.053750000000000006
+O: up : a27 : a17         0.053750000000000006
+O: up : a27 : a18         0.053750000000000006
+O: up : a27 : a26         0.053750000000000006
+O: up : a27 : a28         0.053750000000000006
+O: up : a27 : a36         0.053750000000000006
+O: up : a27 : a37         0.053750000000000006
+O: up : a27 : a38         0.053750000000000006
+O: up : a28 : a28         0.57
+O: up : a28 : a17         0.053750000000000006
+O: up : a28 : a18         0.053750000000000006
+O: up : a28 : a19         0.053750000000000006
+O: up : a28 : a27         0.053750000000000006
+O: up : a28 : a29         0.053750000000000006
+O: up : a28 : a37         0.053750000000000006
+O: up : a28 : a38         0.053750000000000006
+O: up : a28 : a39         0.053750000000000006
+O: up : a29 : a29         0.57
+O: up : a29 : a18         0.08600000000000001
+O: up : a29 : a19         0.08600000000000001
+O: up : a29 : a28         0.08600000000000001
+O: up : a29 : a38         0.08600000000000001
+O: up : a29 : a39         0.08600000000000001
+O: up : a30 : a30         0.61
+O: up : a30 : a20         0.078
+O: up : a30 : a21         0.078
+O: up : a30 : a31         0.078
+O: up : a30 : a40         0.078
+O: up : a30 : a41         0.078
+O: up : a31 : a31         0.61
+O: up : a31 : a20         0.04875
+O: up : a31 : a21         0.04875
+O: up : a31 : a22         0.04875
+O: up : a31 : a30         0.04875
+O: up : a31 : a32         0.04875
+O: up : a31 : a40         0.04875
+O: up : a31 : a41         0.04875
+O: up : a31 : a42         0.04875
+O: up : a32 : a32         0.61
+O: up : a32 : a21         0.04875
+O: up : a32 : a22         0.04875
+O: up : a32 : a23         0.04875
+O: up : a32 : a31         0.04875
+O: up : a32 : a33         0.04875
+O: up : a32 : a41         0.04875
+O: up : a32 : a42         0.04875
+O: up : a32 : a43         0.04875
+O: up : a33 : a33         0.61
+O: up : a33 : a22         0.04875
+O: up : a33 : a23         0.04875
+O: up : a33 : a24         0.04875
+O: up : a33 : a32         0.04875
+O: up : a33 : a34         0.04875
+O: up : a33 : a42         0.04875
+O: up : a33 : a43         0.04875
+O: up : a33 : a44         0.04875
+O: up : a34 : a34         0.61
+O: up : a34 : a23         0.04875
+O: up : a34 : a24         0.04875
+O: up : a34 : a25         0.04875
+O: up : a34 : a33         0.04875
+O: up : a34 : a35         0.04875
+O: up : a34 : a43         0.04875
+O: up : a34 : a44         0.04875
+O: up : a34 : a45         0.04875
+O: up : a35 : a35         0.61
+O: up : a35 : a24         0.04875
+O: up : a35 : a25         0.04875
+O: up : a35 : a26         0.04875
+O: up : a35 : a34         0.04875
+O: up : a35 : a36         0.04875
+O: up : a35 : a44         0.04875
+O: up : a35 : a45         0.04875
+O: up : a35 : a46         0.04875
+O: up : a36 : a36         0.61
+O: up : a36 : a25         0.04875
+O: up : a36 : a26         0.04875
+O: up : a36 : a27         0.04875
+O: up : a36 : a35         0.04875
+O: up : a36 : a37         0.04875
+O: up : a36 : a45         0.04875
+O: up : a36 : a46         0.04875
+O: up : a36 : a47         0.04875
+O: up : a37 : a37         0.61
+O: up : a37 : a26         0.04875
+O: up : a37 : a27         0.04875
+O: up : a37 : a28         0.04875
+O: up : a37 : a36         0.04875
+O: up : a37 : a38         0.04875
+O: up : a37 : a46         0.04875
+O: up : a37 : a47         0.04875
+O: up : a37 : a48         0.04875
+O: up : a38 : a38         0.61
+O: up : a38 : a27         0.04875
+O: up : a38 : a28         0.04875
+O: up : a38 : a29         0.04875
+O: up : a38 : a37         0.04875
+O: up : a38 : a39         0.04875
+O: up : a38 : a47         0.04875
+O: up : a38 : a48         0.04875
+O: up : a38 : a49         0.04875
+O: up : a39 : a39         0.61
+O: up : a39 : a28         0.078
+O: up : a39 : a29         0.078
+O: up : a39 : a38         0.078
+O: up : a39 : a48         0.078
+O: up : a39 : a49         0.078
+O: up : a40 : a40         0.6499999999999999
+O: up : a40 : a30         0.07000000000000002
+O: up : a40 : a31         0.07000000000000002
+O: up : a40 : a41         0.07000000000000002
+O: up : a40 : a50         0.07000000000000002
+O: up : a40 : a51         0.07000000000000002
+O: up : a41 : a41         0.6499999999999999
+O: up : a41 : a30         0.04375000000000001
+O: up : a41 : a31         0.04375000000000001
+O: up : a41 : a32         0.04375000000000001
+O: up : a41 : a40         0.04375000000000001
+O: up : a41 : a42         0.04375000000000001
+O: up : a41 : a50         0.04375000000000001
+O: up : a41 : a51         0.04375000000000001
+O: up : a41 : a52         0.04375000000000001
+O: up : a42 : a42         0.6499999999999999
+O: up : a42 : a31         0.04375000000000001
+O: up : a42 : a32         0.04375000000000001
+O: up : a42 : a33         0.04375000000000001
+O: up : a42 : a41         0.04375000000000001
+O: up : a42 : a43         0.04375000000000001
+O: up : a42 : a51         0.04375000000000001
+O: up : a42 : a52         0.04375000000000001
+O: up : a42 : a53         0.04375000000000001
+O: up : a43 : a43         0.6499999999999999
+O: up : a43 : a32         0.04375000000000001
+O: up : a43 : a33         0.04375000000000001
+O: up : a43 : a34         0.04375000000000001
+O: up : a43 : a42         0.04375000000000001
+O: up : a43 : a44         0.04375000000000001
+O: up : a43 : a52         0.04375000000000001
+O: up : a43 : a53         0.04375000000000001
+O: up : a43 : a54         0.04375000000000001
+O: up : a44 : a44         0.6499999999999999
+O: up : a44 : a33         0.04375000000000001
+O: up : a44 : a34         0.04375000000000001
+O: up : a44 : a35         0.04375000000000001
+O: up : a44 : a43         0.04375000000000001
+O: up : a44 : a45         0.04375000000000001
+O: up : a44 : a53         0.04375000000000001
+O: up : a44 : a54         0.04375000000000001
+O: up : a44 : a55         0.04375000000000001
+O: up : a45 : a45         0.6499999999999999
+O: up : a45 : a34         0.04375000000000001
+O: up : a45 : a35         0.04375000000000001
+O: up : a45 : a36         0.04375000000000001
+O: up : a45 : a44         0.04375000000000001
+O: up : a45 : a46         0.04375000000000001
+O: up : a45 : a54         0.04375000000000001
+O: up : a45 : a55         0.04375000000000001
+O: up : a45 : a56         0.04375000000000001
+O: up : a46 : a46         0.6499999999999999
+O: up : a46 : a35         0.04375000000000001
+O: up : a46 : a36         0.04375000000000001
+O: up : a46 : a37         0.04375000000000001
+O: up : a46 : a45         0.04375000000000001
+O: up : a46 : a47         0.04375000000000001
+O: up : a46 : a55         0.04375000000000001
+O: up : a46 : a56         0.04375000000000001
+O: up : a46 : a57         0.04375000000000001
+O: up : a47 : a47         0.6499999999999999
+O: up : a47 : a36         0.04375000000000001
+O: up : a47 : a37         0.04375000000000001
+O: up : a47 : a38         0.04375000000000001
+O: up : a47 : a46         0.04375000000000001
+O: up : a47 : a48         0.04375000000000001
+O: up : a47 : a56         0.04375000000000001
+O: up : a47 : a57         0.04375000000000001
+O: up : a47 : a58         0.04375000000000001
+O: up : a48 : a48         0.6499999999999999
+O: up : a48 : a37         0.04375000000000001
+O: up : a48 : a38         0.04375000000000001
+O: up : a48 : a39         0.04375000000000001
+O: up : a48 : a47         0.04375000000000001
+O: up : a48 : a49         0.04375000000000001
+O: up : a48 : a57         0.04375000000000001
+O: up : a48 : a58         0.04375000000000001
+O: up : a48 : a59         0.04375000000000001
+O: up : a49 : a49         0.6499999999999999
+O: up : a49 : a38         0.07000000000000002
+O: up : a49 : a39         0.07000000000000002
+O: up : a49 : a48         0.07000000000000002
+O: up : a49 : a58         0.07000000000000002
+O: up : a49 : a59         0.07000000000000002
+O: up : a50 : a50         0.69
+O: up : a50 : a40         0.06200000000000001
+O: up : a50 : a41         0.06200000000000001
+O: up : a50 : a51         0.06200000000000001
+O: up : a50 : a60         0.06200000000000001
+O: up : a50 : a61         0.06200000000000001
+O: up : a51 : a51         0.69
+O: up : a51 : a40         0.03875000000000001
+O: up : a51 : a41         0.03875000000000001
+O: up : a51 : a42         0.03875000000000001
+O: up : a51 : a50         0.03875000000000001
+O: up : a51 : a52         0.03875000000000001
+O: up : a51 : a60         0.03875000000000001
+O: up : a51 : a61         0.03875000000000001
+O: up : a51 : a62         0.03875000000000001
+O: up : a52 : a52         0.69
+O: up : a52 : a41         0.03875000000000001
+O: up : a52 : a42         0.03875000000000001
+O: up : a52 : a43         0.03875000000000001
+O: up : a52 : a51         0.03875000000000001
+O: up : a52 : a53         0.03875000000000001
+O: up : a52 : a61         0.03875000000000001
+O: up : a52 : a62         0.03875000000000001
+O: up : a52 : a63         0.03875000000000001
+O: up : a53 : a53         0.69
+O: up : a53 : a42         0.03875000000000001
+O: up : a53 : a43         0.03875000000000001
+O: up : a53 : a44         0.03875000000000001
+O: up : a53 : a52         0.03875000000000001
+O: up : a53 : a54         0.03875000000000001
+O: up : a53 : a62         0.03875000000000001
+O: up : a53 : a63         0.03875000000000001
+O: up : a53 : a64         0.03875000000000001
+O: up : a54 : a54         0.69
+O: up : a54 : a43         0.03875000000000001
+O: up : a54 : a44         0.03875000000000001
+O: up : a54 : a45         0.03875000000000001
+O: up : a54 : a53         0.03875000000000001
+O: up : a54 : a55         0.03875000000000001
+O: up : a54 : a63         0.03875000000000001
+O: up : a54 : a64         0.03875000000000001
+O: up : a54 : a65         0.03875000000000001
+O: up : a55 : a55         0.69
+O: up : a55 : a44         0.03875000000000001
+O: up : a55 : a45         0.03875000000000001
+O: up : a55 : a46         0.03875000000000001
+O: up : a55 : a54         0.03875000000000001
+O: up : a55 : a56         0.03875000000000001
+O: up : a55 : a64         0.03875000000000001
+O: up : a55 : a65         0.03875000000000001
+O: up : a55 : a66         0.03875000000000001
+O: up : a56 : a56         0.69
+O: up : a56 : a45         0.03875000000000001
+O: up : a56 : a46         0.03875000000000001
+O: up : a56 : a47         0.03875000000000001
+O: up : a56 : a55         0.03875000000000001
+O: up : a56 : a57         0.03875000000000001
+O: up : a56 : a65         0.03875000000000001
+O: up : a56 : a66         0.03875000000000001
+O: up : a56 : a67         0.03875000000000001
+O: up : a57 : a57         0.69
+O: up : a57 : a46         0.03875000000000001
+O: up : a57 : a47         0.03875000000000001
+O: up : a57 : a48         0.03875000000000001
+O: up : a57 : a56         0.03875000000000001
+O: up : a57 : a58         0.03875000000000001
+O: up : a57 : a66         0.03875000000000001
+O: up : a57 : a67         0.03875000000000001
+O: up : a57 : a68         0.03875000000000001
+O: up : a58 : a58         0.69
+O: up : a58 : a47         0.03875000000000001
+O: up : a58 : a48         0.03875000000000001
+O: up : a58 : a49         0.03875000000000001
+O: up : a58 : a57         0.03875000000000001
+O: up : a58 : a59         0.03875000000000001
+O: up : a58 : a67         0.03875000000000001
+O: up : a58 : a68         0.03875000000000001
+O: up : a58 : a69         0.03875000000000001
+O: up : a59 : a59         0.69
+O: up : a59 : a48         0.06200000000000001
+O: up : a59 : a49         0.06200000000000001
+O: up : a59 : a58         0.06200000000000001
+O: up : a59 : a68         0.06200000000000001
+O: up : a59 : a69         0.06200000000000001
+O: up : a60 : a60         0.73
+O: up : a60 : a50         0.054000000000000006
+O: up : a60 : a51         0.054000000000000006
+O: up : a60 : a61         0.054000000000000006
+O: up : a60 : a70         0.054000000000000006
+O: up : a60 : a71         0.054000000000000006
+O: up : a61 : a61         0.73
+O: up : a61 : a50         0.03375
+O: up : a61 : a51         0.03375
+O: up : a61 : a52         0.03375
+O: up : a61 : a60         0.03375
+O: up : a61 : a62         0.03375
+O: up : a61 : a70         0.03375
+O: up : a61 : a71         0.03375
+O: up : a61 : a72         0.03375
+O: up : a62 : a62         0.73
+O: up : a62 : a51         0.03375
+O: up : a62 : a52         0.03375
+O: up : a62 : a53         0.03375
+O: up : a62 : a61         0.03375
+O: up : a62 : a63         0.03375
+O: up : a62 : a71         0.03375
+O: up : a62 : a72         0.03375
+O: up : a62 : a73         0.03375
+O: up : a63 : a63         0.73
+O: up : a63 : a52         0.03375
+O: up : a63 : a53         0.03375
+O: up : a63 : a54         0.03375
+O: up : a63 : a62         0.03375
+O: up : a63 : a64         0.03375
+O: up : a63 : a72         0.03375
+O: up : a63 : a73         0.03375
+O: up : a63 : a74         0.03375
+O: up : a64 : a64         0.73
+O: up : a64 : a53         0.03375
+O: up : a64 : a54         0.03375
+O: up : a64 : a55         0.03375
+O: up : a64 : a63         0.03375
+O: up : a64 : a65         0.03375
+O: up : a64 : a73         0.03375
+O: up : a64 : a74         0.03375
+O: up : a64 : a75         0.03375
+O: up : a65 : a65         0.73
+O: up : a65 : a54         0.03375
+O: up : a65 : a55         0.03375
+O: up : a65 : a56         0.03375
+O: up : a65 : a64         0.03375
+O: up : a65 : a66         0.03375
+O: up : a65 : a74         0.03375
+O: up : a65 : a75         0.03375
+O: up : a65 : a76         0.03375
+O: up : a66 : a66         0.73
+O: up : a66 : a55         0.03375
+O: up : a66 : a56         0.03375
+O: up : a66 : a57         0.03375
+O: up : a66 : a65         0.03375
+O: up : a66 : a67         0.03375
+O: up : a66 : a75         0.03375
+O: up : a66 : a76         0.03375
+O: up : a66 : a77         0.03375
+O: up : a67 : a67         0.73
+O: up : a67 : a56         0.03375
+O: up : a67 : a57         0.03375
+O: up : a67 : a58         0.03375
+O: up : a67 : a66         0.03375
+O: up : a67 : a68         0.03375
+O: up : a67 : a76         0.03375
+O: up : a67 : a77         0.03375
+O: up : a67 : a78         0.03375
+O: up : a68 : a68         0.73
+O: up : a68 : a57         0.03375
+O: up : a68 : a58         0.03375
+O: up : a68 : a59         0.03375
+O: up : a68 : a67         0.03375
+O: up : a68 : a69         0.03375
+O: up : a68 : a77         0.03375
+O: up : a68 : a78         0.03375
+O: up : a68 : a79         0.03375
+O: up : a69 : a69         0.73
+O: up : a69 : a58         0.054000000000000006
+O: up : a69 : a59         0.054000000000000006
+O: up : a69 : a68         0.054000000000000006
+O: up : a69 : a78         0.054000000000000006
+O: up : a69 : a79         0.054000000000000006
+O: up : a70 : a70         0.77
+O: up : a70 : a60         0.046
+O: up : a70 : a61         0.046
+O: up : a70 : a71         0.046
+O: up : a70 : a80         0.046
+O: up : a70 : a81         0.046
+O: up : a71 : a71         0.77
+O: up : a71 : a60         0.028749999999999998
+O: up : a71 : a61         0.028749999999999998
+O: up : a71 : a62         0.028749999999999998
+O: up : a71 : a70         0.028749999999999998
+O: up : a71 : a72         0.028749999999999998
+O: up : a71 : a80         0.028749999999999998
+O: up : a71 : a81         0.028749999999999998
+O: up : a71 : a82         0.028749999999999998
+O: up : a72 : a72         0.77
+O: up : a72 : a61         0.028749999999999998
+O: up : a72 : a62         0.028749999999999998
+O: up : a72 : a63         0.028749999999999998
+O: up : a72 : a71         0.028749999999999998
+O: up : a72 : a73         0.028749999999999998
+O: up : a72 : a81         0.028749999999999998
+O: up : a72 : a82         0.028749999999999998
+O: up : a72 : a83         0.028749999999999998
+O: up : a73 : a73         0.77
+O: up : a73 : a62         0.028749999999999998
+O: up : a73 : a63         0.028749999999999998
+O: up : a73 : a64         0.028749999999999998
+O: up : a73 : a72         0.028749999999999998
+O: up : a73 : a74         0.028749999999999998
+O: up : a73 : a82         0.028749999999999998
+O: up : a73 : a83         0.028749999999999998
+O: up : a73 : a84         0.028749999999999998
+O: up : a74 : a74         0.77
+O: up : a74 : a63         0.028749999999999998
+O: up : a74 : a64         0.028749999999999998
+O: up : a74 : a65         0.028749999999999998
+O: up : a74 : a73         0.028749999999999998
+O: up : a74 : a75         0.028749999999999998
+O: up : a74 : a83         0.028749999999999998
+O: up : a74 : a84         0.028749999999999998
+O: up : a74 : a85         0.028749999999999998
+O: up : a75 : a75         0.77
+O: up : a75 : a64         0.028749999999999998
+O: up : a75 : a65         0.028749999999999998
+O: up : a75 : a66         0.028749999999999998
+O: up : a75 : a74         0.028749999999999998
+O: up : a75 : a76         0.028749999999999998
+O: up : a75 : a84         0.028749999999999998
+O: up : a75 : a85         0.028749999999999998
+O: up : a75 : a86         0.028749999999999998
+O: up : a76 : a76         0.77
+O: up : a76 : a65         0.028749999999999998
+O: up : a76 : a66         0.028749999999999998
+O: up : a76 : a67         0.028749999999999998
+O: up : a76 : a75         0.028749999999999998
+O: up : a76 : a77         0.028749999999999998
+O: up : a76 : a85         0.028749999999999998
+O: up : a76 : a86         0.028749999999999998
+O: up : a76 : a87         0.028749999999999998
+O: up : a77 : a77         0.77
+O: up : a77 : a66         0.028749999999999998
+O: up : a77 : a67         0.028749999999999998
+O: up : a77 : a68         0.028749999999999998
+O: up : a77 : a76         0.028749999999999998
+O: up : a77 : a78         0.028749999999999998
+O: up : a77 : a86         0.028749999999999998
+O: up : a77 : a87         0.028749999999999998
+O: up : a77 : a88         0.028749999999999998
+O: up : a78 : a78         0.77
+O: up : a78 : a67         0.028749999999999998
+O: up : a78 : a68         0.028749999999999998
+O: up : a78 : a69         0.028749999999999998
+O: up : a78 : a77         0.028749999999999998
+O: up : a78 : a79         0.028749999999999998
+O: up : a78 : a87         0.028749999999999998
+O: up : a78 : a88         0.028749999999999998
+O: up : a78 : a89         0.028749999999999998
+O: up : a79 : a79         0.77
+O: up : a79 : a68         0.046
+O: up : a79 : a69         0.046
+O: up : a79 : a78         0.046
+O: up : a79 : a88         0.046
+O: up : a79 : a89         0.046
+O: up : a80 : a80         0.8099999999999999
+O: up : a80 : a70         0.03800000000000001
+O: up : a80 : a71         0.03800000000000001
+O: up : a80 : a81         0.03800000000000001
+O: up : a80 : a90         0.03800000000000001
+O: up : a80 : a91         0.03800000000000001
+O: up : a81 : a81         0.8099999999999999
+O: up : a81 : a70         0.023750000000000007
+O: up : a81 : a71         0.023750000000000007
+O: up : a81 : a72         0.023750000000000007
+O: up : a81 : a80         0.023750000000000007
+O: up : a81 : a82         0.023750000000000007
+O: up : a81 : a90         0.023750000000000007
+O: up : a81 : a91         0.023750000000000007
+O: up : a81 : a92         0.023750000000000007
+O: up : a82 : a82         0.8099999999999999
+O: up : a82 : a71         0.023750000000000007
+O: up : a82 : a72         0.023750000000000007
+O: up : a82 : a73         0.023750000000000007
+O: up : a82 : a81         0.023750000000000007
+O: up : a82 : a83         0.023750000000000007
+O: up : a82 : a91         0.023750000000000007
+O: up : a82 : a92         0.023750000000000007
+O: up : a82 : a93         0.023750000000000007
+O: up : a83 : a83         0.8099999999999999
+O: up : a83 : a72         0.023750000000000007
+O: up : a83 : a73         0.023750000000000007
+O: up : a83 : a74         0.023750000000000007
+O: up : a83 : a82         0.023750000000000007
+O: up : a83 : a84         0.023750000000000007
+O: up : a83 : a92         0.023750000000000007
+O: up : a83 : a93         0.023750000000000007
+O: up : a83 : a94         0.023750000000000007
+O: up : a84 : a84         0.8099999999999999
+O: up : a84 : a73         0.023750000000000007
+O: up : a84 : a74         0.023750000000000007
+O: up : a84 : a75         0.023750000000000007
+O: up : a84 : a83         0.023750000000000007
+O: up : a84 : a85         0.023750000000000007
+O: up : a84 : a93         0.023750000000000007
+O: up : a84 : a94         0.023750000000000007
+O: up : a84 : a95         0.023750000000000007
+O: up : a85 : a85         0.8099999999999999
+O: up : a85 : a74         0.023750000000000007
+O: up : a85 : a75         0.023750000000000007
+O: up : a85 : a76         0.023750000000000007
+O: up : a85 : a84         0.023750000000000007
+O: up : a85 : a86         0.023750000000000007
+O: up : a85 : a94         0.023750000000000007
+O: up : a85 : a95         0.023750000000000007
+O: up : a85 : a96         0.023750000000000007
+O: up : a86 : a86         0.8099999999999999
+O: up : a86 : a75         0.023750000000000007
+O: up : a86 : a76         0.023750000000000007
+O: up : a86 : a77         0.023750000000000007
+O: up : a86 : a85         0.023750000000000007
+O: up : a86 : a87         0.023750000000000007
+O: up : a86 : a95         0.023750000000000007
+O: up : a86 : a96         0.023750000000000007
+O: up : a86 : a97         0.023750000000000007
+O: up : a87 : a87         0.8099999999999999
+O: up : a87 : a76         0.023750000000000007
+O: up : a87 : a77         0.023750000000000007
+O: up : a87 : a78         0.023750000000000007
+O: up : a87 : a86         0.023750000000000007
+O: up : a87 : a88         0.023750000000000007
+O: up : a87 : a96         0.023750000000000007
+O: up : a87 : a97         0.023750000000000007
+O: up : a87 : a98         0.023750000000000007
+O: up : a88 : a88         0.8099999999999999
+O: up : a88 : a77         0.023750000000000007
+O: up : a88 : a78         0.023750000000000007
+O: up : a88 : a79         0.023750000000000007
+O: up : a88 : a87         0.023750000000000007
+O: up : a88 : a89         0.023750000000000007
+O: up : a88 : a97         0.023750000000000007
+O: up : a88 : a98         0.023750000000000007
+O: up : a88 : a99         0.023750000000000007
+O: up : a89 : a89         0.8099999999999999
+O: up : a89 : a78         0.03800000000000001
+O: up : a89 : a79         0.03800000000000001
+O: up : a89 : a88         0.03800000000000001
+O: up : a89 : a98         0.03800000000000001
+O: up : a89 : a99         0.03800000000000001
+O: down : a10 : a10         0.53
+O: down : a10 : a0         0.094
+O: down : a10 : a1         0.094
+O: down : a10 : a11         0.094
+O: down : a10 : a20         0.094
+O: down : a10 : a21         0.094
+O: down : a11 : a11         0.53
+O: down : a11 : a0         0.05875
+O: down : a11 : a1         0.05875
+O: down : a11 : a2         0.05875
+O: down : a11 : a10         0.05875
+O: down : a11 : a12         0.05875
+O: down : a11 : a20         0.05875
+O: down : a11 : a21         0.05875
+O: down : a11 : a22         0.05875
+O: down : a12 : a12         0.53
+O: down : a12 : a1         0.05875
+O: down : a12 : a2         0.05875
+O: down : a12 : a3         0.05875
+O: down : a12 : a11         0.05875
+O: down : a12 : a13         0.05875
+O: down : a12 : a21         0.05875
+O: down : a12 : a22         0.05875
+O: down : a12 : a23         0.05875
+O: down : a13 : a13         0.53
+O: down : a13 : a2         0.05875
+O: down : a13 : a3         0.05875
+O: down : a13 : a4         0.05875
+O: down : a13 : a12         0.05875
+O: down : a13 : a14         0.05875
+O: down : a13 : a22         0.05875
+O: down : a13 : a23         0.05875
+O: down : a13 : a24         0.05875
+O: down : a14 : a14         0.53
+O: down : a14 : a3         0.05875
+O: down : a14 : a4         0.05875
+O: down : a14 : a5         0.05875
+O: down : a14 : a13         0.05875
+O: down : a14 : a15         0.05875
+O: down : a14 : a23         0.05875
+O: down : a14 : a24         0.05875
+O: down : a14 : a25         0.05875
+O: down : a15 : a15         0.53
+O: down : a15 : a4         0.05875
+O: down : a15 : a5         0.05875
+O: down : a15 : a6         0.05875
+O: down : a15 : a14         0.05875
+O: down : a15 : a16         0.05875
+O: down : a15 : a24         0.05875
+O: down : a15 : a25         0.05875
+O: down : a15 : a26         0.05875
+O: down : a16 : a16         0.53
+O: down : a16 : a5         0.05875
+O: down : a16 : a6         0.05875
+O: down : a16 : a7         0.05875
+O: down : a16 : a15         0.05875
+O: down : a16 : a17         0.05875
+O: down : a16 : a25         0.05875
+O: down : a16 : a26         0.05875
+O: down : a16 : a27         0.05875
+O: down : a17 : a17         0.53
+O: down : a17 : a6         0.05875
+O: down : a17 : a7         0.05875
+O: down : a17 : a8         0.05875
+O: down : a17 : a16         0.05875
+O: down : a17 : a18         0.05875
+O: down : a17 : a26         0.05875
+O: down : a17 : a27         0.05875
+O: down : a17 : a28         0.05875
+O: down : a18 : a18         0.53
+O: down : a18 : a7         0.05875
+O: down : a18 : a8         0.05875
+O: down : a18 : a9         0.05875
+O: down : a18 : a17         0.05875
+O: down : a18 : a19         0.05875
+O: down : a18 : a27         0.05875
+O: down : a18 : a28         0.05875
+O: down : a18 : a29         0.05875
+O: down : a19 : a19         0.53
+O: down : a19 : a8         0.094
+O: down : a19 : a9         0.094
+O: down : a19 : a18         0.094
+O: down : a19 : a28         0.094
+O: down : a19 : a29         0.094
+O: down : a20 : a20         0.57
+O: down : a20 : a10         0.08600000000000001
+O: down : a20 : a11         0.08600000000000001
+O: down : a20 : a21         0.08600000000000001
+O: down : a20 : a30         0.08600000000000001
+O: down : a20 : a31         0.08600000000000001
+O: down : a21 : a21         0.57
+O: down : a21 : a10         0.053750000000000006
+O: down : a21 : a11         0.053750000000000006
+O: down : a21 : a12         0.053750000000000006
+O: down : a21 : a20         0.053750000000000006
+O: down : a21 : a22         0.053750000000000006
+O: down : a21 : a30         0.053750000000000006
+O: down : a21 : a31         0.053750000000000006
+O: down : a21 : a32         0.053750000000000006
+O: down : a22 : a22         0.57
+O: down : a22 : a11         0.053750000000000006
+O: down : a22 : a12         0.053750000000000006
+O: down : a22 : a13         0.053750000000000006
+O: down : a22 : a21         0.053750000000000006
+O: down : a22 : a23         0.053750000000000006
+O: down : a22 : a31         0.053750000000000006
+O: down : a22 : a32         0.053750000000000006
+O: down : a22 : a33         0.053750000000000006
+O: down : a23 : a23         0.57
+O: down : a23 : a12         0.053750000000000006
+O: down : a23 : a13         0.053750000000000006
+O: down : a23 : a14         0.053750000000000006
+O: down : a23 : a22         0.053750000000000006
+O: down : a23 : a24         0.053750000000000006
+O: down : a23 : a32         0.053750000000000006
+O: down : a23 : a33         0.053750000000000006
+O: down : a23 : a34         0.053750000000000006
+O: down : a24 : a24         0.57
+O: down : a24 : a13         0.053750000000000006
+O: down : a24 : a14         0.053750000000000006
+O: down : a24 : a15         0.053750000000000006
+O: down : a24 : a23         0.053750000000000006
+O: down : a24 : a25         0.053750000000000006
+O: down : a24 : a33         0.053750000000000006
+O: down : a24 : a34         0.053750000000000006
+O: down : a24 : a35         0.053750000000000006
+O: down : a25 : a25         0.57
+O: down : a25 : a14         0.053750000000000006
+O: down : a25 : a15         0.053750000000000006
+O: down : a25 : a16         0.053750000000000006
+O: down : a25 : a24         0.053750000000000006
+O: down : a25 : a26         0.053750000000000006
+O: down : a25 : a34         0.053750000000000006
+O: down : a25 : a35         0.053750000000000006
+O: down : a25 : a36         0.053750000000000006
+O: down : a26 : a26         0.57
+O: down : a26 : a15         0.053750000000000006
+O: down : a26 : a16         0.053750000000000006
+O: down : a26 : a17         0.053750000000000006
+O: down : a26 : a25         0.053750000000000006
+O: down : a26 : a27         0.053750000000000006
+O: down : a26 : a35         0.053750000000000006
+O: down : a26 : a36         0.053750000000000006
+O: down : a26 : a37         0.053750000000000006
+O: down : a27 : a27         0.57
+O: down : a27 : a16         0.053750000000000006
+O: down : a27 : a17         0.053750000000000006
+O: down : a27 : a18         0.053750000000000006
+O: down : a27 : a26         0.053750000000000006
+O: down : a27 : a28         0.053750000000000006
+O: down : a27 : a36         0.053750000000000006
+O: down : a27 : a37         0.053750000000000006
+O: down : a27 : a38         0.053750000000000006
+O: down : a28 : a28         0.57
+O: down : a28 : a17         0.053750000000000006
+O: down : a28 : a18         0.053750000000000006
+O: down : a28 : a19         0.053750000000000006
+O: down : a28 : a27         0.053750000000000006
+O: down : a28 : a29         0.053750000000000006
+O: down : a28 : a37         0.053750000000000006
+O: down : a28 : a38         0.053750000000000006
+O: down : a28 : a39         0.053750000000000006
+O: down : a29 : a29         0.57
+O: down : a29 : a18         0.08600000000000001
+O: down : a29 : a19         0.08600000000000001
+O: down : a29 : a28         0.08600000000000001
+O: down : a29 : a38         0.08600000000000001
+O: down : a29 : a39         0.08600000000000001
+O: down : a30 : a30         0.61
+O: down : a30 : a20         0.078
+O: down : a30 : a21         0.078
+O: down : a30 : a31         0.078
+O: down : a30 : a40         0.078
+O: down : a30 : a41         0.078
+O: down : a31 : a31         0.61
+O: down : a31 : a20         0.04875
+O: down : a31 : a21         0.04875
+O: down : a31 : a22         0.04875
+O: down : a31 : a30         0.04875
+O: down : a31 : a32         0.04875
+O: down : a31 : a40         0.04875
+O: down : a31 : a41         0.04875
+O: down : a31 : a42         0.04875
+O: down : a32 : a32         0.61
+O: down : a32 : a21         0.04875
+O: down : a32 : a22         0.04875
+O: down : a32 : a23         0.04875
+O: down : a32 : a31         0.04875
+O: down : a32 : a33         0.04875
+O: down : a32 : a41         0.04875
+O: down : a32 : a42         0.04875
+O: down : a32 : a43         0.04875
+O: down : a33 : a33         0.61
+O: down : a33 : a22         0.04875
+O: down : a33 : a23         0.04875
+O: down : a33 : a24         0.04875
+O: down : a33 : a32         0.04875
+O: down : a33 : a34         0.04875
+O: down : a33 : a42         0.04875
+O: down : a33 : a43         0.04875
+O: down : a33 : a44         0.04875
+O: down : a34 : a34         0.61
+O: down : a34 : a23         0.04875
+O: down : a34 : a24         0.04875
+O: down : a34 : a25         0.04875
+O: down : a34 : a33         0.04875
+O: down : a34 : a35         0.04875
+O: down : a34 : a43         0.04875
+O: down : a34 : a44         0.04875
+O: down : a34 : a45         0.04875
+O: down : a35 : a35         0.61
+O: down : a35 : a24         0.04875
+O: down : a35 : a25         0.04875
+O: down : a35 : a26         0.04875
+O: down : a35 : a34         0.04875
+O: down : a35 : a36         0.04875
+O: down : a35 : a44         0.04875
+O: down : a35 : a45         0.04875
+O: down : a35 : a46         0.04875
+O: down : a36 : a36         0.61
+O: down : a36 : a25         0.04875
+O: down : a36 : a26         0.04875
+O: down : a36 : a27         0.04875
+O: down : a36 : a35         0.04875
+O: down : a36 : a37         0.04875
+O: down : a36 : a45         0.04875
+O: down : a36 : a46         0.04875
+O: down : a36 : a47         0.04875
+O: down : a37 : a37         0.61
+O: down : a37 : a26         0.04875
+O: down : a37 : a27         0.04875
+O: down : a37 : a28         0.04875
+O: down : a37 : a36         0.04875
+O: down : a37 : a38         0.04875
+O: down : a37 : a46         0.04875
+O: down : a37 : a47         0.04875
+O: down : a37 : a48         0.04875
+O: down : a38 : a38         0.61
+O: down : a38 : a27         0.04875
+O: down : a38 : a28         0.04875
+O: down : a38 : a29         0.04875
+O: down : a38 : a37         0.04875
+O: down : a38 : a39         0.04875
+O: down : a38 : a47         0.04875
+O: down : a38 : a48         0.04875
+O: down : a38 : a49         0.04875
+O: down : a39 : a39         0.61
+O: down : a39 : a28         0.078
+O: down : a39 : a29         0.078
+O: down : a39 : a38         0.078
+O: down : a39 : a48         0.078
+O: down : a39 : a49         0.078
+O: down : a40 : a40         0.6499999999999999
+O: down : a40 : a30         0.07000000000000002
+O: down : a40 : a31         0.07000000000000002
+O: down : a40 : a41         0.07000000000000002
+O: down : a40 : a50         0.07000000000000002
+O: down : a40 : a51         0.07000000000000002
+O: down : a41 : a41         0.6499999999999999
+O: down : a41 : a30         0.04375000000000001
+O: down : a41 : a31         0.04375000000000001
+O: down : a41 : a32         0.04375000000000001
+O: down : a41 : a40         0.04375000000000001
+O: down : a41 : a42         0.04375000000000001
+O: down : a41 : a50         0.04375000000000001
+O: down : a41 : a51         0.04375000000000001
+O: down : a41 : a52         0.04375000000000001
+O: down : a42 : a42         0.6499999999999999
+O: down : a42 : a31         0.04375000000000001
+O: down : a42 : a32         0.04375000000000001
+O: down : a42 : a33         0.04375000000000001
+O: down : a42 : a41         0.04375000000000001
+O: down : a42 : a43         0.04375000000000001
+O: down : a42 : a51         0.04375000000000001
+O: down : a42 : a52         0.04375000000000001
+O: down : a42 : a53         0.04375000000000001
+O: down : a43 : a43         0.6499999999999999
+O: down : a43 : a32         0.04375000000000001
+O: down : a43 : a33         0.04375000000000001
+O: down : a43 : a34         0.04375000000000001
+O: down : a43 : a42         0.04375000000000001
+O: down : a43 : a44         0.04375000000000001
+O: down : a43 : a52         0.04375000000000001
+O: down : a43 : a53         0.04375000000000001
+O: down : a43 : a54         0.04375000000000001
+O: down : a44 : a44         0.6499999999999999
+O: down : a44 : a33         0.04375000000000001
+O: down : a44 : a34         0.04375000000000001
+O: down : a44 : a35         0.04375000000000001
+O: down : a44 : a43         0.04375000000000001
+O: down : a44 : a45         0.04375000000000001
+O: down : a44 : a53         0.04375000000000001
+O: down : a44 : a54         0.04375000000000001
+O: down : a44 : a55         0.04375000000000001
+O: down : a45 : a45         0.6499999999999999
+O: down : a45 : a34         0.04375000000000001
+O: down : a45 : a35         0.04375000000000001
+O: down : a45 : a36         0.04375000000000001
+O: down : a45 : a44         0.04375000000000001
+O: down : a45 : a46         0.04375000000000001
+O: down : a45 : a54         0.04375000000000001
+O: down : a45 : a55         0.04375000000000001
+O: down : a45 : a56         0.04375000000000001
+O: down : a46 : a46         0.6499999999999999
+O: down : a46 : a35         0.04375000000000001
+O: down : a46 : a36         0.04375000000000001
+O: down : a46 : a37         0.04375000000000001
+O: down : a46 : a45         0.04375000000000001
+O: down : a46 : a47         0.04375000000000001
+O: down : a46 : a55         0.04375000000000001
+O: down : a46 : a56         0.04375000000000001
+O: down : a46 : a57         0.04375000000000001
+O: down : a47 : a47         0.6499999999999999
+O: down : a47 : a36         0.04375000000000001
+O: down : a47 : a37         0.04375000000000001
+O: down : a47 : a38         0.04375000000000001
+O: down : a47 : a46         0.04375000000000001
+O: down : a47 : a48         0.04375000000000001
+O: down : a47 : a56         0.04375000000000001
+O: down : a47 : a57         0.04375000000000001
+O: down : a47 : a58         0.04375000000000001
+O: down : a48 : a48         0.6499999999999999
+O: down : a48 : a37         0.04375000000000001
+O: down : a48 : a38         0.04375000000000001
+O: down : a48 : a39         0.04375000000000001
+O: down : a48 : a47         0.04375000000000001
+O: down : a48 : a49         0.04375000000000001
+O: down : a48 : a57         0.04375000000000001
+O: down : a48 : a58         0.04375000000000001
+O: down : a48 : a59         0.04375000000000001
+O: down : a49 : a49         0.6499999999999999
+O: down : a49 : a38         0.07000000000000002
+O: down : a49 : a39         0.07000000000000002
+O: down : a49 : a48         0.07000000000000002
+O: down : a49 : a58         0.07000000000000002
+O: down : a49 : a59         0.07000000000000002
+O: down : a50 : a50         0.69
+O: down : a50 : a40         0.06200000000000001
+O: down : a50 : a41         0.06200000000000001
+O: down : a50 : a51         0.06200000000000001
+O: down : a50 : a60         0.06200000000000001
+O: down : a50 : a61         0.06200000000000001
+O: down : a51 : a51         0.69
+O: down : a51 : a40         0.03875000000000001
+O: down : a51 : a41         0.03875000000000001
+O: down : a51 : a42         0.03875000000000001
+O: down : a51 : a50         0.03875000000000001
+O: down : a51 : a52         0.03875000000000001
+O: down : a51 : a60         0.03875000000000001
+O: down : a51 : a61         0.03875000000000001
+O: down : a51 : a62         0.03875000000000001
+O: down : a52 : a52         0.69
+O: down : a52 : a41         0.03875000000000001
+O: down : a52 : a42         0.03875000000000001
+O: down : a52 : a43         0.03875000000000001
+O: down : a52 : a51         0.03875000000000001
+O: down : a52 : a53         0.03875000000000001
+O: down : a52 : a61         0.03875000000000001
+O: down : a52 : a62         0.03875000000000001
+O: down : a52 : a63         0.03875000000000001
+O: down : a53 : a53         0.69
+O: down : a53 : a42         0.03875000000000001
+O: down : a53 : a43         0.03875000000000001
+O: down : a53 : a44         0.03875000000000001
+O: down : a53 : a52         0.03875000000000001
+O: down : a53 : a54         0.03875000000000001
+O: down : a53 : a62         0.03875000000000001
+O: down : a53 : a63         0.03875000000000001
+O: down : a53 : a64         0.03875000000000001
+O: down : a54 : a54         0.69
+O: down : a54 : a43         0.03875000000000001
+O: down : a54 : a44         0.03875000000000001
+O: down : a54 : a45         0.03875000000000001
+O: down : a54 : a53         0.03875000000000001
+O: down : a54 : a55         0.03875000000000001
+O: down : a54 : a63         0.03875000000000001
+O: down : a54 : a64         0.03875000000000001
+O: down : a54 : a65         0.03875000000000001
+O: down : a55 : a55         0.69
+O: down : a55 : a44         0.03875000000000001
+O: down : a55 : a45         0.03875000000000001
+O: down : a55 : a46         0.03875000000000001
+O: down : a55 : a54         0.03875000000000001
+O: down : a55 : a56         0.03875000000000001
+O: down : a55 : a64         0.03875000000000001
+O: down : a55 : a65         0.03875000000000001
+O: down : a55 : a66         0.03875000000000001
+O: down : a56 : a56         0.69
+O: down : a56 : a45         0.03875000000000001
+O: down : a56 : a46         0.03875000000000001
+O: down : a56 : a47         0.03875000000000001
+O: down : a56 : a55         0.03875000000000001
+O: down : a56 : a57         0.03875000000000001
+O: down : a56 : a65         0.03875000000000001
+O: down : a56 : a66         0.03875000000000001
+O: down : a56 : a67         0.03875000000000001
+O: down : a57 : a57         0.69
+O: down : a57 : a46         0.03875000000000001
+O: down : a57 : a47         0.03875000000000001
+O: down : a57 : a48         0.03875000000000001
+O: down : a57 : a56         0.03875000000000001
+O: down : a57 : a58         0.03875000000000001
+O: down : a57 : a66         0.03875000000000001
+O: down : a57 : a67         0.03875000000000001
+O: down : a57 : a68         0.03875000000000001
+O: down : a58 : a58         0.69
+O: down : a58 : a47         0.03875000000000001
+O: down : a58 : a48         0.03875000000000001
+O: down : a58 : a49         0.03875000000000001
+O: down : a58 : a57         0.03875000000000001
+O: down : a58 : a59         0.03875000000000001
+O: down : a58 : a67         0.03875000000000001
+O: down : a58 : a68         0.03875000000000001
+O: down : a58 : a69         0.03875000000000001
+O: down : a59 : a59         0.69
+O: down : a59 : a48         0.06200000000000001
+O: down : a59 : a49         0.06200000000000001
+O: down : a59 : a58         0.06200000000000001
+O: down : a59 : a68         0.06200000000000001
+O: down : a59 : a69         0.06200000000000001
+O: down : a60 : a60         0.73
+O: down : a60 : a50         0.054000000000000006
+O: down : a60 : a51         0.054000000000000006
+O: down : a60 : a61         0.054000000000000006
+O: down : a60 : a70         0.054000000000000006
+O: down : a60 : a71         0.054000000000000006
+O: down : a61 : a61         0.73
+O: down : a61 : a50         0.03375
+O: down : a61 : a51         0.03375
+O: down : a61 : a52         0.03375
+O: down : a61 : a60         0.03375
+O: down : a61 : a62         0.03375
+O: down : a61 : a70         0.03375
+O: down : a61 : a71         0.03375
+O: down : a61 : a72         0.03375
+O: down : a62 : a62         0.73
+O: down : a62 : a51         0.03375
+O: down : a62 : a52         0.03375
+O: down : a62 : a53         0.03375
+O: down : a62 : a61         0.03375
+O: down : a62 : a63         0.03375
+O: down : a62 : a71         0.03375
+O: down : a62 : a72         0.03375
+O: down : a62 : a73         0.03375
+O: down : a63 : a63         0.73
+O: down : a63 : a52         0.03375
+O: down : a63 : a53         0.03375
+O: down : a63 : a54         0.03375
+O: down : a63 : a62         0.03375
+O: down : a63 : a64         0.03375
+O: down : a63 : a72         0.03375
+O: down : a63 : a73         0.03375
+O: down : a63 : a74         0.03375
+O: down : a64 : a64         0.73
+O: down : a64 : a53         0.03375
+O: down : a64 : a54         0.03375
+O: down : a64 : a55         0.03375
+O: down : a64 : a63         0.03375
+O: down : a64 : a65         0.03375
+O: down : a64 : a73         0.03375
+O: down : a64 : a74         0.03375
+O: down : a64 : a75         0.03375
+O: down : a65 : a65         0.73
+O: down : a65 : a54         0.03375
+O: down : a65 : a55         0.03375
+O: down : a65 : a56         0.03375
+O: down : a65 : a64         0.03375
+O: down : a65 : a66         0.03375
+O: down : a65 : a74         0.03375
+O: down : a65 : a75         0.03375
+O: down : a65 : a76         0.03375
+O: down : a66 : a66         0.73
+O: down : a66 : a55         0.03375
+O: down : a66 : a56         0.03375
+O: down : a66 : a57         0.03375
+O: down : a66 : a65         0.03375
+O: down : a66 : a67         0.03375
+O: down : a66 : a75         0.03375
+O: down : a66 : a76         0.03375
+O: down : a66 : a77         0.03375
+O: down : a67 : a67         0.73
+O: down : a67 : a56         0.03375
+O: down : a67 : a57         0.03375
+O: down : a67 : a58         0.03375
+O: down : a67 : a66         0.03375
+O: down : a67 : a68         0.03375
+O: down : a67 : a76         0.03375
+O: down : a67 : a77         0.03375
+O: down : a67 : a78         0.03375
+O: down : a68 : a68         0.73
+O: down : a68 : a57         0.03375
+O: down : a68 : a58         0.03375
+O: down : a68 : a59         0.03375
+O: down : a68 : a67         0.03375
+O: down : a68 : a69         0.03375
+O: down : a68 : a77         0.03375
+O: down : a68 : a78         0.03375
+O: down : a68 : a79         0.03375
+O: down : a69 : a69         0.73
+O: down : a69 : a58         0.054000000000000006
+O: down : a69 : a59         0.054000000000000006
+O: down : a69 : a68         0.054000000000000006
+O: down : a69 : a78         0.054000000000000006
+O: down : a69 : a79         0.054000000000000006
+O: down : a70 : a70         0.77
+O: down : a70 : a60         0.046
+O: down : a70 : a61         0.046
+O: down : a70 : a71         0.046
+O: down : a70 : a80         0.046
+O: down : a70 : a81         0.046
+O: down : a71 : a71         0.77
+O: down : a71 : a60         0.028749999999999998
+O: down : a71 : a61         0.028749999999999998
+O: down : a71 : a62         0.028749999999999998
+O: down : a71 : a70         0.028749999999999998
+O: down : a71 : a72         0.028749999999999998
+O: down : a71 : a80         0.028749999999999998
+O: down : a71 : a81         0.028749999999999998
+O: down : a71 : a82         0.028749999999999998
+O: down : a72 : a72         0.77
+O: down : a72 : a61         0.028749999999999998
+O: down : a72 : a62         0.028749999999999998
+O: down : a72 : a63         0.028749999999999998
+O: down : a72 : a71         0.028749999999999998
+O: down : a72 : a73         0.028749999999999998
+O: down : a72 : a81         0.028749999999999998
+O: down : a72 : a82         0.028749999999999998
+O: down : a72 : a83         0.028749999999999998
+O: down : a73 : a73         0.77
+O: down : a73 : a62         0.028749999999999998
+O: down : a73 : a63         0.028749999999999998
+O: down : a73 : a64         0.028749999999999998
+O: down : a73 : a72         0.028749999999999998
+O: down : a73 : a74         0.028749999999999998
+O: down : a73 : a82         0.028749999999999998
+O: down : a73 : a83         0.028749999999999998
+O: down : a73 : a84         0.028749999999999998
+O: down : a74 : a74         0.77
+O: down : a74 : a63         0.028749999999999998
+O: down : a74 : a64         0.028749999999999998
+O: down : a74 : a65         0.028749999999999998
+O: down : a74 : a73         0.028749999999999998
+O: down : a74 : a75         0.028749999999999998
+O: down : a74 : a83         0.028749999999999998
+O: down : a74 : a84         0.028749999999999998
+O: down : a74 : a85         0.028749999999999998
+O: down : a75 : a75         0.77
+O: down : a75 : a64         0.028749999999999998
+O: down : a75 : a65         0.028749999999999998
+O: down : a75 : a66         0.028749999999999998
+O: down : a75 : a74         0.028749999999999998
+O: down : a75 : a76         0.028749999999999998
+O: down : a75 : a84         0.028749999999999998
+O: down : a75 : a85         0.028749999999999998
+O: down : a75 : a86         0.028749999999999998
+O: down : a76 : a76         0.77
+O: down : a76 : a65         0.028749999999999998
+O: down : a76 : a66         0.028749999999999998
+O: down : a76 : a67         0.028749999999999998
+O: down : a76 : a75         0.028749999999999998
+O: down : a76 : a77         0.028749999999999998
+O: down : a76 : a85         0.028749999999999998
+O: down : a76 : a86         0.028749999999999998
+O: down : a76 : a87         0.028749999999999998
+O: down : a77 : a77         0.77
+O: down : a77 : a66         0.028749999999999998
+O: down : a77 : a67         0.028749999999999998
+O: down : a77 : a68         0.028749999999999998
+O: down : a77 : a76         0.028749999999999998
+O: down : a77 : a78         0.028749999999999998
+O: down : a77 : a86         0.028749999999999998
+O: down : a77 : a87         0.028749999999999998
+O: down : a77 : a88         0.028749999999999998
+O: down : a78 : a78         0.77
+O: down : a78 : a67         0.028749999999999998
+O: down : a78 : a68         0.028749999999999998
+O: down : a78 : a69         0.028749999999999998
+O: down : a78 : a77         0.028749999999999998
+O: down : a78 : a79         0.028749999999999998
+O: down : a78 : a87         0.028749999999999998
+O: down : a78 : a88         0.028749999999999998
+O: down : a78 : a89         0.028749999999999998
+O: down : a79 : a79         0.77
+O: down : a79 : a68         0.046
+O: down : a79 : a69         0.046
+O: down : a79 : a78         0.046
+O: down : a79 : a88         0.046
+O: down : a79 : a89         0.046
+O: down : a80 : a80         0.8099999999999999
+O: down : a80 : a70         0.03800000000000001
+O: down : a80 : a71         0.03800000000000001
+O: down : a80 : a81         0.03800000000000001
+O: down : a80 : a90         0.03800000000000001
+O: down : a80 : a91         0.03800000000000001
+O: down : a81 : a81         0.8099999999999999
+O: down : a81 : a70         0.023750000000000007
+O: down : a81 : a71         0.023750000000000007
+O: down : a81 : a72         0.023750000000000007
+O: down : a81 : a80         0.023750000000000007
+O: down : a81 : a82         0.023750000000000007
+O: down : a81 : a90         0.023750000000000007
+O: down : a81 : a91         0.023750000000000007
+O: down : a81 : a92         0.023750000000000007
+O: down : a82 : a82         0.8099999999999999
+O: down : a82 : a71         0.023750000000000007
+O: down : a82 : a72         0.023750000000000007
+O: down : a82 : a73         0.023750000000000007
+O: down : a82 : a81         0.023750000000000007
+O: down : a82 : a83         0.023750000000000007
+O: down : a82 : a91         0.023750000000000007
+O: down : a82 : a92         0.023750000000000007
+O: down : a82 : a93         0.023750000000000007
+O: down : a83 : a83         0.8099999999999999
+O: down : a83 : a72         0.023750000000000007
+O: down : a83 : a73         0.023750000000000007
+O: down : a83 : a74         0.023750000000000007
+O: down : a83 : a82         0.023750000000000007
+O: down : a83 : a84         0.023750000000000007
+O: down : a83 : a92         0.023750000000000007
+O: down : a83 : a93         0.023750000000000007
+O: down : a83 : a94         0.023750000000000007
+O: down : a84 : a84         0.8099999999999999
+O: down : a84 : a73         0.023750000000000007
+O: down : a84 : a74         0.023750000000000007
+O: down : a84 : a75         0.023750000000000007
+O: down : a84 : a83         0.023750000000000007
+O: down : a84 : a85         0.023750000000000007
+O: down : a84 : a93         0.023750000000000007
+O: down : a84 : a94         0.023750000000000007
+O: down : a84 : a95         0.023750000000000007
+O: down : a85 : a85         0.8099999999999999
+O: down : a85 : a74         0.023750000000000007
+O: down : a85 : a75         0.023750000000000007
+O: down : a85 : a76         0.023750000000000007
+O: down : a85 : a84         0.023750000000000007
+O: down : a85 : a86         0.023750000000000007
+O: down : a85 : a94         0.023750000000000007
+O: down : a85 : a95         0.023750000000000007
+O: down : a85 : a96         0.023750000000000007
+O: down : a86 : a86         0.8099999999999999
+O: down : a86 : a75         0.023750000000000007
+O: down : a86 : a76         0.023750000000000007
+O: down : a86 : a77         0.023750000000000007
+O: down : a86 : a85         0.023750000000000007
+O: down : a86 : a87         0.023750000000000007
+O: down : a86 : a95         0.023750000000000007
+O: down : a86 : a96         0.023750000000000007
+O: down : a86 : a97         0.023750000000000007
+O: down : a87 : a87         0.8099999999999999
+O: down : a87 : a76         0.023750000000000007
+O: down : a87 : a77         0.023750000000000007
+O: down : a87 : a78         0.023750000000000007
+O: down : a87 : a86         0.023750000000000007
+O: down : a87 : a88         0.023750000000000007
+O: down : a87 : a96         0.023750000000000007
+O: down : a87 : a97         0.023750000000000007
+O: down : a87 : a98         0.023750000000000007
+O: down : a88 : a88         0.8099999999999999
+O: down : a88 : a77         0.023750000000000007
+O: down : a88 : a78         0.023750000000000007
+O: down : a88 : a79         0.023750000000000007
+O: down : a88 : a87         0.023750000000000007
+O: down : a88 : a89         0.023750000000000007
+O: down : a88 : a97         0.023750000000000007
+O: down : a88 : a98         0.023750000000000007
+O: down : a88 : a99         0.023750000000000007
+O: down : a89 : a89         0.8099999999999999
+O: down : a89 : a78         0.03800000000000001
+O: down : a89 : a79         0.03800000000000001
+O: down : a89 : a88         0.03800000000000001
+O: down : a89 : a98         0.03800000000000001
+O: down : a89 : a99         0.03800000000000001
+O: down : a90 : a90         0.85
+O: down : a90 : a80         0.05000000000000001
+O: down : a90 : a81         0.05000000000000001
+O: down : a90 : a91         0.05000000000000001
+O: down : a91 : a91         0.85
+O: down : a91 : a80         0.030000000000000006
+O: down : a91 : a81         0.030000000000000006
+O: down : a91 : a82         0.030000000000000006
+O: down : a91 : a90         0.030000000000000006
+O: down : a91 : a92         0.030000000000000006
+O: down : a92 : a92         0.85
+O: down : a92 : a81         0.030000000000000006
+O: down : a92 : a82         0.030000000000000006
+O: down : a92 : a83         0.030000000000000006
+O: down : a92 : a91         0.030000000000000006
+O: down : a92 : a93         0.030000000000000006
+O: down : a93 : a93         0.85
+O: down : a93 : a82         0.030000000000000006
+O: down : a93 : a83         0.030000000000000006
+O: down : a93 : a84         0.030000000000000006
+O: down : a93 : a92         0.030000000000000006
+O: down : a93 : a94         0.030000000000000006
+O: down : a94 : a94         0.85
+O: down : a94 : a83         0.030000000000000006
+O: down : a94 : a84         0.030000000000000006
+O: down : a94 : a85         0.030000000000000006
+O: down : a94 : a93         0.030000000000000006
+O: down : a94 : a95         0.030000000000000006
+O: down : a95 : a95         0.85
+O: down : a95 : a84         0.030000000000000006
+O: down : a95 : a85         0.030000000000000006
+O: down : a95 : a86         0.030000000000000006
+O: down : a95 : a94         0.030000000000000006
+O: down : a95 : a96         0.030000000000000006
+O: down : a96 : a96         0.85
+O: down : a96 : a85         0.030000000000000006
+O: down : a96 : a86         0.030000000000000006
+O: down : a96 : a87         0.030000000000000006
+O: down : a96 : a95         0.030000000000000006
+O: down : a96 : a97         0.030000000000000006
+O: down : a97 : a97         0.85
+O: down : a97 : a86         0.030000000000000006
+O: down : a97 : a87         0.030000000000000006
+O: down : a97 : a88         0.030000000000000006
+O: down : a97 : a96         0.030000000000000006
+O: down : a97 : a98         0.030000000000000006
+O: down : a98 : a98         0.85
+O: down : a98 : a87         0.030000000000000006
+O: down : a98 : a88         0.030000000000000006
+O: down : a98 : a89         0.030000000000000006
+O: down : a98 : a97         0.030000000000000006
+O: down : a98 : a99         0.030000000000000006
+O: down : a99 : a99         0.85
+O: down : a99 : a88         0.05000000000000001
+O: down : a99 : a89         0.05000000000000001
+O: down : a99 : a98         0.05000000000000001
+O: left : a0 : a0         0.49
+O: left : a0 : a1         0.17
+O: left : a0 : a10         0.17
+O: left : a0 : a11         0.17
+O: left : a1 : a1         0.49
+O: left : a1 : a0         0.10200000000000001
+O: left : a1 : a2         0.10200000000000001
+O: left : a1 : a10         0.10200000000000001
+O: left : a1 : a11         0.10200000000000001
+O: left : a1 : a12         0.10200000000000001
+O: left : a2 : a2         0.49
+O: left : a2 : a1         0.10200000000000001
+O: left : a2 : a3         0.10200000000000001
+O: left : a2 : a11         0.10200000000000001
+O: left : a2 : a12         0.10200000000000001
+O: left : a2 : a13         0.10200000000000001
+O: left : a3 : a3         0.49
+O: left : a3 : a2         0.10200000000000001
+O: left : a3 : a4         0.10200000000000001
+O: left : a3 : a12         0.10200000000000001
+O: left : a3 : a13         0.10200000000000001
+O: left : a3 : a14         0.10200000000000001
+O: left : a4 : a4         0.49
+O: left : a4 : a3         0.10200000000000001
+O: left : a4 : a5         0.10200000000000001
+O: left : a4 : a13         0.10200000000000001
+O: left : a4 : a14         0.10200000000000001
+O: left : a4 : a15         0.10200000000000001
+O: left : a5 : a5         0.49
+O: left : a5 : a4         0.10200000000000001
+O: left : a5 : a6         0.10200000000000001
+O: left : a5 : a14         0.10200000000000001
+O: left : a5 : a15         0.10200000000000001
+O: left : a5 : a16         0.10200000000000001
+O: left : a6 : a6         0.49
+O: left : a6 : a5         0.10200000000000001
+O: left : a6 : a7         0.10200000000000001
+O: left : a6 : a15         0.10200000000000001
+O: left : a6 : a16         0.10200000000000001
+O: left : a6 : a17         0.10200000000000001
+O: left : a7 : a7         0.49
+O: left : a7 : a6         0.10200000000000001
+O: left : a7 : a8         0.10200000000000001
+O: left : a7 : a16         0.10200000000000001
+O: left : a7 : a17         0.10200000000000001
+O: left : a7 : a18         0.10200000000000001
+O: left : a8 : a8         0.49
+O: left : a8 : a7         0.10200000000000001
+O: left : a8 : a9         0.10200000000000001
+O: left : a8 : a17         0.10200000000000001
+O: left : a8 : a18         0.10200000000000001
+O: left : a8 : a19         0.10200000000000001
+O: left : a10 : a10         0.53
+O: left : a10 : a0         0.094
+O: left : a10 : a1         0.094
+O: left : a10 : a11         0.094
+O: left : a10 : a20         0.094
+O: left : a10 : a21         0.094
+O: left : a11 : a11         0.53
+O: left : a11 : a0         0.05875
+O: left : a11 : a1         0.05875
+O: left : a11 : a2         0.05875
+O: left : a11 : a10         0.05875
+O: left : a11 : a12         0.05875
+O: left : a11 : a20         0.05875
+O: left : a11 : a21         0.05875
+O: left : a11 : a22         0.05875
+O: left : a12 : a12         0.53
+O: left : a12 : a1         0.05875
+O: left : a12 : a2         0.05875
+O: left : a12 : a3         0.05875
+O: left : a12 : a11         0.05875
+O: left : a12 : a13         0.05875
+O: left : a12 : a21         0.05875
+O: left : a12 : a22         0.05875
+O: left : a12 : a23         0.05875
+O: left : a13 : a13         0.53
+O: left : a13 : a2         0.05875
+O: left : a13 : a3         0.05875
+O: left : a13 : a4         0.05875
+O: left : a13 : a12         0.05875
+O: left : a13 : a14         0.05875
+O: left : a13 : a22         0.05875
+O: left : a13 : a23         0.05875
+O: left : a13 : a24         0.05875
+O: left : a14 : a14         0.53
+O: left : a14 : a3         0.05875
+O: left : a14 : a4         0.05875
+O: left : a14 : a5         0.05875
+O: left : a14 : a13         0.05875
+O: left : a14 : a15         0.05875
+O: left : a14 : a23         0.05875
+O: left : a14 : a24         0.05875
+O: left : a14 : a25         0.05875
+O: left : a15 : a15         0.53
+O: left : a15 : a4         0.05875
+O: left : a15 : a5         0.05875
+O: left : a15 : a6         0.05875
+O: left : a15 : a14         0.05875
+O: left : a15 : a16         0.05875
+O: left : a15 : a24         0.05875
+O: left : a15 : a25         0.05875
+O: left : a15 : a26         0.05875
+O: left : a16 : a16         0.53
+O: left : a16 : a5         0.05875
+O: left : a16 : a6         0.05875
+O: left : a16 : a7         0.05875
+O: left : a16 : a15         0.05875
+O: left : a16 : a17         0.05875
+O: left : a16 : a25         0.05875
+O: left : a16 : a26         0.05875
+O: left : a16 : a27         0.05875
+O: left : a17 : a17         0.53
+O: left : a17 : a6         0.05875
+O: left : a17 : a7         0.05875
+O: left : a17 : a8         0.05875
+O: left : a17 : a16         0.05875
+O: left : a17 : a18         0.05875
+O: left : a17 : a26         0.05875
+O: left : a17 : a27         0.05875
+O: left : a17 : a28         0.05875
+O: left : a18 : a18         0.53
+O: left : a18 : a7         0.05875
+O: left : a18 : a8         0.05875
+O: left : a18 : a9         0.05875
+O: left : a18 : a17         0.05875
+O: left : a18 : a19         0.05875
+O: left : a18 : a27         0.05875
+O: left : a18 : a28         0.05875
+O: left : a18 : a29         0.05875
+O: left : a20 : a20         0.57
+O: left : a20 : a10         0.08600000000000001
+O: left : a20 : a11         0.08600000000000001
+O: left : a20 : a21         0.08600000000000001
+O: left : a20 : a30         0.08600000000000001
+O: left : a20 : a31         0.08600000000000001
+O: left : a21 : a21         0.57
+O: left : a21 : a10         0.053750000000000006
+O: left : a21 : a11         0.053750000000000006
+O: left : a21 : a12         0.053750000000000006
+O: left : a21 : a20         0.053750000000000006
+O: left : a21 : a22         0.053750000000000006
+O: left : a21 : a30         0.053750000000000006
+O: left : a21 : a31         0.053750000000000006
+O: left : a21 : a32         0.053750000000000006
+O: left : a22 : a22         0.57
+O: left : a22 : a11         0.053750000000000006
+O: left : a22 : a12         0.053750000000000006
+O: left : a22 : a13         0.053750000000000006
+O: left : a22 : a21         0.053750000000000006
+O: left : a22 : a23         0.053750000000000006
+O: left : a22 : a31         0.053750000000000006
+O: left : a22 : a32         0.053750000000000006
+O: left : a22 : a33         0.053750000000000006
+O: left : a23 : a23         0.57
+O: left : a23 : a12         0.053750000000000006
+O: left : a23 : a13         0.053750000000000006
+O: left : a23 : a14         0.053750000000000006
+O: left : a23 : a22         0.053750000000000006
+O: left : a23 : a24         0.053750000000000006
+O: left : a23 : a32         0.053750000000000006
+O: left : a23 : a33         0.053750000000000006
+O: left : a23 : a34         0.053750000000000006
+O: left : a24 : a24         0.57
+O: left : a24 : a13         0.053750000000000006
+O: left : a24 : a14         0.053750000000000006
+O: left : a24 : a15         0.053750000000000006
+O: left : a24 : a23         0.053750000000000006
+O: left : a24 : a25         0.053750000000000006
+O: left : a24 : a33         0.053750000000000006
+O: left : a24 : a34         0.053750000000000006
+O: left : a24 : a35         0.053750000000000006
+O: left : a25 : a25         0.57
+O: left : a25 : a14         0.053750000000000006
+O: left : a25 : a15         0.053750000000000006
+O: left : a25 : a16         0.053750000000000006
+O: left : a25 : a24         0.053750000000000006
+O: left : a25 : a26         0.053750000000000006
+O: left : a25 : a34         0.053750000000000006
+O: left : a25 : a35         0.053750000000000006
+O: left : a25 : a36         0.053750000000000006
+O: left : a26 : a26         0.57
+O: left : a26 : a15         0.053750000000000006
+O: left : a26 : a16         0.053750000000000006
+O: left : a26 : a17         0.053750000000000006
+O: left : a26 : a25         0.053750000000000006
+O: left : a26 : a27         0.053750000000000006
+O: left : a26 : a35         0.053750000000000006
+O: left : a26 : a36         0.053750000000000006
+O: left : a26 : a37         0.053750000000000006
+O: left : a27 : a27         0.57
+O: left : a27 : a16         0.053750000000000006
+O: left : a27 : a17         0.053750000000000006
+O: left : a27 : a18         0.053750000000000006
+O: left : a27 : a26         0.053750000000000006
+O: left : a27 : a28         0.053750000000000006
+O: left : a27 : a36         0.053750000000000006
+O: left : a27 : a37         0.053750000000000006
+O: left : a27 : a38         0.053750000000000006
+O: left : a28 : a28         0.57
+O: left : a28 : a17         0.053750000000000006
+O: left : a28 : a18         0.053750000000000006
+O: left : a28 : a19         0.053750000000000006
+O: left : a28 : a27         0.053750000000000006
+O: left : a28 : a29         0.053750000000000006
+O: left : a28 : a37         0.053750000000000006
+O: left : a28 : a38         0.053750000000000006
+O: left : a28 : a39         0.053750000000000006
+O: left : a30 : a30         0.61
+O: left : a30 : a20         0.078
+O: left : a30 : a21         0.078
+O: left : a30 : a31         0.078
+O: left : a30 : a40         0.078
+O: left : a30 : a41         0.078
+O: left : a31 : a31         0.61
+O: left : a31 : a20         0.04875
+O: left : a31 : a21         0.04875
+O: left : a31 : a22         0.04875
+O: left : a31 : a30         0.04875
+O: left : a31 : a32         0.04875
+O: left : a31 : a40         0.04875
+O: left : a31 : a41         0.04875
+O: left : a31 : a42         0.04875
+O: left : a32 : a32         0.61
+O: left : a32 : a21         0.04875
+O: left : a32 : a22         0.04875
+O: left : a32 : a23         0.04875
+O: left : a32 : a31         0.04875
+O: left : a32 : a33         0.04875
+O: left : a32 : a41         0.04875
+O: left : a32 : a42         0.04875
+O: left : a32 : a43         0.04875
+O: left : a33 : a33         0.61
+O: left : a33 : a22         0.04875
+O: left : a33 : a23         0.04875
+O: left : a33 : a24         0.04875
+O: left : a33 : a32         0.04875
+O: left : a33 : a34         0.04875
+O: left : a33 : a42         0.04875
+O: left : a33 : a43         0.04875
+O: left : a33 : a44         0.04875
+O: left : a34 : a34         0.61
+O: left : a34 : a23         0.04875
+O: left : a34 : a24         0.04875
+O: left : a34 : a25         0.04875
+O: left : a34 : a33         0.04875
+O: left : a34 : a35         0.04875
+O: left : a34 : a43         0.04875
+O: left : a34 : a44         0.04875
+O: left : a34 : a45         0.04875
+O: left : a35 : a35         0.61
+O: left : a35 : a24         0.04875
+O: left : a35 : a25         0.04875
+O: left : a35 : a26         0.04875
+O: left : a35 : a34         0.04875
+O: left : a35 : a36         0.04875
+O: left : a35 : a44         0.04875
+O: left : a35 : a45         0.04875
+O: left : a35 : a46         0.04875
+O: left : a36 : a36         0.61
+O: left : a36 : a25         0.04875
+O: left : a36 : a26         0.04875
+O: left : a36 : a27         0.04875
+O: left : a36 : a35         0.04875
+O: left : a36 : a37         0.04875
+O: left : a36 : a45         0.04875
+O: left : a36 : a46         0.04875
+O: left : a36 : a47         0.04875
+O: left : a37 : a37         0.61
+O: left : a37 : a26         0.04875
+O: left : a37 : a27         0.04875
+O: left : a37 : a28         0.04875
+O: left : a37 : a36         0.04875
+O: left : a37 : a38         0.04875
+O: left : a37 : a46         0.04875
+O: left : a37 : a47         0.04875
+O: left : a37 : a48         0.04875
+O: left : a38 : a38         0.61
+O: left : a38 : a27         0.04875
+O: left : a38 : a28         0.04875
+O: left : a38 : a29         0.04875
+O: left : a38 : a37         0.04875
+O: left : a38 : a39         0.04875
+O: left : a38 : a47         0.04875
+O: left : a38 : a48         0.04875
+O: left : a38 : a49         0.04875
+O: left : a40 : a40         0.6499999999999999
+O: left : a40 : a30         0.07000000000000002
+O: left : a40 : a31         0.07000000000000002
+O: left : a40 : a41         0.07000000000000002
+O: left : a40 : a50         0.07000000000000002
+O: left : a40 : a51         0.07000000000000002
+O: left : a41 : a41         0.6499999999999999
+O: left : a41 : a30         0.04375000000000001
+O: left : a41 : a31         0.04375000000000001
+O: left : a41 : a32         0.04375000000000001
+O: left : a41 : a40         0.04375000000000001
+O: left : a41 : a42         0.04375000000000001
+O: left : a41 : a50         0.04375000000000001
+O: left : a41 : a51         0.04375000000000001
+O: left : a41 : a52         0.04375000000000001
+O: left : a42 : a42         0.6499999999999999
+O: left : a42 : a31         0.04375000000000001
+O: left : a42 : a32         0.04375000000000001
+O: left : a42 : a33         0.04375000000000001
+O: left : a42 : a41         0.04375000000000001
+O: left : a42 : a43         0.04375000000000001
+O: left : a42 : a51         0.04375000000000001
+O: left : a42 : a52         0.04375000000000001
+O: left : a42 : a53         0.04375000000000001
+O: left : a43 : a43         0.6499999999999999
+O: left : a43 : a32         0.04375000000000001
+O: left : a43 : a33         0.04375000000000001
+O: left : a43 : a34         0.04375000000000001
+O: left : a43 : a42         0.04375000000000001
+O: left : a43 : a44         0.04375000000000001
+O: left : a43 : a52         0.04375000000000001
+O: left : a43 : a53         0.04375000000000001
+O: left : a43 : a54         0.04375000000000001
+O: left : a44 : a44         0.6499999999999999
+O: left : a44 : a33         0.04375000000000001
+O: left : a44 : a34         0.04375000000000001
+O: left : a44 : a35         0.04375000000000001
+O: left : a44 : a43         0.04375000000000001
+O: left : a44 : a45         0.04375000000000001
+O: left : a44 : a53         0.04375000000000001
+O: left : a44 : a54         0.04375000000000001
+O: left : a44 : a55         0.04375000000000001
+O: left : a45 : a45         0.6499999999999999
+O: left : a45 : a34         0.04375000000000001
+O: left : a45 : a35         0.04375000000000001
+O: left : a45 : a36         0.04375000000000001
+O: left : a45 : a44         0.04375000000000001
+O: left : a45 : a46         0.04375000000000001
+O: left : a45 : a54         0.04375000000000001
+O: left : a45 : a55         0.04375000000000001
+O: left : a45 : a56         0.04375000000000001
+O: left : a46 : a46         0.6499999999999999
+O: left : a46 : a35         0.04375000000000001
+O: left : a46 : a36         0.04375000000000001
+O: left : a46 : a37         0.04375000000000001
+O: left : a46 : a45         0.04375000000000001
+O: left : a46 : a47         0.04375000000000001
+O: left : a46 : a55         0.04375000000000001
+O: left : a46 : a56         0.04375000000000001
+O: left : a46 : a57         0.04375000000000001
+O: left : a47 : a47         0.6499999999999999
+O: left : a47 : a36         0.04375000000000001
+O: left : a47 : a37         0.04375000000000001
+O: left : a47 : a38         0.04375000000000001
+O: left : a47 : a46         0.04375000000000001
+O: left : a47 : a48         0.04375000000000001
+O: left : a47 : a56         0.04375000000000001
+O: left : a47 : a57         0.04375000000000001
+O: left : a47 : a58         0.04375000000000001
+O: left : a48 : a48         0.6499999999999999
+O: left : a48 : a37         0.04375000000000001
+O: left : a48 : a38         0.04375000000000001
+O: left : a48 : a39         0.04375000000000001
+O: left : a48 : a47         0.04375000000000001
+O: left : a48 : a49         0.04375000000000001
+O: left : a48 : a57         0.04375000000000001
+O: left : a48 : a58         0.04375000000000001
+O: left : a48 : a59         0.04375000000000001
+O: left : a50 : a50         0.69
+O: left : a50 : a40         0.06200000000000001
+O: left : a50 : a41         0.06200000000000001
+O: left : a50 : a51         0.06200000000000001
+O: left : a50 : a60         0.06200000000000001
+O: left : a50 : a61         0.06200000000000001
+O: left : a51 : a51         0.69
+O: left : a51 : a40         0.03875000000000001
+O: left : a51 : a41         0.03875000000000001
+O: left : a51 : a42         0.03875000000000001
+O: left : a51 : a50         0.03875000000000001
+O: left : a51 : a52         0.03875000000000001
+O: left : a51 : a60         0.03875000000000001
+O: left : a51 : a61         0.03875000000000001
+O: left : a51 : a62         0.03875000000000001
+O: left : a52 : a52         0.69
+O: left : a52 : a41         0.03875000000000001
+O: left : a52 : a42         0.03875000000000001
+O: left : a52 : a43         0.03875000000000001
+O: left : a52 : a51         0.03875000000000001
+O: left : a52 : a53         0.03875000000000001
+O: left : a52 : a61         0.03875000000000001
+O: left : a52 : a62         0.03875000000000001
+O: left : a52 : a63         0.03875000000000001
+O: left : a53 : a53         0.69
+O: left : a53 : a42         0.03875000000000001
+O: left : a53 : a43         0.03875000000000001
+O: left : a53 : a44         0.03875000000000001
+O: left : a53 : a52         0.03875000000000001
+O: left : a53 : a54         0.03875000000000001
+O: left : a53 : a62         0.03875000000000001
+O: left : a53 : a63         0.03875000000000001
+O: left : a53 : a64         0.03875000000000001
+O: left : a54 : a54         0.69
+O: left : a54 : a43         0.03875000000000001
+O: left : a54 : a44         0.03875000000000001
+O: left : a54 : a45         0.03875000000000001
+O: left : a54 : a53         0.03875000000000001
+O: left : a54 : a55         0.03875000000000001
+O: left : a54 : a63         0.03875000000000001
+O: left : a54 : a64         0.03875000000000001
+O: left : a54 : a65         0.03875000000000001
+O: left : a55 : a55         0.69
+O: left : a55 : a44         0.03875000000000001
+O: left : a55 : a45         0.03875000000000001
+O: left : a55 : a46         0.03875000000000001
+O: left : a55 : a54         0.03875000000000001
+O: left : a55 : a56         0.03875000000000001
+O: left : a55 : a64         0.03875000000000001
+O: left : a55 : a65         0.03875000000000001
+O: left : a55 : a66         0.03875000000000001
+O: left : a56 : a56         0.69
+O: left : a56 : a45         0.03875000000000001
+O: left : a56 : a46         0.03875000000000001
+O: left : a56 : a47         0.03875000000000001
+O: left : a56 : a55         0.03875000000000001
+O: left : a56 : a57         0.03875000000000001
+O: left : a56 : a65         0.03875000000000001
+O: left : a56 : a66         0.03875000000000001
+O: left : a56 : a67         0.03875000000000001
+O: left : a57 : a57         0.69
+O: left : a57 : a46         0.03875000000000001
+O: left : a57 : a47         0.03875000000000001
+O: left : a57 : a48         0.03875000000000001
+O: left : a57 : a56         0.03875000000000001
+O: left : a57 : a58         0.03875000000000001
+O: left : a57 : a66         0.03875000000000001
+O: left : a57 : a67         0.03875000000000001
+O: left : a57 : a68         0.03875000000000001
+O: left : a58 : a58         0.69
+O: left : a58 : a47         0.03875000000000001
+O: left : a58 : a48         0.03875000000000001
+O: left : a58 : a49         0.03875000000000001
+O: left : a58 : a57         0.03875000000000001
+O: left : a58 : a59         0.03875000000000001
+O: left : a58 : a67         0.03875000000000001
+O: left : a58 : a68         0.03875000000000001
+O: left : a58 : a69         0.03875000000000001
+O: left : a60 : a60         0.73
+O: left : a60 : a50         0.054000000000000006
+O: left : a60 : a51         0.054000000000000006
+O: left : a60 : a61         0.054000000000000006
+O: left : a60 : a70         0.054000000000000006
+O: left : a60 : a71         0.054000000000000006
+O: left : a61 : a61         0.73
+O: left : a61 : a50         0.03375
+O: left : a61 : a51         0.03375
+O: left : a61 : a52         0.03375
+O: left : a61 : a60         0.03375
+O: left : a61 : a62         0.03375
+O: left : a61 : a70         0.03375
+O: left : a61 : a71         0.03375
+O: left : a61 : a72         0.03375
+O: left : a62 : a62         0.73
+O: left : a62 : a51         0.03375
+O: left : a62 : a52         0.03375
+O: left : a62 : a53         0.03375
+O: left : a62 : a61         0.03375
+O: left : a62 : a63         0.03375
+O: left : a62 : a71         0.03375
+O: left : a62 : a72         0.03375
+O: left : a62 : a73         0.03375
+O: left : a63 : a63         0.73
+O: left : a63 : a52         0.03375
+O: left : a63 : a53         0.03375
+O: left : a63 : a54         0.03375
+O: left : a63 : a62         0.03375
+O: left : a63 : a64         0.03375
+O: left : a63 : a72         0.03375
+O: left : a63 : a73         0.03375
+O: left : a63 : a74         0.03375
+O: left : a64 : a64         0.73
+O: left : a64 : a53         0.03375
+O: left : a64 : a54         0.03375
+O: left : a64 : a55         0.03375
+O: left : a64 : a63         0.03375
+O: left : a64 : a65         0.03375
+O: left : a64 : a73         0.03375
+O: left : a64 : a74         0.03375
+O: left : a64 : a75         0.03375
+O: left : a65 : a65         0.73
+O: left : a65 : a54         0.03375
+O: left : a65 : a55         0.03375
+O: left : a65 : a56         0.03375
+O: left : a65 : a64         0.03375
+O: left : a65 : a66         0.03375
+O: left : a65 : a74         0.03375
+O: left : a65 : a75         0.03375
+O: left : a65 : a76         0.03375
+O: left : a66 : a66         0.73
+O: left : a66 : a55         0.03375
+O: left : a66 : a56         0.03375
+O: left : a66 : a57         0.03375
+O: left : a66 : a65         0.03375
+O: left : a66 : a67         0.03375
+O: left : a66 : a75         0.03375
+O: left : a66 : a76         0.03375
+O: left : a66 : a77         0.03375
+O: left : a67 : a67         0.73
+O: left : a67 : a56         0.03375
+O: left : a67 : a57         0.03375
+O: left : a67 : a58         0.03375
+O: left : a67 : a66         0.03375
+O: left : a67 : a68         0.03375
+O: left : a67 : a76         0.03375
+O: left : a67 : a77         0.03375
+O: left : a67 : a78         0.03375
+O: left : a68 : a68         0.73
+O: left : a68 : a57         0.03375
+O: left : a68 : a58         0.03375
+O: left : a68 : a59         0.03375
+O: left : a68 : a67         0.03375
+O: left : a68 : a69         0.03375
+O: left : a68 : a77         0.03375
+O: left : a68 : a78         0.03375
+O: left : a68 : a79         0.03375
+O: left : a70 : a70         0.77
+O: left : a70 : a60         0.046
+O: left : a70 : a61         0.046
+O: left : a70 : a71         0.046
+O: left : a70 : a80         0.046
+O: left : a70 : a81         0.046
+O: left : a71 : a71         0.77
+O: left : a71 : a60         0.028749999999999998
+O: left : a71 : a61         0.028749999999999998
+O: left : a71 : a62         0.028749999999999998
+O: left : a71 : a70         0.028749999999999998
+O: left : a71 : a72         0.028749999999999998
+O: left : a71 : a80         0.028749999999999998
+O: left : a71 : a81         0.028749999999999998
+O: left : a71 : a82         0.028749999999999998
+O: left : a72 : a72         0.77
+O: left : a72 : a61         0.028749999999999998
+O: left : a72 : a62         0.028749999999999998
+O: left : a72 : a63         0.028749999999999998
+O: left : a72 : a71         0.028749999999999998
+O: left : a72 : a73         0.028749999999999998
+O: left : a72 : a81         0.028749999999999998
+O: left : a72 : a82         0.028749999999999998
+O: left : a72 : a83         0.028749999999999998
+O: left : a73 : a73         0.77
+O: left : a73 : a62         0.028749999999999998
+O: left : a73 : a63         0.028749999999999998
+O: left : a73 : a64         0.028749999999999998
+O: left : a73 : a72         0.028749999999999998
+O: left : a73 : a74         0.028749999999999998
+O: left : a73 : a82         0.028749999999999998
+O: left : a73 : a83         0.028749999999999998
+O: left : a73 : a84         0.028749999999999998
+O: left : a74 : a74         0.77
+O: left : a74 : a63         0.028749999999999998
+O: left : a74 : a64         0.028749999999999998
+O: left : a74 : a65         0.028749999999999998
+O: left : a74 : a73         0.028749999999999998
+O: left : a74 : a75         0.028749999999999998
+O: left : a74 : a83         0.028749999999999998
+O: left : a74 : a84         0.028749999999999998
+O: left : a74 : a85         0.028749999999999998
+O: left : a75 : a75         0.77
+O: left : a75 : a64         0.028749999999999998
+O: left : a75 : a65         0.028749999999999998
+O: left : a75 : a66         0.028749999999999998
+O: left : a75 : a74         0.028749999999999998
+O: left : a75 : a76         0.028749999999999998
+O: left : a75 : a84         0.028749999999999998
+O: left : a75 : a85         0.028749999999999998
+O: left : a75 : a86         0.028749999999999998
+O: left : a76 : a76         0.77
+O: left : a76 : a65         0.028749999999999998
+O: left : a76 : a66         0.028749999999999998
+O: left : a76 : a67         0.028749999999999998
+O: left : a76 : a75         0.028749999999999998
+O: left : a76 : a77         0.028749999999999998
+O: left : a76 : a85         0.028749999999999998
+O: left : a76 : a86         0.028749999999999998
+O: left : a76 : a87         0.028749999999999998
+O: left : a77 : a77         0.77
+O: left : a77 : a66         0.028749999999999998
+O: left : a77 : a67         0.028749999999999998
+O: left : a77 : a68         0.028749999999999998
+O: left : a77 : a76         0.028749999999999998
+O: left : a77 : a78         0.028749999999999998
+O: left : a77 : a86         0.028749999999999998
+O: left : a77 : a87         0.028749999999999998
+O: left : a77 : a88         0.028749999999999998
+O: left : a78 : a78         0.77
+O: left : a78 : a67         0.028749999999999998
+O: left : a78 : a68         0.028749999999999998
+O: left : a78 : a69         0.028749999999999998
+O: left : a78 : a77         0.028749999999999998
+O: left : a78 : a79         0.028749999999999998
+O: left : a78 : a87         0.028749999999999998
+O: left : a78 : a88         0.028749999999999998
+O: left : a78 : a89         0.028749999999999998
+O: left : a80 : a80         0.8099999999999999
+O: left : a80 : a70         0.03800000000000001
+O: left : a80 : a71         0.03800000000000001
+O: left : a80 : a81         0.03800000000000001
+O: left : a80 : a90         0.03800000000000001
+O: left : a80 : a91         0.03800000000000001
+O: left : a81 : a81         0.8099999999999999
+O: left : a81 : a70         0.023750000000000007
+O: left : a81 : a71         0.023750000000000007
+O: left : a81 : a72         0.023750000000000007
+O: left : a81 : a80         0.023750000000000007
+O: left : a81 : a82         0.023750000000000007
+O: left : a81 : a90         0.023750000000000007
+O: left : a81 : a91         0.023750000000000007
+O: left : a81 : a92         0.023750000000000007
+O: left : a82 : a82         0.8099999999999999
+O: left : a82 : a71         0.023750000000000007
+O: left : a82 : a72         0.023750000000000007
+O: left : a82 : a73         0.023750000000000007
+O: left : a82 : a81         0.023750000000000007
+O: left : a82 : a83         0.023750000000000007
+O: left : a82 : a91         0.023750000000000007
+O: left : a82 : a92         0.023750000000000007
+O: left : a82 : a93         0.023750000000000007
+O: left : a83 : a83         0.8099999999999999
+O: left : a83 : a72         0.023750000000000007
+O: left : a83 : a73         0.023750000000000007
+O: left : a83 : a74         0.023750000000000007
+O: left : a83 : a82         0.023750000000000007
+O: left : a83 : a84         0.023750000000000007
+O: left : a83 : a92         0.023750000000000007
+O: left : a83 : a93         0.023750000000000007
+O: left : a83 : a94         0.023750000000000007
+O: left : a84 : a84         0.8099999999999999
+O: left : a84 : a73         0.023750000000000007
+O: left : a84 : a74         0.023750000000000007
+O: left : a84 : a75         0.023750000000000007
+O: left : a84 : a83         0.023750000000000007
+O: left : a84 : a85         0.023750000000000007
+O: left : a84 : a93         0.023750000000000007
+O: left : a84 : a94         0.023750000000000007
+O: left : a84 : a95         0.023750000000000007
+O: left : a85 : a85         0.8099999999999999
+O: left : a85 : a74         0.023750000000000007
+O: left : a85 : a75         0.023750000000000007
+O: left : a85 : a76         0.023750000000000007
+O: left : a85 : a84         0.023750000000000007
+O: left : a85 : a86         0.023750000000000007
+O: left : a85 : a94         0.023750000000000007
+O: left : a85 : a95         0.023750000000000007
+O: left : a85 : a96         0.023750000000000007
+O: left : a86 : a86         0.8099999999999999
+O: left : a86 : a75         0.023750000000000007
+O: left : a86 : a76         0.023750000000000007
+O: left : a86 : a77         0.023750000000000007
+O: left : a86 : a85         0.023750000000000007
+O: left : a86 : a87         0.023750000000000007
+O: left : a86 : a95         0.023750000000000007
+O: left : a86 : a96         0.023750000000000007
+O: left : a86 : a97         0.023750000000000007
+O: left : a87 : a87         0.8099999999999999
+O: left : a87 : a76         0.023750000000000007
+O: left : a87 : a77         0.023750000000000007
+O: left : a87 : a78         0.023750000000000007
+O: left : a87 : a86         0.023750000000000007
+O: left : a87 : a88         0.023750000000000007
+O: left : a87 : a96         0.023750000000000007
+O: left : a87 : a97         0.023750000000000007
+O: left : a87 : a98         0.023750000000000007
+O: left : a88 : a88         0.8099999999999999
+O: left : a88 : a77         0.023750000000000007
+O: left : a88 : a78         0.023750000000000007
+O: left : a88 : a79         0.023750000000000007
+O: left : a88 : a87         0.023750000000000007
+O: left : a88 : a89         0.023750000000000007
+O: left : a88 : a97         0.023750000000000007
+O: left : a88 : a98         0.023750000000000007
+O: left : a88 : a99         0.023750000000000007
+O: left : a90 : a90         0.85
+O: left : a90 : a80         0.05000000000000001
+O: left : a90 : a81         0.05000000000000001
+O: left : a90 : a91         0.05000000000000001
+O: left : a91 : a91         0.85
+O: left : a91 : a80         0.030000000000000006
+O: left : a91 : a81         0.030000000000000006
+O: left : a91 : a82         0.030000000000000006
+O: left : a91 : a90         0.030000000000000006
+O: left : a91 : a92         0.030000000000000006
+O: left : a92 : a92         0.85
+O: left : a92 : a81         0.030000000000000006
+O: left : a92 : a82         0.030000000000000006
+O: left : a92 : a83         0.030000000000000006
+O: left : a92 : a91         0.030000000000000006
+O: left : a92 : a93         0.030000000000000006
+O: left : a93 : a93         0.85
+O: left : a93 : a82         0.030000000000000006
+O: left : a93 : a83         0.030000000000000006
+O: left : a93 : a84         0.030000000000000006
+O: left : a93 : a92         0.030000000000000006
+O: left : a93 : a94         0.030000000000000006
+O: left : a94 : a94         0.85
+O: left : a94 : a83         0.030000000000000006
+O: left : a94 : a84         0.030000000000000006
+O: left : a94 : a85         0.030000000000000006
+O: left : a94 : a93         0.030000000000000006
+O: left : a94 : a95         0.030000000000000006
+O: left : a95 : a95         0.85
+O: left : a95 : a84         0.030000000000000006
+O: left : a95 : a85         0.030000000000000006
+O: left : a95 : a86         0.030000000000000006
+O: left : a95 : a94         0.030000000000000006
+O: left : a95 : a96         0.030000000000000006
+O: left : a96 : a96         0.85
+O: left : a96 : a85         0.030000000000000006
+O: left : a96 : a86         0.030000000000000006
+O: left : a96 : a87         0.030000000000000006
+O: left : a96 : a95         0.030000000000000006
+O: left : a96 : a97         0.030000000000000006
+O: left : a97 : a97         0.85
+O: left : a97 : a86         0.030000000000000006
+O: left : a97 : a87         0.030000000000000006
+O: left : a97 : a88         0.030000000000000006
+O: left : a97 : a96         0.030000000000000006
+O: left : a97 : a98         0.030000000000000006
+O: left : a98 : a98         0.85
+O: left : a98 : a87         0.030000000000000006
+O: left : a98 : a88         0.030000000000000006
+O: left : a98 : a89         0.030000000000000006
+O: left : a98 : a97         0.030000000000000006
+O: left : a98 : a99         0.030000000000000006
+O: right : a1 : a1         0.49
+O: right : a1 : a0         0.10200000000000001
+O: right : a1 : a2         0.10200000000000001
+O: right : a1 : a10         0.10200000000000001
+O: right : a1 : a11         0.10200000000000001
+O: right : a1 : a12         0.10200000000000001
+O: right : a2 : a2         0.49
+O: right : a2 : a1         0.10200000000000001
+O: right : a2 : a3         0.10200000000000001
+O: right : a2 : a11         0.10200000000000001
+O: right : a2 : a12         0.10200000000000001
+O: right : a2 : a13         0.10200000000000001
+O: right : a3 : a3         0.49
+O: right : a3 : a2         0.10200000000000001
+O: right : a3 : a4         0.10200000000000001
+O: right : a3 : a12         0.10200000000000001
+O: right : a3 : a13         0.10200000000000001
+O: right : a3 : a14         0.10200000000000001
+O: right : a4 : a4         0.49
+O: right : a4 : a3         0.10200000000000001
+O: right : a4 : a5         0.10200000000000001
+O: right : a4 : a13         0.10200000000000001
+O: right : a4 : a14         0.10200000000000001
+O: right : a4 : a15         0.10200000000000001
+O: right : a5 : a5         0.49
+O: right : a5 : a4         0.10200000000000001
+O: right : a5 : a6         0.10200000000000001
+O: right : a5 : a14         0.10200000000000001
+O: right : a5 : a15         0.10200000000000001
+O: right : a5 : a16         0.10200000000000001
+O: right : a6 : a6         0.49
+O: right : a6 : a5         0.10200000000000001
+O: right : a6 : a7         0.10200000000000001
+O: right : a6 : a15         0.10200000000000001
+O: right : a6 : a16         0.10200000000000001
+O: right : a6 : a17         0.10200000000000001
+O: right : a7 : a7         0.49
+O: right : a7 : a6         0.10200000000000001
+O: right : a7 : a8         0.10200000000000001
+O: right : a7 : a16         0.10200000000000001
+O: right : a7 : a17         0.10200000000000001
+O: right : a7 : a18         0.10200000000000001
+O: right : a8 : a8         0.49
+O: right : a8 : a7         0.10200000000000001
+O: right : a8 : a9         0.10200000000000001
+O: right : a8 : a17         0.10200000000000001
+O: right : a8 : a18         0.10200000000000001
+O: right : a8 : a19         0.10200000000000001
+O: right : a9 : a9         0.49
+O: right : a9 : a8         0.17
+O: right : a9 : a18         0.17
+O: right : a9 : a19         0.17
+O: right : a11 : a11         0.53
+O: right : a11 : a0         0.05875
+O: right : a11 : a1         0.05875
+O: right : a11 : a2         0.05875
+O: right : a11 : a10         0.05875
+O: right : a11 : a12         0.05875
+O: right : a11 : a20         0.05875
+O: right : a11 : a21         0.05875
+O: right : a11 : a22         0.05875
+O: right : a12 : a12         0.53
+O: right : a12 : a1         0.05875
+O: right : a12 : a2         0.05875
+O: right : a12 : a3         0.05875
+O: right : a12 : a11         0.05875
+O: right : a12 : a13         0.05875
+O: right : a12 : a21         0.05875
+O: right : a12 : a22         0.05875
+O: right : a12 : a23         0.05875
+O: right : a13 : a13         0.53
+O: right : a13 : a2         0.05875
+O: right : a13 : a3         0.05875
+O: right : a13 : a4         0.05875
+O: right : a13 : a12         0.05875
+O: right : a13 : a14         0.05875
+O: right : a13 : a22         0.05875
+O: right : a13 : a23         0.05875
+O: right : a13 : a24         0.05875
+O: right : a14 : a14         0.53
+O: right : a14 : a3         0.05875
+O: right : a14 : a4         0.05875
+O: right : a14 : a5         0.05875
+O: right : a14 : a13         0.05875
+O: right : a14 : a15         0.05875
+O: right : a14 : a23         0.05875
+O: right : a14 : a24         0.05875
+O: right : a14 : a25         0.05875
+O: right : a15 : a15         0.53
+O: right : a15 : a4         0.05875
+O: right : a15 : a5         0.05875
+O: right : a15 : a6         0.05875
+O: right : a15 : a14         0.05875
+O: right : a15 : a16         0.05875
+O: right : a15 : a24         0.05875
+O: right : a15 : a25         0.05875
+O: right : a15 : a26         0.05875
+O: right : a16 : a16         0.53
+O: right : a16 : a5         0.05875
+O: right : a16 : a6         0.05875
+O: right : a16 : a7         0.05875
+O: right : a16 : a15         0.05875
+O: right : a16 : a17         0.05875
+O: right : a16 : a25         0.05875
+O: right : a16 : a26         0.05875
+O: right : a16 : a27         0.05875
+O: right : a17 : a17         0.53
+O: right : a17 : a6         0.05875
+O: right : a17 : a7         0.05875
+O: right : a17 : a8         0.05875
+O: right : a17 : a16         0.05875
+O: right : a17 : a18         0.05875
+O: right : a17 : a26         0.05875
+O: right : a17 : a27         0.05875
+O: right : a17 : a28         0.05875
+O: right : a18 : a18         0.53
+O: right : a18 : a7         0.05875
+O: right : a18 : a8         0.05875
+O: right : a18 : a9         0.05875
+O: right : a18 : a17         0.05875
+O: right : a18 : a19         0.05875
+O: right : a18 : a27         0.05875
+O: right : a18 : a28         0.05875
+O: right : a18 : a29         0.05875
+O: right : a19 : a19         0.53
+O: right : a19 : a8         0.094
+O: right : a19 : a9         0.094
+O: right : a19 : a18         0.094
+O: right : a19 : a28         0.094
+O: right : a19 : a29         0.094
+O: right : a21 : a21         0.57
+O: right : a21 : a10         0.053750000000000006
+O: right : a21 : a11         0.053750000000000006
+O: right : a21 : a12         0.053750000000000006
+O: right : a21 : a20         0.053750000000000006
+O: right : a21 : a22         0.053750000000000006
+O: right : a21 : a30         0.053750000000000006
+O: right : a21 : a31         0.053750000000000006
+O: right : a21 : a32         0.053750000000000006
+O: right : a22 : a22         0.57
+O: right : a22 : a11         0.053750000000000006
+O: right : a22 : a12         0.053750000000000006
+O: right : a22 : a13         0.053750000000000006
+O: right : a22 : a21         0.053750000000000006
+O: right : a22 : a23         0.053750000000000006
+O: right : a22 : a31         0.053750000000000006
+O: right : a22 : a32         0.053750000000000006
+O: right : a22 : a33         0.053750000000000006
+O: right : a23 : a23         0.57
+O: right : a23 : a12         0.053750000000000006
+O: right : a23 : a13         0.053750000000000006
+O: right : a23 : a14         0.053750000000000006
+O: right : a23 : a22         0.053750000000000006
+O: right : a23 : a24         0.053750000000000006
+O: right : a23 : a32         0.053750000000000006
+O: right : a23 : a33         0.053750000000000006
+O: right : a23 : a34         0.053750000000000006
+O: right : a24 : a24         0.57
+O: right : a24 : a13         0.053750000000000006
+O: right : a24 : a14         0.053750000000000006
+O: right : a24 : a15         0.053750000000000006
+O: right : a24 : a23         0.053750000000000006
+O: right : a24 : a25         0.053750000000000006
+O: right : a24 : a33         0.053750000000000006
+O: right : a24 : a34         0.053750000000000006
+O: right : a24 : a35         0.053750000000000006
+O: right : a25 : a25         0.57
+O: right : a25 : a14         0.053750000000000006
+O: right : a25 : a15         0.053750000000000006
+O: right : a25 : a16         0.053750000000000006
+O: right : a25 : a24         0.053750000000000006
+O: right : a25 : a26         0.053750000000000006
+O: right : a25 : a34         0.053750000000000006
+O: right : a25 : a35         0.053750000000000006
+O: right : a25 : a36         0.053750000000000006
+O: right : a26 : a26         0.57
+O: right : a26 : a15         0.053750000000000006
+O: right : a26 : a16         0.053750000000000006
+O: right : a26 : a17         0.053750000000000006
+O: right : a26 : a25         0.053750000000000006
+O: right : a26 : a27         0.053750000000000006
+O: right : a26 : a35         0.053750000000000006
+O: right : a26 : a36         0.053750000000000006
+O: right : a26 : a37         0.053750000000000006
+O: right : a27 : a27         0.57
+O: right : a27 : a16         0.053750000000000006
+O: right : a27 : a17         0.053750000000000006
+O: right : a27 : a18         0.053750000000000006
+O: right : a27 : a26         0.053750000000000006
+O: right : a27 : a28         0.053750000000000006
+O: right : a27 : a36         0.053750000000000006
+O: right : a27 : a37         0.053750000000000006
+O: right : a27 : a38         0.053750000000000006
+O: right : a28 : a28         0.57
+O: right : a28 : a17         0.053750000000000006
+O: right : a28 : a18         0.053750000000000006
+O: right : a28 : a19         0.053750000000000006
+O: right : a28 : a27         0.053750000000000006
+O: right : a28 : a29         0.053750000000000006
+O: right : a28 : a37         0.053750000000000006
+O: right : a28 : a38         0.053750000000000006
+O: right : a28 : a39         0.053750000000000006
+O: right : a29 : a29         0.57
+O: right : a29 : a18         0.08600000000000001
+O: right : a29 : a19         0.08600000000000001
+O: right : a29 : a28         0.08600000000000001
+O: right : a29 : a38         0.08600000000000001
+O: right : a29 : a39         0.08600000000000001
+O: right : a31 : a31         0.61
+O: right : a31 : a20         0.04875
+O: right : a31 : a21         0.04875
+O: right : a31 : a22         0.04875
+O: right : a31 : a30         0.04875
+O: right : a31 : a32         0.04875
+O: right : a31 : a40         0.04875
+O: right : a31 : a41         0.04875
+O: right : a31 : a42         0.04875
+O: right : a32 : a32         0.61
+O: right : a32 : a21         0.04875
+O: right : a32 : a22         0.04875
+O: right : a32 : a23         0.04875
+O: right : a32 : a31         0.04875
+O: right : a32 : a33         0.04875
+O: right : a32 : a41         0.04875
+O: right : a32 : a42         0.04875
+O: right : a32 : a43         0.04875
+O: right : a33 : a33         0.61
+O: right : a33 : a22         0.04875
+O: right : a33 : a23         0.04875
+O: right : a33 : a24         0.04875
+O: right : a33 : a32         0.04875
+O: right : a33 : a34         0.04875
+O: right : a33 : a42         0.04875
+O: right : a33 : a43         0.04875
+O: right : a33 : a44         0.04875
+O: right : a34 : a34         0.61
+O: right : a34 : a23         0.04875
+O: right : a34 : a24         0.04875
+O: right : a34 : a25         0.04875
+O: right : a34 : a33         0.04875
+O: right : a34 : a35         0.04875
+O: right : a34 : a43         0.04875
+O: right : a34 : a44         0.04875
+O: right : a34 : a45         0.04875
+O: right : a35 : a35         0.61
+O: right : a35 : a24         0.04875
+O: right : a35 : a25         0.04875
+O: right : a35 : a26         0.04875
+O: right : a35 : a34         0.04875
+O: right : a35 : a36         0.04875
+O: right : a35 : a44         0.04875
+O: right : a35 : a45         0.04875
+O: right : a35 : a46         0.04875
+O: right : a36 : a36         0.61
+O: right : a36 : a25         0.04875
+O: right : a36 : a26         0.04875
+O: right : a36 : a27         0.04875
+O: right : a36 : a35         0.04875
+O: right : a36 : a37         0.04875
+O: right : a36 : a45         0.04875
+O: right : a36 : a46         0.04875
+O: right : a36 : a47         0.04875
+O: right : a37 : a37         0.61
+O: right : a37 : a26         0.04875
+O: right : a37 : a27         0.04875
+O: right : a37 : a28         0.04875
+O: right : a37 : a36         0.04875
+O: right : a37 : a38         0.04875
+O: right : a37 : a46         0.04875
+O: right : a37 : a47         0.04875
+O: right : a37 : a48         0.04875
+O: right : a38 : a38         0.61
+O: right : a38 : a27         0.04875
+O: right : a38 : a28         0.04875
+O: right : a38 : a29         0.04875
+O: right : a38 : a37         0.04875
+O: right : a38 : a39         0.04875
+O: right : a38 : a47         0.04875
+O: right : a38 : a48         0.04875
+O: right : a38 : a49         0.04875
+O: right : a39 : a39         0.61
+O: right : a39 : a28         0.078
+O: right : a39 : a29         0.078
+O: right : a39 : a38         0.078
+O: right : a39 : a48         0.078
+O: right : a39 : a49         0.078
+O: right : a41 : a41         0.6499999999999999
+O: right : a41 : a30         0.04375000000000001
+O: right : a41 : a31         0.04375000000000001
+O: right : a41 : a32         0.04375000000000001
+O: right : a41 : a40         0.04375000000000001
+O: right : a41 : a42         0.04375000000000001
+O: right : a41 : a50         0.04375000000000001
+O: right : a41 : a51         0.04375000000000001
+O: right : a41 : a52         0.04375000000000001
+O: right : a42 : a42         0.6499999999999999
+O: right : a42 : a31         0.04375000000000001
+O: right : a42 : a32         0.04375000000000001
+O: right : a42 : a33         0.04375000000000001
+O: right : a42 : a41         0.04375000000000001
+O: right : a42 : a43         0.04375000000000001
+O: right : a42 : a51         0.04375000000000001
+O: right : a42 : a52         0.04375000000000001
+O: right : a42 : a53         0.04375000000000001
+O: right : a43 : a43         0.6499999999999999
+O: right : a43 : a32         0.04375000000000001
+O: right : a43 : a33         0.04375000000000001
+O: right : a43 : a34         0.04375000000000001
+O: right : a43 : a42         0.04375000000000001
+O: right : a43 : a44         0.04375000000000001
+O: right : a43 : a52         0.04375000000000001
+O: right : a43 : a53         0.04375000000000001
+O: right : a43 : a54         0.04375000000000001
+O: right : a44 : a44         0.6499999999999999
+O: right : a44 : a33         0.04375000000000001
+O: right : a44 : a34         0.04375000000000001
+O: right : a44 : a35         0.04375000000000001
+O: right : a44 : a43         0.04375000000000001
+O: right : a44 : a45         0.04375000000000001
+O: right : a44 : a53         0.04375000000000001
+O: right : a44 : a54         0.04375000000000001
+O: right : a44 : a55         0.04375000000000001
+O: right : a45 : a45         0.6499999999999999
+O: right : a45 : a34         0.04375000000000001
+O: right : a45 : a35         0.04375000000000001
+O: right : a45 : a36         0.04375000000000001
+O: right : a45 : a44         0.04375000000000001
+O: right : a45 : a46         0.04375000000000001
+O: right : a45 : a54         0.04375000000000001
+O: right : a45 : a55         0.04375000000000001
+O: right : a45 : a56         0.04375000000000001
+O: right : a46 : a46         0.6499999999999999
+O: right : a46 : a35         0.04375000000000001
+O: right : a46 : a36         0.04375000000000001
+O: right : a46 : a37         0.04375000000000001
+O: right : a46 : a45         0.04375000000000001
+O: right : a46 : a47         0.04375000000000001
+O: right : a46 : a55         0.04375000000000001
+O: right : a46 : a56         0.04375000000000001
+O: right : a46 : a57         0.04375000000000001
+O: right : a47 : a47         0.6499999999999999
+O: right : a47 : a36         0.04375000000000001
+O: right : a47 : a37         0.04375000000000001
+O: right : a47 : a38         0.04375000000000001
+O: right : a47 : a46         0.04375000000000001
+O: right : a47 : a48         0.04375000000000001
+O: right : a47 : a56         0.04375000000000001
+O: right : a47 : a57         0.04375000000000001
+O: right : a47 : a58         0.04375000000000001
+O: right : a48 : a48         0.6499999999999999
+O: right : a48 : a37         0.04375000000000001
+O: right : a48 : a38         0.04375000000000001
+O: right : a48 : a39         0.04375000000000001
+O: right : a48 : a47         0.04375000000000001
+O: right : a48 : a49         0.04375000000000001
+O: right : a48 : a57         0.04375000000000001
+O: right : a48 : a58         0.04375000000000001
+O: right : a48 : a59         0.04375000000000001
+O: right : a49 : a49         0.6499999999999999
+O: right : a49 : a38         0.07000000000000002
+O: right : a49 : a39         0.07000000000000002
+O: right : a49 : a48         0.07000000000000002
+O: right : a49 : a58         0.07000000000000002
+O: right : a49 : a59         0.07000000000000002
+O: right : a51 : a51         0.69
+O: right : a51 : a40         0.03875000000000001
+O: right : a51 : a41         0.03875000000000001
+O: right : a51 : a42         0.03875000000000001
+O: right : a51 : a50         0.03875000000000001
+O: right : a51 : a52         0.03875000000000001
+O: right : a51 : a60         0.03875000000000001
+O: right : a51 : a61         0.03875000000000001
+O: right : a51 : a62         0.03875000000000001
+O: right : a52 : a52         0.69
+O: right : a52 : a41         0.03875000000000001
+O: right : a52 : a42         0.03875000000000001
+O: right : a52 : a43         0.03875000000000001
+O: right : a52 : a51         0.03875000000000001
+O: right : a52 : a53         0.03875000000000001
+O: right : a52 : a61         0.03875000000000001
+O: right : a52 : a62         0.03875000000000001
+O: right : a52 : a63         0.03875000000000001
+O: right : a53 : a53         0.69
+O: right : a53 : a42         0.03875000000000001
+O: right : a53 : a43         0.03875000000000001
+O: right : a53 : a44         0.03875000000000001
+O: right : a53 : a52         0.03875000000000001
+O: right : a53 : a54         0.03875000000000001
+O: right : a53 : a62         0.03875000000000001
+O: right : a53 : a63         0.03875000000000001
+O: right : a53 : a64         0.03875000000000001
+O: right : a54 : a54         0.69
+O: right : a54 : a43         0.03875000000000001
+O: right : a54 : a44         0.03875000000000001
+O: right : a54 : a45         0.03875000000000001
+O: right : a54 : a53         0.03875000000000001
+O: right : a54 : a55         0.03875000000000001
+O: right : a54 : a63         0.03875000000000001
+O: right : a54 : a64         0.03875000000000001
+O: right : a54 : a65         0.03875000000000001
+O: right : a55 : a55         0.69
+O: right : a55 : a44         0.03875000000000001
+O: right : a55 : a45         0.03875000000000001
+O: right : a55 : a46         0.03875000000000001
+O: right : a55 : a54         0.03875000000000001
+O: right : a55 : a56         0.03875000000000001
+O: right : a55 : a64         0.03875000000000001
+O: right : a55 : a65         0.03875000000000001
+O: right : a55 : a66         0.03875000000000001
+O: right : a56 : a56         0.69
+O: right : a56 : a45         0.03875000000000001
+O: right : a56 : a46         0.03875000000000001
+O: right : a56 : a47         0.03875000000000001
+O: right : a56 : a55         0.03875000000000001
+O: right : a56 : a57         0.03875000000000001
+O: right : a56 : a65         0.03875000000000001
+O: right : a56 : a66         0.03875000000000001
+O: right : a56 : a67         0.03875000000000001
+O: right : a57 : a57         0.69
+O: right : a57 : a46         0.03875000000000001
+O: right : a57 : a47         0.03875000000000001
+O: right : a57 : a48         0.03875000000000001
+O: right : a57 : a56         0.03875000000000001
+O: right : a57 : a58         0.03875000000000001
+O: right : a57 : a66         0.03875000000000001
+O: right : a57 : a67         0.03875000000000001
+O: right : a57 : a68         0.03875000000000001
+O: right : a58 : a58         0.69
+O: right : a58 : a47         0.03875000000000001
+O: right : a58 : a48         0.03875000000000001
+O: right : a58 : a49         0.03875000000000001
+O: right : a58 : a57         0.03875000000000001
+O: right : a58 : a59         0.03875000000000001
+O: right : a58 : a67         0.03875000000000001
+O: right : a58 : a68         0.03875000000000001
+O: right : a58 : a69         0.03875000000000001
+O: right : a59 : a59         0.69
+O: right : a59 : a48         0.06200000000000001
+O: right : a59 : a49         0.06200000000000001
+O: right : a59 : a58         0.06200000000000001
+O: right : a59 : a68         0.06200000000000001
+O: right : a59 : a69         0.06200000000000001
+O: right : a61 : a61         0.73
+O: right : a61 : a50         0.03375
+O: right : a61 : a51         0.03375
+O: right : a61 : a52         0.03375
+O: right : a61 : a60         0.03375
+O: right : a61 : a62         0.03375
+O: right : a61 : a70         0.03375
+O: right : a61 : a71         0.03375
+O: right : a61 : a72         0.03375
+O: right : a62 : a62         0.73
+O: right : a62 : a51         0.03375
+O: right : a62 : a52         0.03375
+O: right : a62 : a53         0.03375
+O: right : a62 : a61         0.03375
+O: right : a62 : a63         0.03375
+O: right : a62 : a71         0.03375
+O: right : a62 : a72         0.03375
+O: right : a62 : a73         0.03375
+O: right : a63 : a63         0.73
+O: right : a63 : a52         0.03375
+O: right : a63 : a53         0.03375
+O: right : a63 : a54         0.03375
+O: right : a63 : a62         0.03375
+O: right : a63 : a64         0.03375
+O: right : a63 : a72         0.03375
+O: right : a63 : a73         0.03375
+O: right : a63 : a74         0.03375
+O: right : a64 : a64         0.73
+O: right : a64 : a53         0.03375
+O: right : a64 : a54         0.03375
+O: right : a64 : a55         0.03375
+O: right : a64 : a63         0.03375
+O: right : a64 : a65         0.03375
+O: right : a64 : a73         0.03375
+O: right : a64 : a74         0.03375
+O: right : a64 : a75         0.03375
+O: right : a65 : a65         0.73
+O: right : a65 : a54         0.03375
+O: right : a65 : a55         0.03375
+O: right : a65 : a56         0.03375
+O: right : a65 : a64         0.03375
+O: right : a65 : a66         0.03375
+O: right : a65 : a74         0.03375
+O: right : a65 : a75         0.03375
+O: right : a65 : a76         0.03375
+O: right : a66 : a66         0.73
+O: right : a66 : a55         0.03375
+O: right : a66 : a56         0.03375
+O: right : a66 : a57         0.03375
+O: right : a66 : a65         0.03375
+O: right : a66 : a67         0.03375
+O: right : a66 : a75         0.03375
+O: right : a66 : a76         0.03375
+O: right : a66 : a77         0.03375
+O: right : a67 : a67         0.73
+O: right : a67 : a56         0.03375
+O: right : a67 : a57         0.03375
+O: right : a67 : a58         0.03375
+O: right : a67 : a66         0.03375
+O: right : a67 : a68         0.03375
+O: right : a67 : a76         0.03375
+O: right : a67 : a77         0.03375
+O: right : a67 : a78         0.03375
+O: right : a68 : a68         0.73
+O: right : a68 : a57         0.03375
+O: right : a68 : a58         0.03375
+O: right : a68 : a59         0.03375
+O: right : a68 : a67         0.03375
+O: right : a68 : a69         0.03375
+O: right : a68 : a77         0.03375
+O: right : a68 : a78         0.03375
+O: right : a68 : a79         0.03375
+O: right : a69 : a69         0.73
+O: right : a69 : a58         0.054000000000000006
+O: right : a69 : a59         0.054000000000000006
+O: right : a69 : a68         0.054000000000000006
+O: right : a69 : a78         0.054000000000000006
+O: right : a69 : a79         0.054000000000000006
+O: right : a71 : a71         0.77
+O: right : a71 : a60         0.028749999999999998
+O: right : a71 : a61         0.028749999999999998
+O: right : a71 : a62         0.028749999999999998
+O: right : a71 : a70         0.028749999999999998
+O: right : a71 : a72         0.028749999999999998
+O: right : a71 : a80         0.028749999999999998
+O: right : a71 : a81         0.028749999999999998
+O: right : a71 : a82         0.028749999999999998
+O: right : a72 : a72         0.77
+O: right : a72 : a61         0.028749999999999998
+O: right : a72 : a62         0.028749999999999998
+O: right : a72 : a63         0.028749999999999998
+O: right : a72 : a71         0.028749999999999998
+O: right : a72 : a73         0.028749999999999998
+O: right : a72 : a81         0.028749999999999998
+O: right : a72 : a82         0.028749999999999998
+O: right : a72 : a83         0.028749999999999998
+O: right : a73 : a73         0.77
+O: right : a73 : a62         0.028749999999999998
+O: right : a73 : a63         0.028749999999999998
+O: right : a73 : a64         0.028749999999999998
+O: right : a73 : a72         0.028749999999999998
+O: right : a73 : a74         0.028749999999999998
+O: right : a73 : a82         0.028749999999999998
+O: right : a73 : a83         0.028749999999999998
+O: right : a73 : a84         0.028749999999999998
+O: right : a74 : a74         0.77
+O: right : a74 : a63         0.028749999999999998
+O: right : a74 : a64         0.028749999999999998
+O: right : a74 : a65         0.028749999999999998
+O: right : a74 : a73         0.028749999999999998
+O: right : a74 : a75         0.028749999999999998
+O: right : a74 : a83         0.028749999999999998
+O: right : a74 : a84         0.028749999999999998
+O: right : a74 : a85         0.028749999999999998
+O: right : a75 : a75         0.77
+O: right : a75 : a64         0.028749999999999998
+O: right : a75 : a65         0.028749999999999998
+O: right : a75 : a66         0.028749999999999998
+O: right : a75 : a74         0.028749999999999998
+O: right : a75 : a76         0.028749999999999998
+O: right : a75 : a84         0.028749999999999998
+O: right : a75 : a85         0.028749999999999998
+O: right : a75 : a86         0.028749999999999998
+O: right : a76 : a76         0.77
+O: right : a76 : a65         0.028749999999999998
+O: right : a76 : a66         0.028749999999999998
+O: right : a76 : a67         0.028749999999999998
+O: right : a76 : a75         0.028749999999999998
+O: right : a76 : a77         0.028749999999999998
+O: right : a76 : a85         0.028749999999999998
+O: right : a76 : a86         0.028749999999999998
+O: right : a76 : a87         0.028749999999999998
+O: right : a77 : a77         0.77
+O: right : a77 : a66         0.028749999999999998
+O: right : a77 : a67         0.028749999999999998
+O: right : a77 : a68         0.028749999999999998
+O: right : a77 : a76         0.028749999999999998
+O: right : a77 : a78         0.028749999999999998
+O: right : a77 : a86         0.028749999999999998
+O: right : a77 : a87         0.028749999999999998
+O: right : a77 : a88         0.028749999999999998
+O: right : a78 : a78         0.77
+O: right : a78 : a67         0.028749999999999998
+O: right : a78 : a68         0.028749999999999998
+O: right : a78 : a69         0.028749999999999998
+O: right : a78 : a77         0.028749999999999998
+O: right : a78 : a79         0.028749999999999998
+O: right : a78 : a87         0.028749999999999998
+O: right : a78 : a88         0.028749999999999998
+O: right : a78 : a89         0.028749999999999998
+O: right : a79 : a79         0.77
+O: right : a79 : a68         0.046
+O: right : a79 : a69         0.046
+O: right : a79 : a78         0.046
+O: right : a79 : a88         0.046
+O: right : a79 : a89         0.046
+O: right : a81 : a81         0.8099999999999999
+O: right : a81 : a70         0.023750000000000007
+O: right : a81 : a71         0.023750000000000007
+O: right : a81 : a72         0.023750000000000007
+O: right : a81 : a80         0.023750000000000007
+O: right : a81 : a82         0.023750000000000007
+O: right : a81 : a90         0.023750000000000007
+O: right : a81 : a91         0.023750000000000007
+O: right : a81 : a92         0.023750000000000007
+O: right : a82 : a82         0.8099999999999999
+O: right : a82 : a71         0.023750000000000007
+O: right : a82 : a72         0.023750000000000007
+O: right : a82 : a73         0.023750000000000007
+O: right : a82 : a81         0.023750000000000007
+O: right : a82 : a83         0.023750000000000007
+O: right : a82 : a91         0.023750000000000007
+O: right : a82 : a92         0.023750000000000007
+O: right : a82 : a93         0.023750000000000007
+O: right : a83 : a83         0.8099999999999999
+O: right : a83 : a72         0.023750000000000007
+O: right : a83 : a73         0.023750000000000007
+O: right : a83 : a74         0.023750000000000007
+O: right : a83 : a82         0.023750000000000007
+O: right : a83 : a84         0.023750000000000007
+O: right : a83 : a92         0.023750000000000007
+O: right : a83 : a93         0.023750000000000007
+O: right : a83 : a94         0.023750000000000007
+O: right : a84 : a84         0.8099999999999999
+O: right : a84 : a73         0.023750000000000007
+O: right : a84 : a74         0.023750000000000007
+O: right : a84 : a75         0.023750000000000007
+O: right : a84 : a83         0.023750000000000007
+O: right : a84 : a85         0.023750000000000007
+O: right : a84 : a93         0.023750000000000007
+O: right : a84 : a94         0.023750000000000007
+O: right : a84 : a95         0.023750000000000007
+O: right : a85 : a85         0.8099999999999999
+O: right : a85 : a74         0.023750000000000007
+O: right : a85 : a75         0.023750000000000007
+O: right : a85 : a76         0.023750000000000007
+O: right : a85 : a84         0.023750000000000007
+O: right : a85 : a86         0.023750000000000007
+O: right : a85 : a94         0.023750000000000007
+O: right : a85 : a95         0.023750000000000007
+O: right : a85 : a96         0.023750000000000007
+O: right : a86 : a86         0.8099999999999999
+O: right : a86 : a75         0.023750000000000007
+O: right : a86 : a76         0.023750000000000007
+O: right : a86 : a77         0.023750000000000007
+O: right : a86 : a85         0.023750000000000007
+O: right : a86 : a87         0.023750000000000007
+O: right : a86 : a95         0.023750000000000007
+O: right : a86 : a96         0.023750000000000007
+O: right : a86 : a97         0.023750000000000007
+O: right : a87 : a87         0.8099999999999999
+O: right : a87 : a76         0.023750000000000007
+O: right : a87 : a77         0.023750000000000007
+O: right : a87 : a78         0.023750000000000007
+O: right : a87 : a86         0.023750000000000007
+O: right : a87 : a88         0.023750000000000007
+O: right : a87 : a96         0.023750000000000007
+O: right : a87 : a97         0.023750000000000007
+O: right : a87 : a98         0.023750000000000007
+O: right : a88 : a88         0.8099999999999999
+O: right : a88 : a77         0.023750000000000007
+O: right : a88 : a78         0.023750000000000007
+O: right : a88 : a79         0.023750000000000007
+O: right : a88 : a87         0.023750000000000007
+O: right : a88 : a89         0.023750000000000007
+O: right : a88 : a97         0.023750000000000007
+O: right : a88 : a98         0.023750000000000007
+O: right : a88 : a99         0.023750000000000007
+O: right : a89 : a89         0.8099999999999999
+O: right : a89 : a78         0.03800000000000001
+O: right : a89 : a79         0.03800000000000001
+O: right : a89 : a88         0.03800000000000001
+O: right : a89 : a98         0.03800000000000001
+O: right : a89 : a99         0.03800000000000001
+O: right : a91 : a91         0.85
+O: right : a91 : a80         0.030000000000000006
+O: right : a91 : a81         0.030000000000000006
+O: right : a91 : a82         0.030000000000000006
+O: right : a91 : a90         0.030000000000000006
+O: right : a91 : a92         0.030000000000000006
+O: right : a92 : a92         0.85
+O: right : a92 : a81         0.030000000000000006
+O: right : a92 : a82         0.030000000000000006
+O: right : a92 : a83         0.030000000000000006
+O: right : a92 : a91         0.030000000000000006
+O: right : a92 : a93         0.030000000000000006
+O: right : a93 : a93         0.85
+O: right : a93 : a82         0.030000000000000006
+O: right : a93 : a83         0.030000000000000006
+O: right : a93 : a84         0.030000000000000006
+O: right : a93 : a92         0.030000000000000006
+O: right : a93 : a94         0.030000000000000006
+O: right : a94 : a94         0.85
+O: right : a94 : a83         0.030000000000000006
+O: right : a94 : a84         0.030000000000000006
+O: right : a94 : a85         0.030000000000000006
+O: right : a94 : a93         0.030000000000000006
+O: right : a94 : a95         0.030000000000000006
+O: right : a95 : a95         0.85
+O: right : a95 : a84         0.030000000000000006
+O: right : a95 : a85         0.030000000000000006
+O: right : a95 : a86         0.030000000000000006
+O: right : a95 : a94         0.030000000000000006
+O: right : a95 : a96         0.030000000000000006
+O: right : a96 : a96         0.85
+O: right : a96 : a85         0.030000000000000006
+O: right : a96 : a86         0.030000000000000006
+O: right : a96 : a87         0.030000000000000006
+O: right : a96 : a95         0.030000000000000006
+O: right : a96 : a97         0.030000000000000006
+O: right : a97 : a97         0.85
+O: right : a97 : a86         0.030000000000000006
+O: right : a97 : a87         0.030000000000000006
+O: right : a97 : a88         0.030000000000000006
+O: right : a97 : a96         0.030000000000000006
+O: right : a97 : a98         0.030000000000000006
+O: right : a98 : a98         0.85
+O: right : a98 : a87         0.030000000000000006
+O: right : a98 : a88         0.030000000000000006
+O: right : a98 : a89         0.030000000000000006
+O: right : a98 : a97         0.030000000000000006
+O: right : a98 : a99         0.030000000000000006
+O: right : a99 : a99         0.85
+O: right : a99 : a88         0.05000000000000001
+O: right : a99 : a89         0.05000000000000001
+O: right : a99 : a98         0.05000000000000001
+O: halt : a0 : a0         0.49
+O: halt : a0 : a1         0.17
+O: halt : a0 : a10         0.17
+O: halt : a0 : a11         0.17
+O: halt : a1 : a1         0.49
+O: halt : a1 : a0         0.10200000000000001
+O: halt : a1 : a2         0.10200000000000001
+O: halt : a1 : a10         0.10200000000000001
+O: halt : a1 : a11         0.10200000000000001
+O: halt : a1 : a12         0.10200000000000001
+O: halt : a2 : a2         0.49
+O: halt : a2 : a1         0.10200000000000001
+O: halt : a2 : a3         0.10200000000000001
+O: halt : a2 : a11         0.10200000000000001
+O: halt : a2 : a12         0.10200000000000001
+O: halt : a2 : a13         0.10200000000000001
+O: halt : a3 : a3         0.49
+O: halt : a3 : a2         0.10200000000000001
+O: halt : a3 : a4         0.10200000000000001
+O: halt : a3 : a12         0.10200000000000001
+O: halt : a3 : a13         0.10200000000000001
+O: halt : a3 : a14         0.10200000000000001
+O: halt : a4 : a4         0.49
+O: halt : a4 : a3         0.10200000000000001
+O: halt : a4 : a5         0.10200000000000001
+O: halt : a4 : a13         0.10200000000000001
+O: halt : a4 : a14         0.10200000000000001
+O: halt : a4 : a15         0.10200000000000001
+O: halt : a5 : a5         0.49
+O: halt : a5 : a4         0.10200000000000001
+O: halt : a5 : a6         0.10200000000000001
+O: halt : a5 : a14         0.10200000000000001
+O: halt : a5 : a15         0.10200000000000001
+O: halt : a5 : a16         0.10200000000000001
+O: halt : a6 : a6         0.49
+O: halt : a6 : a5         0.10200000000000001
+O: halt : a6 : a7         0.10200000000000001
+O: halt : a6 : a15         0.10200000000000001
+O: halt : a6 : a16         0.10200000000000001
+O: halt : a6 : a17         0.10200000000000001
+O: halt : a7 : a7         0.49
+O: halt : a7 : a6         0.10200000000000001
+O: halt : a7 : a8         0.10200000000000001
+O: halt : a7 : a16         0.10200000000000001
+O: halt : a7 : a17         0.10200000000000001
+O: halt : a7 : a18         0.10200000000000001
+O: halt : a8 : a8         0.49
+O: halt : a8 : a7         0.10200000000000001
+O: halt : a8 : a9         0.10200000000000001
+O: halt : a8 : a17         0.10200000000000001
+O: halt : a8 : a18         0.10200000000000001
+O: halt : a8 : a19         0.10200000000000001
+O: halt : a9 : a9         0.49
+O: halt : a9 : a8         0.17
+O: halt : a9 : a18         0.17
+O: halt : a9 : a19         0.17
+O: halt : a10 : a10         0.53
+O: halt : a10 : a0         0.094
+O: halt : a10 : a1         0.094
+O: halt : a10 : a11         0.094
+O: halt : a10 : a20         0.094
+O: halt : a10 : a21         0.094
+O: halt : a11 : a11         0.53
+O: halt : a11 : a0         0.05875
+O: halt : a11 : a1         0.05875
+O: halt : a11 : a2         0.05875
+O: halt : a11 : a10         0.05875
+O: halt : a11 : a12         0.05875
+O: halt : a11 : a20         0.05875
+O: halt : a11 : a21         0.05875
+O: halt : a11 : a22         0.05875
+O: halt : a12 : a12         0.53
+O: halt : a12 : a1         0.05875
+O: halt : a12 : a2         0.05875
+O: halt : a12 : a3         0.05875
+O: halt : a12 : a11         0.05875
+O: halt : a12 : a13         0.05875
+O: halt : a12 : a21         0.05875
+O: halt : a12 : a22         0.05875
+O: halt : a12 : a23         0.05875
+O: halt : a13 : a13         0.53
+O: halt : a13 : a2         0.05875
+O: halt : a13 : a3         0.05875
+O: halt : a13 : a4         0.05875
+O: halt : a13 : a12         0.05875
+O: halt : a13 : a14         0.05875
+O: halt : a13 : a22         0.05875
+O: halt : a13 : a23         0.05875
+O: halt : a13 : a24         0.05875
+O: halt : a14 : a14         0.53
+O: halt : a14 : a3         0.05875
+O: halt : a14 : a4         0.05875
+O: halt : a14 : a5         0.05875
+O: halt : a14 : a13         0.05875
+O: halt : a14 : a15         0.05875
+O: halt : a14 : a23         0.05875
+O: halt : a14 : a24         0.05875
+O: halt : a14 : a25         0.05875
+O: halt : a15 : a15         0.53
+O: halt : a15 : a4         0.05875
+O: halt : a15 : a5         0.05875
+O: halt : a15 : a6         0.05875
+O: halt : a15 : a14         0.05875
+O: halt : a15 : a16         0.05875
+O: halt : a15 : a24         0.05875
+O: halt : a15 : a25         0.05875
+O: halt : a15 : a26         0.05875
+O: halt : a16 : a16         0.53
+O: halt : a16 : a5         0.05875
+O: halt : a16 : a6         0.05875
+O: halt : a16 : a7         0.05875
+O: halt : a16 : a15         0.05875
+O: halt : a16 : a17         0.05875
+O: halt : a16 : a25         0.05875
+O: halt : a16 : a26         0.05875
+O: halt : a16 : a27         0.05875
+O: halt : a17 : a17         0.53
+O: halt : a17 : a6         0.05875
+O: halt : a17 : a7         0.05875
+O: halt : a17 : a8         0.05875
+O: halt : a17 : a16         0.05875
+O: halt : a17 : a18         0.05875
+O: halt : a17 : a26         0.05875
+O: halt : a17 : a27         0.05875
+O: halt : a17 : a28         0.05875
+O: halt : a18 : a18         0.53
+O: halt : a18 : a7         0.05875
+O: halt : a18 : a8         0.05875
+O: halt : a18 : a9         0.05875
+O: halt : a18 : a17         0.05875
+O: halt : a18 : a19         0.05875
+O: halt : a18 : a27         0.05875
+O: halt : a18 : a28         0.05875
+O: halt : a18 : a29         0.05875
+O: halt : a19 : a19         0.53
+O: halt : a19 : a8         0.094
+O: halt : a19 : a9         0.094
+O: halt : a19 : a18         0.094
+O: halt : a19 : a28         0.094
+O: halt : a19 : a29         0.094
+O: halt : a20 : a20         0.57
+O: halt : a20 : a10         0.08600000000000001
+O: halt : a20 : a11         0.08600000000000001
+O: halt : a20 : a21         0.08600000000000001
+O: halt : a20 : a30         0.08600000000000001
+O: halt : a20 : a31         0.08600000000000001
+O: halt : a21 : a21         0.57
+O: halt : a21 : a10         0.053750000000000006
+O: halt : a21 : a11         0.053750000000000006
+O: halt : a21 : a12         0.053750000000000006
+O: halt : a21 : a20         0.053750000000000006
+O: halt : a21 : a22         0.053750000000000006
+O: halt : a21 : a30         0.053750000000000006
+O: halt : a21 : a31         0.053750000000000006
+O: halt : a21 : a32         0.053750000000000006
+O: halt : a22 : a22         0.57
+O: halt : a22 : a11         0.053750000000000006
+O: halt : a22 : a12         0.053750000000000006
+O: halt : a22 : a13         0.053750000000000006
+O: halt : a22 : a21         0.053750000000000006
+O: halt : a22 : a23         0.053750000000000006
+O: halt : a22 : a31         0.053750000000000006
+O: halt : a22 : a32         0.053750000000000006
+O: halt : a22 : a33         0.053750000000000006
+O: halt : a23 : a23         0.57
+O: halt : a23 : a12         0.053750000000000006
+O: halt : a23 : a13         0.053750000000000006
+O: halt : a23 : a14         0.053750000000000006
+O: halt : a23 : a22         0.053750000000000006
+O: halt : a23 : a24         0.053750000000000006
+O: halt : a23 : a32         0.053750000000000006
+O: halt : a23 : a33         0.053750000000000006
+O: halt : a23 : a34         0.053750000000000006
+O: halt : a24 : a24         0.57
+O: halt : a24 : a13         0.053750000000000006
+O: halt : a24 : a14         0.053750000000000006
+O: halt : a24 : a15         0.053750000000000006
+O: halt : a24 : a23         0.053750000000000006
+O: halt : a24 : a25         0.053750000000000006
+O: halt : a24 : a33         0.053750000000000006
+O: halt : a24 : a34         0.053750000000000006
+O: halt : a24 : a35         0.053750000000000006
+O: halt : a25 : a25         0.57
+O: halt : a25 : a14         0.053750000000000006
+O: halt : a25 : a15         0.053750000000000006
+O: halt : a25 : a16         0.053750000000000006
+O: halt : a25 : a24         0.053750000000000006
+O: halt : a25 : a26         0.053750000000000006
+O: halt : a25 : a34         0.053750000000000006
+O: halt : a25 : a35         0.053750000000000006
+O: halt : a25 : a36         0.053750000000000006
+O: halt : a26 : a26         0.57
+O: halt : a26 : a15         0.053750000000000006
+O: halt : a26 : a16         0.053750000000000006
+O: halt : a26 : a17         0.053750000000000006
+O: halt : a26 : a25         0.053750000000000006
+O: halt : a26 : a27         0.053750000000000006
+O: halt : a26 : a35         0.053750000000000006
+O: halt : a26 : a36         0.053750000000000006
+O: halt : a26 : a37         0.053750000000000006
+O: halt : a27 : a27         0.57
+O: halt : a27 : a16         0.053750000000000006
+O: halt : a27 : a17         0.053750000000000006
+O: halt : a27 : a18         0.053750000000000006
+O: halt : a27 : a26         0.053750000000000006
+O: halt : a27 : a28         0.053750000000000006
+O: halt : a27 : a36         0.053750000000000006
+O: halt : a27 : a37         0.053750000000000006
+O: halt : a27 : a38         0.053750000000000006
+O: halt : a28 : a28         0.57
+O: halt : a28 : a17         0.053750000000000006
+O: halt : a28 : a18         0.053750000000000006
+O: halt : a28 : a19         0.053750000000000006
+O: halt : a28 : a27         0.053750000000000006
+O: halt : a28 : a29         0.053750000000000006
+O: halt : a28 : a37         0.053750000000000006
+O: halt : a28 : a38         0.053750000000000006
+O: halt : a28 : a39         0.053750000000000006
+O: halt : a29 : a29         0.57
+O: halt : a29 : a18         0.08600000000000001
+O: halt : a29 : a19         0.08600000000000001
+O: halt : a29 : a28         0.08600000000000001
+O: halt : a29 : a38         0.08600000000000001
+O: halt : a29 : a39         0.08600000000000001
+O: halt : a30 : a30         0.61
+O: halt : a30 : a20         0.078
+O: halt : a30 : a21         0.078
+O: halt : a30 : a31         0.078
+O: halt : a30 : a40         0.078
+O: halt : a30 : a41         0.078
+O: halt : a31 : a31         0.61
+O: halt : a31 : a20         0.04875
+O: halt : a31 : a21         0.04875
+O: halt : a31 : a22         0.04875
+O: halt : a31 : a30         0.04875
+O: halt : a31 : a32         0.04875
+O: halt : a31 : a40         0.04875
+O: halt : a31 : a41         0.04875
+O: halt : a31 : a42         0.04875
+O: halt : a32 : a32         0.61
+O: halt : a32 : a21         0.04875
+O: halt : a32 : a22         0.04875
+O: halt : a32 : a23         0.04875
+O: halt : a32 : a31         0.04875
+O: halt : a32 : a33         0.04875
+O: halt : a32 : a41         0.04875
+O: halt : a32 : a42         0.04875
+O: halt : a32 : a43         0.04875
+O: halt : a33 : a33         0.61
+O: halt : a33 : a22         0.04875
+O: halt : a33 : a23         0.04875
+O: halt : a33 : a24         0.04875
+O: halt : a33 : a32         0.04875
+O: halt : a33 : a34         0.04875
+O: halt : a33 : a42         0.04875
+O: halt : a33 : a43         0.04875
+O: halt : a33 : a44         0.04875
+O: halt : a34 : a34         0.61
+O: halt : a34 : a23         0.04875
+O: halt : a34 : a24         0.04875
+O: halt : a34 : a25         0.04875
+O: halt : a34 : a33         0.04875
+O: halt : a34 : a35         0.04875
+O: halt : a34 : a43         0.04875
+O: halt : a34 : a44         0.04875
+O: halt : a34 : a45         0.04875
+O: halt : a35 : a35         0.61
+O: halt : a35 : a24         0.04875
+O: halt : a35 : a25         0.04875
+O: halt : a35 : a26         0.04875
+O: halt : a35 : a34         0.04875
+O: halt : a35 : a36         0.04875
+O: halt : a35 : a44         0.04875
+O: halt : a35 : a45         0.04875
+O: halt : a35 : a46         0.04875
+O: halt : a36 : a36         0.61
+O: halt : a36 : a25         0.04875
+O: halt : a36 : a26         0.04875
+O: halt : a36 : a27         0.04875
+O: halt : a36 : a35         0.04875
+O: halt : a36 : a37         0.04875
+O: halt : a36 : a45         0.04875
+O: halt : a36 : a46         0.04875
+O: halt : a36 : a47         0.04875
+O: halt : a37 : a37         0.61
+O: halt : a37 : a26         0.04875
+O: halt : a37 : a27         0.04875
+O: halt : a37 : a28         0.04875
+O: halt : a37 : a36         0.04875
+O: halt : a37 : a38         0.04875
+O: halt : a37 : a46         0.04875
+O: halt : a37 : a47         0.04875
+O: halt : a37 : a48         0.04875
+O: halt : a38 : a38         0.61
+O: halt : a38 : a27         0.04875
+O: halt : a38 : a28         0.04875
+O: halt : a38 : a29         0.04875
+O: halt : a38 : a37         0.04875
+O: halt : a38 : a39         0.04875
+O: halt : a38 : a47         0.04875
+O: halt : a38 : a48         0.04875
+O: halt : a38 : a49         0.04875
+O: halt : a39 : a39         0.61
+O: halt : a39 : a28         0.078
+O: halt : a39 : a29         0.078
+O: halt : a39 : a38         0.078
+O: halt : a39 : a48         0.078
+O: halt : a39 : a49         0.078
+O: halt : a40 : a40         0.6499999999999999
+O: halt : a40 : a30         0.07000000000000002
+O: halt : a40 : a31         0.07000000000000002
+O: halt : a40 : a41         0.07000000000000002
+O: halt : a40 : a50         0.07000000000000002
+O: halt : a40 : a51         0.07000000000000002
+O: halt : a41 : a41         0.6499999999999999
+O: halt : a41 : a30         0.04375000000000001
+O: halt : a41 : a31         0.04375000000000001
+O: halt : a41 : a32         0.04375000000000001
+O: halt : a41 : a40         0.04375000000000001
+O: halt : a41 : a42         0.04375000000000001
+O: halt : a41 : a50         0.04375000000000001
+O: halt : a41 : a51         0.04375000000000001
+O: halt : a41 : a52         0.04375000000000001
+O: halt : a42 : a42         0.6499999999999999
+O: halt : a42 : a31         0.04375000000000001
+O: halt : a42 : a32         0.04375000000000001
+O: halt : a42 : a33         0.04375000000000001
+O: halt : a42 : a41         0.04375000000000001
+O: halt : a42 : a43         0.04375000000000001
+O: halt : a42 : a51         0.04375000000000001
+O: halt : a42 : a52         0.04375000000000001
+O: halt : a42 : a53         0.04375000000000001
+O: halt : a43 : a43         0.6499999999999999
+O: halt : a43 : a32         0.04375000000000001
+O: halt : a43 : a33         0.04375000000000001
+O: halt : a43 : a34         0.04375000000000001
+O: halt : a43 : a42         0.04375000000000001
+O: halt : a43 : a44         0.04375000000000001
+O: halt : a43 : a52         0.04375000000000001
+O: halt : a43 : a53         0.04375000000000001
+O: halt : a43 : a54         0.04375000000000001
+O: halt : a44 : a44         0.6499999999999999
+O: halt : a44 : a33         0.04375000000000001
+O: halt : a44 : a34         0.04375000000000001
+O: halt : a44 : a35         0.04375000000000001
+O: halt : a44 : a43         0.04375000000000001
+O: halt : a44 : a45         0.04375000000000001
+O: halt : a44 : a53         0.04375000000000001
+O: halt : a44 : a54         0.04375000000000001
+O: halt : a44 : a55         0.04375000000000001
+O: halt : a45 : a45         0.6499999999999999
+O: halt : a45 : a34         0.04375000000000001
+O: halt : a45 : a35         0.04375000000000001
+O: halt : a45 : a36         0.04375000000000001
+O: halt : a45 : a44         0.04375000000000001
+O: halt : a45 : a46         0.04375000000000001
+O: halt : a45 : a54         0.04375000000000001
+O: halt : a45 : a55         0.04375000000000001
+O: halt : a45 : a56         0.04375000000000001
+O: halt : a46 : a46         0.6499999999999999
+O: halt : a46 : a35         0.04375000000000001
+O: halt : a46 : a36         0.04375000000000001
+O: halt : a46 : a37         0.04375000000000001
+O: halt : a46 : a45         0.04375000000000001
+O: halt : a46 : a47         0.04375000000000001
+O: halt : a46 : a55         0.04375000000000001
+O: halt : a46 : a56         0.04375000000000001
+O: halt : a46 : a57         0.04375000000000001
+O: halt : a47 : a47         0.6499999999999999
+O: halt : a47 : a36         0.04375000000000001
+O: halt : a47 : a37         0.04375000000000001
+O: halt : a47 : a38         0.04375000000000001
+O: halt : a47 : a46         0.04375000000000001
+O: halt : a47 : a48         0.04375000000000001
+O: halt : a47 : a56         0.04375000000000001
+O: halt : a47 : a57         0.04375000000000001
+O: halt : a47 : a58         0.04375000000000001
+O: halt : a48 : a48         0.6499999999999999
+O: halt : a48 : a37         0.04375000000000001
+O: halt : a48 : a38         0.04375000000000001
+O: halt : a48 : a39         0.04375000000000001
+O: halt : a48 : a47         0.04375000000000001
+O: halt : a48 : a49         0.04375000000000001
+O: halt : a48 : a57         0.04375000000000001
+O: halt : a48 : a58         0.04375000000000001
+O: halt : a48 : a59         0.04375000000000001
+O: halt : a49 : a49         0.6499999999999999
+O: halt : a49 : a38         0.07000000000000002
+O: halt : a49 : a39         0.07000000000000002
+O: halt : a49 : a48         0.07000000000000002
+O: halt : a49 : a58         0.07000000000000002
+O: halt : a49 : a59         0.07000000000000002
+O: halt : a50 : a50         0.69
+O: halt : a50 : a40         0.06200000000000001
+O: halt : a50 : a41         0.06200000000000001
+O: halt : a50 : a51         0.06200000000000001
+O: halt : a50 : a60         0.06200000000000001
+O: halt : a50 : a61         0.06200000000000001
+O: halt : a51 : a51         0.69
+O: halt : a51 : a40         0.03875000000000001
+O: halt : a51 : a41         0.03875000000000001
+O: halt : a51 : a42         0.03875000000000001
+O: halt : a51 : a50         0.03875000000000001
+O: halt : a51 : a52         0.03875000000000001
+O: halt : a51 : a60         0.03875000000000001
+O: halt : a51 : a61         0.03875000000000001
+O: halt : a51 : a62         0.03875000000000001
+O: halt : a52 : a52         0.69
+O: halt : a52 : a41         0.03875000000000001
+O: halt : a52 : a42         0.03875000000000001
+O: halt : a52 : a43         0.03875000000000001
+O: halt : a52 : a51         0.03875000000000001
+O: halt : a52 : a53         0.03875000000000001
+O: halt : a52 : a61         0.03875000000000001
+O: halt : a52 : a62         0.03875000000000001
+O: halt : a52 : a63         0.03875000000000001
+O: halt : a53 : a53         0.69
+O: halt : a53 : a42         0.03875000000000001
+O: halt : a53 : a43         0.03875000000000001
+O: halt : a53 : a44         0.03875000000000001
+O: halt : a53 : a52         0.03875000000000001
+O: halt : a53 : a54         0.03875000000000001
+O: halt : a53 : a62         0.03875000000000001
+O: halt : a53 : a63         0.03875000000000001
+O: halt : a53 : a64         0.03875000000000001
+O: halt : a54 : a54         0.69
+O: halt : a54 : a43         0.03875000000000001
+O: halt : a54 : a44         0.03875000000000001
+O: halt : a54 : a45         0.03875000000000001
+O: halt : a54 : a53         0.03875000000000001
+O: halt : a54 : a55         0.03875000000000001
+O: halt : a54 : a63         0.03875000000000001
+O: halt : a54 : a64         0.03875000000000001
+O: halt : a54 : a65         0.03875000000000001
+O: halt : a55 : a55         0.69
+O: halt : a55 : a44         0.03875000000000001
+O: halt : a55 : a45         0.03875000000000001
+O: halt : a55 : a46         0.03875000000000001
+O: halt : a55 : a54         0.03875000000000001
+O: halt : a55 : a56         0.03875000000000001
+O: halt : a55 : a64         0.03875000000000001
+O: halt : a55 : a65         0.03875000000000001
+O: halt : a55 : a66         0.03875000000000001
+O: halt : a56 : a56         0.69
+O: halt : a56 : a45         0.03875000000000001
+O: halt : a56 : a46         0.03875000000000001
+O: halt : a56 : a47         0.03875000000000001
+O: halt : a56 : a55         0.03875000000000001
+O: halt : a56 : a57         0.03875000000000001
+O: halt : a56 : a65         0.03875000000000001
+O: halt : a56 : a66         0.03875000000000001
+O: halt : a56 : a67         0.03875000000000001
+O: halt : a57 : a57         0.69
+O: halt : a57 : a46         0.03875000000000001
+O: halt : a57 : a47         0.03875000000000001
+O: halt : a57 : a48         0.03875000000000001
+O: halt : a57 : a56         0.03875000000000001
+O: halt : a57 : a58         0.03875000000000001
+O: halt : a57 : a66         0.03875000000000001
+O: halt : a57 : a67         0.03875000000000001
+O: halt : a57 : a68         0.03875000000000001
+O: halt : a58 : a58         0.69
+O: halt : a58 : a47         0.03875000000000001
+O: halt : a58 : a48         0.03875000000000001
+O: halt : a58 : a49         0.03875000000000001
+O: halt : a58 : a57         0.03875000000000001
+O: halt : a58 : a59         0.03875000000000001
+O: halt : a58 : a67         0.03875000000000001
+O: halt : a58 : a68         0.03875000000000001
+O: halt : a58 : a69         0.03875000000000001
+O: halt : a59 : a59         0.69
+O: halt : a59 : a48         0.06200000000000001
+O: halt : a59 : a49         0.06200000000000001
+O: halt : a59 : a58         0.06200000000000001
+O: halt : a59 : a68         0.06200000000000001
+O: halt : a59 : a69         0.06200000000000001
+O: halt : a60 : a60         0.73
+O: halt : a60 : a50         0.054000000000000006
+O: halt : a60 : a51         0.054000000000000006
+O: halt : a60 : a61         0.054000000000000006
+O: halt : a60 : a70         0.054000000000000006
+O: halt : a60 : a71         0.054000000000000006
+O: halt : a61 : a61         0.73
+O: halt : a61 : a50         0.03375
+O: halt : a61 : a51         0.03375
+O: halt : a61 : a52         0.03375
+O: halt : a61 : a60         0.03375
+O: halt : a61 : a62         0.03375
+O: halt : a61 : a70         0.03375
+O: halt : a61 : a71         0.03375
+O: halt : a61 : a72         0.03375
+O: halt : a62 : a62         0.73
+O: halt : a62 : a51         0.03375
+O: halt : a62 : a52         0.03375
+O: halt : a62 : a53         0.03375
+O: halt : a62 : a61         0.03375
+O: halt : a62 : a63         0.03375
+O: halt : a62 : a71         0.03375
+O: halt : a62 : a72         0.03375
+O: halt : a62 : a73         0.03375
+O: halt : a63 : a63         0.73
+O: halt : a63 : a52         0.03375
+O: halt : a63 : a53         0.03375
+O: halt : a63 : a54         0.03375
+O: halt : a63 : a62         0.03375
+O: halt : a63 : a64         0.03375
+O: halt : a63 : a72         0.03375
+O: halt : a63 : a73         0.03375
+O: halt : a63 : a74         0.03375
+O: halt : a64 : a64         0.73
+O: halt : a64 : a53         0.03375
+O: halt : a64 : a54         0.03375
+O: halt : a64 : a55         0.03375
+O: halt : a64 : a63         0.03375
+O: halt : a64 : a65         0.03375
+O: halt : a64 : a73         0.03375
+O: halt : a64 : a74         0.03375
+O: halt : a64 : a75         0.03375
+O: halt : a65 : a65         0.73
+O: halt : a65 : a54         0.03375
+O: halt : a65 : a55         0.03375
+O: halt : a65 : a56         0.03375
+O: halt : a65 : a64         0.03375
+O: halt : a65 : a66         0.03375
+O: halt : a65 : a74         0.03375
+O: halt : a65 : a75         0.03375
+O: halt : a65 : a76         0.03375
+O: halt : a66 : a66         0.73
+O: halt : a66 : a55         0.03375
+O: halt : a66 : a56         0.03375
+O: halt : a66 : a57         0.03375
+O: halt : a66 : a65         0.03375
+O: halt : a66 : a67         0.03375
+O: halt : a66 : a75         0.03375
+O: halt : a66 : a76         0.03375
+O: halt : a66 : a77         0.03375
+O: halt : a67 : a67         0.73
+O: halt : a67 : a56         0.03375
+O: halt : a67 : a57         0.03375
+O: halt : a67 : a58         0.03375
+O: halt : a67 : a66         0.03375
+O: halt : a67 : a68         0.03375
+O: halt : a67 : a76         0.03375
+O: halt : a67 : a77         0.03375
+O: halt : a67 : a78         0.03375
+O: halt : a68 : a68         0.73
+O: halt : a68 : a57         0.03375
+O: halt : a68 : a58         0.03375
+O: halt : a68 : a59         0.03375
+O: halt : a68 : a67         0.03375
+O: halt : a68 : a69         0.03375
+O: halt : a68 : a77         0.03375
+O: halt : a68 : a78         0.03375
+O: halt : a68 : a79         0.03375
+O: halt : a69 : a69         0.73
+O: halt : a69 : a58         0.054000000000000006
+O: halt : a69 : a59         0.054000000000000006
+O: halt : a69 : a68         0.054000000000000006
+O: halt : a69 : a78         0.054000000000000006
+O: halt : a69 : a79         0.054000000000000006
+O: halt : a70 : a70         0.77
+O: halt : a70 : a60         0.046
+O: halt : a70 : a61         0.046
+O: halt : a70 : a71         0.046
+O: halt : a70 : a80         0.046
+O: halt : a70 : a81         0.046
+O: halt : a71 : a71         0.77
+O: halt : a71 : a60         0.028749999999999998
+O: halt : a71 : a61         0.028749999999999998
+O: halt : a71 : a62         0.028749999999999998
+O: halt : a71 : a70         0.028749999999999998
+O: halt : a71 : a72         0.028749999999999998
+O: halt : a71 : a80         0.028749999999999998
+O: halt : a71 : a81         0.028749999999999998
+O: halt : a71 : a82         0.028749999999999998
+O: halt : a72 : a72         0.77
+O: halt : a72 : a61         0.028749999999999998
+O: halt : a72 : a62         0.028749999999999998
+O: halt : a72 : a63         0.028749999999999998
+O: halt : a72 : a71         0.028749999999999998
+O: halt : a72 : a73         0.028749999999999998
+O: halt : a72 : a81         0.028749999999999998
+O: halt : a72 : a82         0.028749999999999998
+O: halt : a72 : a83         0.028749999999999998
+O: halt : a73 : a73         0.77
+O: halt : a73 : a62         0.028749999999999998
+O: halt : a73 : a63         0.028749999999999998
+O: halt : a73 : a64         0.028749999999999998
+O: halt : a73 : a72         0.028749999999999998
+O: halt : a73 : a74         0.028749999999999998
+O: halt : a73 : a82         0.028749999999999998
+O: halt : a73 : a83         0.028749999999999998
+O: halt : a73 : a84         0.028749999999999998
+O: halt : a74 : a74         0.77
+O: halt : a74 : a63         0.028749999999999998
+O: halt : a74 : a64         0.028749999999999998
+O: halt : a74 : a65         0.028749999999999998
+O: halt : a74 : a73         0.028749999999999998
+O: halt : a74 : a75         0.028749999999999998
+O: halt : a74 : a83         0.028749999999999998
+O: halt : a74 : a84         0.028749999999999998
+O: halt : a74 : a85         0.028749999999999998
+O: halt : a75 : a75         0.77
+O: halt : a75 : a64         0.028749999999999998
+O: halt : a75 : a65         0.028749999999999998
+O: halt : a75 : a66         0.028749999999999998
+O: halt : a75 : a74         0.028749999999999998
+O: halt : a75 : a76         0.028749999999999998
+O: halt : a75 : a84         0.028749999999999998
+O: halt : a75 : a85         0.028749999999999998
+O: halt : a75 : a86         0.028749999999999998
+O: halt : a76 : a76         0.77
+O: halt : a76 : a65         0.028749999999999998
+O: halt : a76 : a66         0.028749999999999998
+O: halt : a76 : a67         0.028749999999999998
+O: halt : a76 : a75         0.028749999999999998
+O: halt : a76 : a77         0.028749999999999998
+O: halt : a76 : a85         0.028749999999999998
+O: halt : a76 : a86         0.028749999999999998
+O: halt : a76 : a87         0.028749999999999998
+O: halt : a77 : a77         0.77
+O: halt : a77 : a66         0.028749999999999998
+O: halt : a77 : a67         0.028749999999999998
+O: halt : a77 : a68         0.028749999999999998
+O: halt : a77 : a76         0.028749999999999998
+O: halt : a77 : a78         0.028749999999999998
+O: halt : a77 : a86         0.028749999999999998
+O: halt : a77 : a87         0.028749999999999998
+O: halt : a77 : a88         0.028749999999999998
+O: halt : a78 : a78         0.77
+O: halt : a78 : a67         0.028749999999999998
+O: halt : a78 : a68         0.028749999999999998
+O: halt : a78 : a69         0.028749999999999998
+O: halt : a78 : a77         0.028749999999999998
+O: halt : a78 : a79         0.028749999999999998
+O: halt : a78 : a87         0.028749999999999998
+O: halt : a78 : a88         0.028749999999999998
+O: halt : a78 : a89         0.028749999999999998
+O: halt : a79 : a79         0.77
+O: halt : a79 : a68         0.046
+O: halt : a79 : a69         0.046
+O: halt : a79 : a78         0.046
+O: halt : a79 : a88         0.046
+O: halt : a79 : a89         0.046
+O: halt : a80 : a80         0.8099999999999999
+O: halt : a80 : a70         0.03800000000000001
+O: halt : a80 : a71         0.03800000000000001
+O: halt : a80 : a81         0.03800000000000001
+O: halt : a80 : a90         0.03800000000000001
+O: halt : a80 : a91         0.03800000000000001
+O: halt : a81 : a81         0.8099999999999999
+O: halt : a81 : a70         0.023750000000000007
+O: halt : a81 : a71         0.023750000000000007
+O: halt : a81 : a72         0.023750000000000007
+O: halt : a81 : a80         0.023750000000000007
+O: halt : a81 : a82         0.023750000000000007
+O: halt : a81 : a90         0.023750000000000007
+O: halt : a81 : a91         0.023750000000000007
+O: halt : a81 : a92         0.023750000000000007
+O: halt : a82 : a82         0.8099999999999999
+O: halt : a82 : a71         0.023750000000000007
+O: halt : a82 : a72         0.023750000000000007
+O: halt : a82 : a73         0.023750000000000007
+O: halt : a82 : a81         0.023750000000000007
+O: halt : a82 : a83         0.023750000000000007
+O: halt : a82 : a91         0.023750000000000007
+O: halt : a82 : a92         0.023750000000000007
+O: halt : a82 : a93         0.023750000000000007
+O: halt : a83 : a83         0.8099999999999999
+O: halt : a83 : a72         0.023750000000000007
+O: halt : a83 : a73         0.023750000000000007
+O: halt : a83 : a74         0.023750000000000007
+O: halt : a83 : a82         0.023750000000000007
+O: halt : a83 : a84         0.023750000000000007
+O: halt : a83 : a92         0.023750000000000007
+O: halt : a83 : a93         0.023750000000000007
+O: halt : a83 : a94         0.023750000000000007
+O: halt : a84 : a84         0.8099999999999999
+O: halt : a84 : a73         0.023750000000000007
+O: halt : a84 : a74         0.023750000000000007
+O: halt : a84 : a75         0.023750000000000007
+O: halt : a84 : a83         0.023750000000000007
+O: halt : a84 : a85         0.023750000000000007
+O: halt : a84 : a93         0.023750000000000007
+O: halt : a84 : a94         0.023750000000000007
+O: halt : a84 : a95         0.023750000000000007
+O: halt : a85 : a85         0.8099999999999999
+O: halt : a85 : a74         0.023750000000000007
+O: halt : a85 : a75         0.023750000000000007
+O: halt : a85 : a76         0.023750000000000007
+O: halt : a85 : a84         0.023750000000000007
+O: halt : a85 : a86         0.023750000000000007
+O: halt : a85 : a94         0.023750000000000007
+O: halt : a85 : a95         0.023750000000000007
+O: halt : a85 : a96         0.023750000000000007
+O: halt : a86 : a86         0.8099999999999999
+O: halt : a86 : a75         0.023750000000000007
+O: halt : a86 : a76         0.023750000000000007
+O: halt : a86 : a77         0.023750000000000007
+O: halt : a86 : a85         0.023750000000000007
+O: halt : a86 : a87         0.023750000000000007
+O: halt : a86 : a95         0.023750000000000007
+O: halt : a86 : a96         0.023750000000000007
+O: halt : a86 : a97         0.023750000000000007
+O: halt : a87 : a87         0.8099999999999999
+O: halt : a87 : a76         0.023750000000000007
+O: halt : a87 : a77         0.023750000000000007
+O: halt : a87 : a78         0.023750000000000007
+O: halt : a87 : a86         0.023750000000000007
+O: halt : a87 : a88         0.023750000000000007
+O: halt : a87 : a96         0.023750000000000007
+O: halt : a87 : a97         0.023750000000000007
+O: halt : a87 : a98         0.023750000000000007
+O: halt : a88 : a88         0.8099999999999999
+O: halt : a88 : a77         0.023750000000000007
+O: halt : a88 : a78         0.023750000000000007
+O: halt : a88 : a79         0.023750000000000007
+O: halt : a88 : a87         0.023750000000000007
+O: halt : a88 : a89         0.023750000000000007
+O: halt : a88 : a97         0.023750000000000007
+O: halt : a88 : a98         0.023750000000000007
+O: halt : a88 : a99         0.023750000000000007
+O: halt : a89 : a89         0.8099999999999999
+O: halt : a89 : a78         0.03800000000000001
+O: halt : a89 : a79         0.03800000000000001
+O: halt : a89 : a88         0.03800000000000001
+O: halt : a89 : a98         0.03800000000000001
+O: halt : a89 : a99         0.03800000000000001
+O: halt : a90 : a90         0.85
+O: halt : a90 : a80         0.05000000000000001
+O: halt : a90 : a81         0.05000000000000001
+O: halt : a90 : a91         0.05000000000000001
+O: halt : a91 : a91         0.85
+O: halt : a91 : a80         0.030000000000000006
+O: halt : a91 : a81         0.030000000000000006
+O: halt : a91 : a82         0.030000000000000006
+O: halt : a91 : a90         0.030000000000000006
+O: halt : a91 : a92         0.030000000000000006
+O: halt : a92 : a92         0.85
+O: halt : a92 : a81         0.030000000000000006
+O: halt : a92 : a82         0.030000000000000006
+O: halt : a92 : a83         0.030000000000000006
+O: halt : a92 : a91         0.030000000000000006
+O: halt : a92 : a93         0.030000000000000006
+O: halt : a93 : a93         0.85
+O: halt : a93 : a82         0.030000000000000006
+O: halt : a93 : a83         0.030000000000000006
+O: halt : a93 : a84         0.030000000000000006
+O: halt : a93 : a92         0.030000000000000006
+O: halt : a93 : a94         0.030000000000000006
+O: halt : a94 : a94         0.85
+O: halt : a94 : a83         0.030000000000000006
+O: halt : a94 : a84         0.030000000000000006
+O: halt : a94 : a85         0.030000000000000006
+O: halt : a94 : a93         0.030000000000000006
+O: halt : a94 : a95         0.030000000000000006
+O: halt : a95 : a95         0.85
+O: halt : a95 : a84         0.030000000000000006
+O: halt : a95 : a85         0.030000000000000006
+O: halt : a95 : a86         0.030000000000000006
+O: halt : a95 : a94         0.030000000000000006
+O: halt : a95 : a96         0.030000000000000006
+O: halt : a96 : a96         0.85
+O: halt : a96 : a85         0.030000000000000006
+O: halt : a96 : a86         0.030000000000000006
+O: halt : a96 : a87         0.030000000000000006
+O: halt : a96 : a95         0.030000000000000006
+O: halt : a96 : a97         0.030000000000000006
+O: halt : a97 : a97         0.85
+O: halt : a97 : a86         0.030000000000000006
+O: halt : a97 : a87         0.030000000000000006
+O: halt : a97 : a88         0.030000000000000006
+O: halt : a97 : a96         0.030000000000000006
+O: halt : a97 : a98         0.030000000000000006
+O: halt : a98 : a98         0.85
+O: halt : a98 : a87         0.030000000000000006
+O: halt : a98 : a88         0.030000000000000006
+O: halt : a98 : a89         0.030000000000000006
+O: halt : a98 : a97         0.030000000000000006
+O: halt : a98 : a99         0.030000000000000006
+O: halt : a99 : a99         0.85
+O: halt : a99 : a88         0.05000000000000001
+O: halt : a99 : a89         0.05000000000000001
+O: halt : a99 : a98         0.05000000000000001
+O: right : a0 : null         1.0
+O: right : a10 : null         1.0
+O: right : a20 : null         1.0
+O: right : a30 : null         1.0
+O: right : a40 : null         1.0
+O: right : a50 : null         1.0
+O: right : a60 : null         1.0
+O: right : a70 : null         1.0
+O: right : a80 : null         1.0
+O: right : a90 : null         1.0
+O: left : a9 : null         1.0
+O: left : a19 : null         1.0
+O: left : a29 : null         1.0
+O: left : a39 : null         1.0
+O: left : a49 : null         1.0
+O: left : a59 : null         1.0
+O: left : a69 : null         1.0
+O: left : a79 : null         1.0
+O: left : a89 : null         1.0
+O: left : a99 : null         1.0
+O: down : a0 : null         1.0
+O: down : a1 : null         1.0
+O: down : a2 : null         1.0
+O: down : a3 : null         1.0
+O: down : a4 : null         1.0
+O: down : a5 : null         1.0
+O: down : a6 : null         1.0
+O: down : a7 : null         1.0
+O: down : a8 : null         1.0
+O: down : a9 : null         1.0
+O: up : a90 : null         1.0
+O: up : a91 : null         1.0
+O: up : a92 : null         1.0
+O: up : a93 : null         1.0
+O: up : a94 : null         1.0
+O: up : a95 : null         1.0
+O: up : a96 : null         1.0
+O: up : a97 : null         1.0
+O: up : a98 : null         1.0
+O: up : a99 : null         1.0

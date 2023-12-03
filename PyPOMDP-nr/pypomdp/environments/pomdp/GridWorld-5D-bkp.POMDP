@@ -1,0 +1,603 @@
+discount: 0.9
+values: reward
+actions: up down left right halt
+states: a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
+observations: a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 null
+start: a2
+
+R: up : a0 : *  : *       -10
+R: up : a1 : *  : *       -10
+R: up : a2 : *  : *       -10
+R: up : a3 : *  : *       -10
+R: up : a4 : *  : *       -1
+R: up : a5 : *  : *       -1
+R: up : a6 : *  : *       -1
+R: up : a7 : *  : *       -1
+R: up : a8 : *  : *       -1
+R: up : a9 : *  : *       -1
+R: up : a10 : *  : *       -1
+R: up : a11 : *  : *       -1
+R: up : a12 : *  : *       -1
+R: up : a13 : *  : *       -1
+R: up : a14 : *  : *       -1
+R: up : a15 : *  : *       40
+R: down : a0 : *  : *       -1
+R: down : a1 : *  : *       -1
+R: down : a2 : *  : *       -1
+R: down : a3 : *  : *       -1
+R: down : a4 : *  : *       -1
+R: down : a5 : *  : *       -1
+R: down : a6 : *  : *       -1
+R: down : a7 : *  : *       40
+R: down : a8 : *  : *       -1
+R: down : a9 : *  : *       -1
+R: down : a10 : *  : *       -1
+R: down : a11 : *  : *       -1
+R: down : a12 : *  : *       -10
+R: down : a13 : *  : *       -10
+R: down : a14 : *  : *       -10
+R: down : a15 : *  : *       -10
+R: left : a0 : *  : *       -10
+R: left : a1 : *  : *       -1
+R: left : a2 : *  : *       -1
+R: left : a3 : *  : *       -1
+R: left : a4 : *  : *       -10
+R: left : a5 : *  : *       -1
+R: left : a6 : *  : *       -1
+R: left : a7 : *  : *       -1
+R: left : a8 : *  : *       -10
+R: left : a9 : *  : *       -1
+R: left : a10 : *  : *       -1
+R: left : a11 : *  : *       -1
+R: left : a12 : *  : *       -10
+R: left : a13 : *  : *       -1
+R: left : a14 : *  : *       -1
+R: left : a15 : *  : *       -1
+R: right : a0 : *  : *       -1
+R: right : a1 : *  : *       -1
+R: right : a2 : *  : *       -1
+R: right : a3 : *  : *       -10
+R: right : a4 : *  : *       -1
+R: right : a5 : *  : *       -1
+R: right : a6 : *  : *       -1
+R: right : a7 : *  : *       -10
+R: right : a8 : *  : *       -1
+R: right : a9 : *  : *       -1
+R: right : a10 : *  : *       40
+R: right : a11 : *  : *       -10
+R: right : a12 : *  : *       -1
+R: right : a13 : *  : *       -1
+R: right : a14 : *  : *       -1
+R: right : a15 : *  : *       -10
+R: halt : a0 : *  : *       0
+R: halt : a1 : *  : *       0
+R: halt : a2 : *  : *       0
+R: halt : a3 : *  : *       0
+R: halt : a4 : *  : *       0
+R: halt : a5 : *  : *       0
+R: halt : a6 : *  : *       0
+R: halt : a7 : *  : *       0
+R: halt : a8 : *  : *       0
+R: halt : a9 : *  : *       0
+R: halt : a10 : *  : *       0
+R: halt : a11 : *  : *       40
+R: halt : a12 : *  : *       0
+R: halt : a13 : *  : *       0
+R: halt : a14 : *  : *       0
+R: halt : a15 : *  : *       0
+T: up : a0 : a0         1.0
+T: up : a1 : a1         1.0
+T: up : a2 : a2         1.0
+T: up : a3 : a3         1.0
+T: up : a4 : a0         1.0
+T: up : a5 : a1         1.0
+T: up : a6 : a2         1.0
+T: up : a7 : a3         1.0
+T: up : a8 : a4         1.0
+T: up : a9 : a5         1.0
+T: up : a10 : a6         1.0
+T: up : a11 : a7         1.0
+T: up : a12 : a8         1.0
+T: up : a13 : a9         1.0
+T: up : a14 : a10         1.0
+T: up : a15 : a11         1.0
+T: down : a0 : a4         1.0
+T: down : a1 : a5         1.0
+T: down : a2 : a6         1.0
+T: down : a3 : a7         1.0
+T: down : a4 : a8         1.0
+T: down : a5 : a9         1.0
+T: down : a6 : a10         1.0
+T: down : a7 : a11         1.0
+T: down : a8 : a12         1.0
+T: down : a9 : a13         1.0
+T: down : a10 : a14         1.0
+T: down : a11 : a15         1.0
+T: down : a12 : a12         1.0
+T: down : a13 : a13         1.0
+T: down : a14 : a14         1.0
+T: down : a15 : a15         1.0
+T: left : a0 : a0         1.0
+T: left : a1 : a0         1.0
+T: left : a2 : a1         1.0
+T: left : a3 : a2         1.0
+T: left : a4 : a4         1.0
+T: left : a5 : a4         1.0
+T: left : a6 : a5         1.0
+T: left : a7 : a6         1.0
+T: left : a8 : a8         1.0
+T: left : a9 : a8         1.0
+T: left : a10 : a9         1.0
+T: left : a11 : a10         1.0
+T: left : a12 : a12         1.0
+T: left : a13 : a12         1.0
+T: left : a14 : a13         1.0
+T: left : a15 : a14         1.0
+T: right : a0 : a1         1.0
+T: right : a1 : a2         1.0
+T: right : a2 : a3         1.0
+T: right : a3 : a3         1.0
+T: right : a4 : a5         1.0
+T: right : a5 : a6         1.0
+T: right : a6 : a7         1.0
+T: right : a7 : a7         1.0
+T: right : a8 : a9         1.0
+T: right : a9 : a10         1.0
+T: right : a10 : a11         1.0
+T: right : a11 : a11         1.0
+T: right : a12 : a13         1.0
+T: right : a13 : a14         1.0
+T: right : a14 : a15         1.0
+T: right : a15 : a15         1.0
+T: halt : a0 : a0         1.0
+T: halt : a1 : a1         1.0
+T: halt : a2 : a2         1.0
+T: halt : a3 : a3         1.0
+T: halt : a4 : a4         1.0
+T: halt : a5 : a5         1.0
+T: halt : a6 : a6         1.0
+T: halt : a7 : a7         1.0
+T: halt : a8 : a8         1.0
+T: halt : a9 : a9         1.0
+T: halt : a10 : a10         1.0
+T: halt : a11 : a11         1.0
+T: halt : a12 : a12         1.0
+T: halt : a13 : a13         1.0
+T: halt : a14 : a14         1.0
+T: halt : a15 : a15         1.0
+O: up : a0 : a0         0.85
+O: up : a0 : a1         0.05000000000000001
+O: up : a0 : a4         0.05000000000000001
+O: up : a0 : a5         0.05000000000000001
+O: up : a1 : a1         0.85
+O: up : a1 : a0         0.030000000000000006
+O: up : a1 : a2         0.030000000000000006
+O: up : a1 : a4         0.030000000000000006
+O: up : a1 : a5         0.030000000000000006
+O: up : a1 : a6         0.030000000000000006
+O: up : a2 : a2         0.85
+O: up : a2 : a1         0.030000000000000006
+O: up : a2 : a3         0.030000000000000006
+O: up : a2 : a5         0.030000000000000006
+O: up : a2 : a6         0.030000000000000006
+O: up : a2 : a7         0.030000000000000006
+O: up : a3 : a3         0.85
+O: up : a3 : a2         0.05000000000000001
+O: up : a3 : a6         0.05000000000000001
+O: up : a3 : a7         0.05000000000000001
+O: up : a4 : a4         0.6
+O: up : a4 : a0         0.08
+O: up : a4 : a1         0.08
+O: up : a4 : a5         0.08
+O: up : a4 : a8         0.08
+O: up : a4 : a9         0.08
+O: up : a5 : a5         0.44999999999999996
+O: up : a5 : a0         0.06875
+O: up : a5 : a1         0.06875
+O: up : a5 : a2         0.06875
+O: up : a5 : a4         0.06875
+O: up : a5 : a6         0.06875
+O: up : a5 : a8         0.06875
+O: up : a5 : a9         0.06875
+O: up : a5 : a10         0.06875
+O: up : a6 : a6         0.44999999999999996
+O: up : a6 : a1         0.06875
+O: up : a6 : a2         0.06875
+O: up : a6 : a3         0.06875
+O: up : a6 : a5         0.06875
+O: up : a6 : a7         0.06875
+O: up : a6 : a9         0.06875
+O: up : a6 : a10         0.06875
+O: up : a6 : a11         0.06875
+O: up : a7 : a7         0.6
+O: up : a7 : a2         0.08
+O: up : a7 : a3         0.08
+O: up : a7 : a6         0.08
+O: up : a7 : a10         0.08
+O: up : a7 : a11         0.08
+O: up : a8 : a8         0.35
+O: up : a8 : a4         0.13
+O: up : a8 : a5         0.13
+O: up : a8 : a9         0.13
+O: up : a8 : a12         0.13
+O: up : a8 : a13         0.13
+O: up : a9 : a9         0.04999999999999993
+O: up : a9 : a4         0.11875000000000001
+O: up : a9 : a5         0.11875000000000001
+O: up : a9 : a6         0.11875000000000001
+O: up : a9 : a8         0.11875000000000001
+O: up : a9 : a10         0.11875000000000001
+O: up : a9 : a12         0.11875000000000001
+O: up : a9 : a13         0.11875000000000001
+O: up : a9 : a14         0.11875000000000001
+O: up : a10 : a10         0.04999999999999993
+O: up : a10 : a5         0.11875000000000001
+O: up : a10 : a6         0.11875000000000001
+O: up : a10 : a7         0.11875000000000001
+O: up : a10 : a9         0.11875000000000001
+O: up : a10 : a11         0.11875000000000001
+O: up : a10 : a13         0.11875000000000001
+O: up : a10 : a14         0.11875000000000001
+O: up : a10 : a15         0.11875000000000001
+O: up : a11 : a11         0.35
+O: up : a11 : a6         0.13
+O: up : a11 : a7         0.13
+O: up : a11 : a10         0.13
+O: up : a11 : a14         0.13
+O: up : a11 : a15         0.13
+O: down : a4 : a4         0.6
+O: down : a4 : a0         0.08
+O: down : a4 : a1         0.08
+O: down : a4 : a5         0.08
+O: down : a4 : a8         0.08
+O: down : a4 : a9         0.08
+O: down : a5 : a5         0.44999999999999996
+O: down : a5 : a0         0.06875
+O: down : a5 : a1         0.06875
+O: down : a5 : a2         0.06875
+O: down : a5 : a4         0.06875
+O: down : a5 : a6         0.06875
+O: down : a5 : a8         0.06875
+O: down : a5 : a9         0.06875
+O: down : a5 : a10         0.06875
+O: down : a6 : a6         0.44999999999999996
+O: down : a6 : a1         0.06875
+O: down : a6 : a2         0.06875
+O: down : a6 : a3         0.06875
+O: down : a6 : a5         0.06875
+O: down : a6 : a7         0.06875
+O: down : a6 : a9         0.06875
+O: down : a6 : a10         0.06875
+O: down : a6 : a11         0.06875
+O: down : a7 : a7         0.6
+O: down : a7 : a2         0.08
+O: down : a7 : a3         0.08
+O: down : a7 : a6         0.08
+O: down : a7 : a10         0.08
+O: down : a7 : a11         0.08
+O: down : a8 : a8         0.35
+O: down : a8 : a4         0.13
+O: down : a8 : a5         0.13
+O: down : a8 : a9         0.13
+O: down : a8 : a12         0.13
+O: down : a8 : a13         0.13
+O: down : a9 : a9         0.04999999999999993
+O: down : a9 : a4         0.11875000000000001
+O: down : a9 : a5         0.11875000000000001
+O: down : a9 : a6         0.11875000000000001
+O: down : a9 : a8         0.11875000000000001
+O: down : a9 : a10         0.11875000000000001
+O: down : a9 : a12         0.11875000000000001
+O: down : a9 : a13         0.11875000000000001
+O: down : a9 : a14         0.11875000000000001
+O: down : a10 : a10         0.04999999999999993
+O: down : a10 : a5         0.11875000000000001
+O: down : a10 : a6         0.11875000000000001
+O: down : a10 : a7         0.11875000000000001
+O: down : a10 : a9         0.11875000000000001
+O: down : a10 : a11         0.11875000000000001
+O: down : a10 : a13         0.11875000000000001
+O: down : a10 : a14         0.11875000000000001
+O: down : a10 : a15         0.11875000000000001
+O: down : a11 : a11         0.35
+O: down : a11 : a6         0.13
+O: down : a11 : a7         0.13
+O: down : a11 : a10         0.13
+O: down : a11 : a14         0.13
+O: down : a11 : a15         0.13
+O: down : a12 : a12         0.3999999999999999
+O: down : a12 : a8         0.20000000000000004
+O: down : a12 : a9         0.20000000000000004
+O: down : a12 : a13         0.20000000000000004
+O: down : a13 : a13         0.09999999999999998
+O: down : a13 : a8         0.18
+O: down : a13 : a9         0.18
+O: down : a13 : a10         0.18
+O: down : a13 : a12         0.18
+O: down : a13 : a14         0.18
+O: down : a14 : a14         0.09999999999999998
+O: down : a14 : a9         0.18
+O: down : a14 : a10         0.18
+O: down : a14 : a11         0.18
+O: down : a14 : a13         0.18
+O: down : a14 : a15         0.18
+O: down : a15 : a15         0.3999999999999999
+O: down : a15 : a10         0.20000000000000004
+O: down : a15 : a11         0.20000000000000004
+O: down : a15 : a14         0.20000000000000004
+O: left : a0 : a0         0.85
+O: left : a0 : a1         0.05000000000000001
+O: left : a0 : a4         0.05000000000000001
+O: left : a0 : a5         0.05000000000000001
+O: left : a1 : a1         0.85
+O: left : a1 : a0         0.030000000000000006
+O: left : a1 : a2         0.030000000000000006
+O: left : a1 : a4         0.030000000000000006
+O: left : a1 : a5         0.030000000000000006
+O: left : a1 : a6         0.030000000000000006
+O: left : a2 : a2         0.85
+O: left : a2 : a1         0.030000000000000006
+O: left : a2 : a3         0.030000000000000006
+O: left : a2 : a5         0.030000000000000006
+O: left : a2 : a6         0.030000000000000006
+O: left : a2 : a7         0.030000000000000006
+O: left : a4 : a4         0.6
+O: left : a4 : a0         0.08
+O: left : a4 : a1         0.08
+O: left : a4 : a5         0.08
+O: left : a4 : a8         0.08
+O: left : a4 : a9         0.08
+O: left : a5 : a5         0.44999999999999996
+O: left : a5 : a0         0.06875
+O: left : a5 : a1         0.06875
+O: left : a5 : a2         0.06875
+O: left : a5 : a4         0.06875
+O: left : a5 : a6         0.06875
+O: left : a5 : a8         0.06875
+O: left : a5 : a9         0.06875
+O: left : a5 : a10         0.06875
+O: left : a6 : a6         0.44999999999999996
+O: left : a6 : a1         0.06875
+O: left : a6 : a2         0.06875
+O: left : a6 : a3         0.06875
+O: left : a6 : a5         0.06875
+O: left : a6 : a7         0.06875
+O: left : a6 : a9         0.06875
+O: left : a6 : a10         0.06875
+O: left : a6 : a11         0.06875
+O: left : a8 : a8         0.35
+O: left : a8 : a4         0.13
+O: left : a8 : a5         0.13
+O: left : a8 : a9         0.13
+O: left : a8 : a12         0.13
+O: left : a8 : a13         0.13
+O: left : a9 : a9         0.04999999999999993
+O: left : a9 : a4         0.11875000000000001
+O: left : a9 : a5         0.11875000000000001
+O: left : a9 : a6         0.11875000000000001
+O: left : a9 : a8         0.11875000000000001
+O: left : a9 : a10         0.11875000000000001
+O: left : a9 : a12         0.11875000000000001
+O: left : a9 : a13         0.11875000000000001
+O: left : a9 : a14         0.11875000000000001
+O: left : a10 : a10         0.04999999999999993
+O: left : a10 : a5         0.11875000000000001
+O: left : a10 : a6         0.11875000000000001
+O: left : a10 : a7         0.11875000000000001
+O: left : a10 : a9         0.11875000000000001
+O: left : a10 : a11         0.11875000000000001
+O: left : a10 : a13         0.11875000000000001
+O: left : a10 : a14         0.11875000000000001
+O: left : a10 : a15         0.11875000000000001
+O: left : a12 : a12         0.3999999999999999
+O: left : a12 : a8         0.20000000000000004
+O: left : a12 : a9         0.20000000000000004
+O: left : a12 : a13         0.20000000000000004
+O: left : a13 : a13         0.09999999999999998
+O: left : a13 : a8         0.18
+O: left : a13 : a9         0.18
+O: left : a13 : a10         0.18
+O: left : a13 : a12         0.18
+O: left : a13 : a14         0.18
+O: left : a14 : a14         0.09999999999999998
+O: left : a14 : a9         0.18
+O: left : a14 : a10         0.18
+O: left : a14 : a11         0.18
+O: left : a14 : a13         0.18
+O: left : a14 : a15         0.18
+O: right : a1 : a1         0.85
+O: right : a1 : a0         0.030000000000000006
+O: right : a1 : a2         0.030000000000000006
+O: right : a1 : a4         0.030000000000000006
+O: right : a1 : a5         0.030000000000000006
+O: right : a1 : a6         0.030000000000000006
+O: right : a2 : a2         0.85
+O: right : a2 : a1         0.030000000000000006
+O: right : a2 : a3         0.030000000000000006
+O: right : a2 : a5         0.030000000000000006
+O: right : a2 : a6         0.030000000000000006
+O: right : a2 : a7         0.030000000000000006
+O: right : a3 : a3         0.85
+O: right : a3 : a2         0.05000000000000001
+O: right : a3 : a6         0.05000000000000001
+O: right : a3 : a7         0.05000000000000001
+O: right : a5 : a5         0.44999999999999996
+O: right : a5 : a0         0.06875
+O: right : a5 : a1         0.06875
+O: right : a5 : a2         0.06875
+O: right : a5 : a4         0.06875
+O: right : a5 : a6         0.06875
+O: right : a5 : a8         0.06875
+O: right : a5 : a9         0.06875
+O: right : a5 : a10         0.06875
+O: right : a6 : a6         0.44999999999999996
+O: right : a6 : a1         0.06875
+O: right : a6 : a2         0.06875
+O: right : a6 : a3         0.06875
+O: right : a6 : a5         0.06875
+O: right : a6 : a7         0.06875
+O: right : a6 : a9         0.06875
+O: right : a6 : a10         0.06875
+O: right : a6 : a11         0.06875
+O: right : a7 : a7         0.6
+O: right : a7 : a2         0.08
+O: right : a7 : a3         0.08
+O: right : a7 : a6         0.08
+O: right : a7 : a10         0.08
+O: right : a7 : a11         0.08
+O: right : a9 : a9         0.04999999999999993
+O: right : a9 : a4         0.11875000000000001
+O: right : a9 : a5         0.11875000000000001
+O: right : a9 : a6         0.11875000000000001
+O: right : a9 : a8         0.11875000000000001
+O: right : a9 : a10         0.11875000000000001
+O: right : a9 : a12         0.11875000000000001
+O: right : a9 : a13         0.11875000000000001
+O: right : a9 : a14         0.11875000000000001
+O: right : a10 : a10         0.04999999999999993
+O: right : a10 : a5         0.11875000000000001
+O: right : a10 : a6         0.11875000000000001
+O: right : a10 : a7         0.11875000000000001
+O: right : a10 : a9         0.11875000000000001
+O: right : a10 : a11         0.11875000000000001
+O: right : a10 : a13         0.11875000000000001
+O: right : a10 : a14         0.11875000000000001
+O: right : a10 : a15         0.11875000000000001
+O: right : a11 : a11         0.35
+O: right : a11 : a6         0.13
+O: right : a11 : a7         0.13
+O: right : a11 : a10         0.13
+O: right : a11 : a14         0.13
+O: right : a11 : a15         0.13
+O: right : a13 : a13         0.09999999999999998
+O: right : a13 : a8         0.18
+O: right : a13 : a9         0.18
+O: right : a13 : a10         0.18
+O: right : a13 : a12         0.18
+O: right : a13 : a14         0.18
+O: right : a14 : a14         0.09999999999999998
+O: right : a14 : a9         0.18
+O: right : a14 : a10         0.18
+O: right : a14 : a11         0.18
+O: right : a14 : a13         0.18
+O: right : a14 : a15         0.18
+O: right : a15 : a15         0.3999999999999999
+O: right : a15 : a10         0.20000000000000004
+O: right : a15 : a11         0.20000000000000004
+O: right : a15 : a14         0.20000000000000004
+O: halt : a0 : a0         0.85
+O: halt : a0 : a1         0.05000000000000001
+O: halt : a0 : a4         0.05000000000000001
+O: halt : a0 : a5         0.05000000000000001
+O: halt : a1 : a1         0.85
+O: halt : a1 : a0         0.030000000000000006
+O: halt : a1 : a2         0.030000000000000006
+O: halt : a1 : a4         0.030000000000000006
+O: halt : a1 : a5         0.030000000000000006
+O: halt : a1 : a6         0.030000000000000006
+O: halt : a2 : a2         0.85
+O: halt : a2 : a1         0.030000000000000006
+O: halt : a2 : a3         0.030000000000000006
+O: halt : a2 : a5         0.030000000000000006
+O: halt : a2 : a6         0.030000000000000006
+O: halt : a2 : a7         0.030000000000000006
+O: halt : a3 : a3         0.85
+O: halt : a3 : a2         0.05000000000000001
+O: halt : a3 : a6         0.05000000000000001
+O: halt : a3 : a7         0.05000000000000001
+O: halt : a4 : a4         0.6
+O: halt : a4 : a0         0.08
+O: halt : a4 : a1         0.08
+O: halt : a4 : a5         0.08
+O: halt : a4 : a8         0.08
+O: halt : a4 : a9         0.08
+O: halt : a5 : a5         0.44999999999999996
+O: halt : a5 : a0         0.06875
+O: halt : a5 : a1         0.06875
+O: halt : a5 : a2         0.06875
+O: halt : a5 : a4         0.06875
+O: halt : a5 : a6         0.06875
+O: halt : a5 : a8         0.06875
+O: halt : a5 : a9         0.06875
+O: halt : a5 : a10         0.06875
+O: halt : a6 : a6         0.44999999999999996
+O: halt : a6 : a1         0.06875
+O: halt : a6 : a2         0.06875
+O: halt : a6 : a3         0.06875
+O: halt : a6 : a5         0.06875
+O: halt : a6 : a7         0.06875
+O: halt : a6 : a9         0.06875
+O: halt : a6 : a10         0.06875
+O: halt : a6 : a11         0.06875
+O: halt : a7 : a7         0.6
+O: halt : a7 : a2         0.08
+O: halt : a7 : a3         0.08
+O: halt : a7 : a6         0.08
+O: halt : a7 : a10         0.08
+O: halt : a7 : a11         0.08
+O: halt : a8 : a8         0.35
+O: halt : a8 : a4         0.13
+O: halt : a8 : a5         0.13
+O: halt : a8 : a9         0.13
+O: halt : a8 : a12         0.13
+O: halt : a8 : a13         0.13
+O: halt : a9 : a9         0.04999999999999993
+O: halt : a9 : a4         0.11875000000000001
+O: halt : a9 : a5         0.11875000000000001
+O: halt : a9 : a6         0.11875000000000001
+O: halt : a9 : a8         0.11875000000000001
+O: halt : a9 : a10         0.11875000000000001
+O: halt : a9 : a12         0.11875000000000001
+O: halt : a9 : a13         0.11875000000000001
+O: halt : a9 : a14         0.11875000000000001
+O: halt : a10 : a10         0.04999999999999993
+O: halt : a10 : a5         0.11875000000000001
+O: halt : a10 : a6         0.11875000000000001
+O: halt : a10 : a7         0.11875000000000001
+O: halt : a10 : a9         0.11875000000000001
+O: halt : a10 : a11         0.11875000000000001
+O: halt : a10 : a13         0.11875000000000001
+O: halt : a10 : a14         0.11875000000000001
+O: halt : a10 : a15         0.11875000000000001
+O: halt : a11 : a11         0.35
+O: halt : a11 : a6         0.13
+O: halt : a11 : a7         0.13
+O: halt : a11 : a10         0.13
+O: halt : a11 : a14         0.13
+O: halt : a11 : a15         0.13
+O: halt : a12 : a12         0.3999999999999999
+O: halt : a12 : a8         0.20000000000000004
+O: halt : a12 : a9         0.20000000000000004
+O: halt : a12 : a13         0.20000000000000004
+O: halt : a13 : a13         0.09999999999999998
+O: halt : a13 : a8         0.18
+O: halt : a13 : a9         0.18
+O: halt : a13 : a10         0.18
+O: halt : a13 : a12         0.18
+O: halt : a13 : a14         0.18
+O: halt : a14 : a14         0.09999999999999998
+O: halt : a14 : a9         0.18
+O: halt : a14 : a10         0.18
+O: halt : a14 : a11         0.18
+O: halt : a14 : a13         0.18
+O: halt : a14 : a15         0.18
+O: halt : a15 : a15         0.3999999999999999
+O: halt : a15 : a10         0.20000000000000004
+O: halt : a15 : a11         0.20000000000000004
+O: halt : a15 : a14         0.20000000000000004
+O: up : a12 : null         1
+O: up : a13 : null         1
+O: up : a14 : null         1
+O: up : a15 : null         1
+O: down : a0 : null         1
+O: down : a1 : null         1
+O: down : a2 : null         1
+O: down : a3 : null         1
+O: left : a3 : null         1
+O: left : a7 : null         1
+O: left : a11 : null         1
+O: left : a15 : null         1
+O: right : a0 : null         1
+O: right : a4 : null         1
+O: right : a8 : null         1
+O: right : a12 : null         1
