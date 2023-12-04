@@ -22,10 +22,10 @@ def get_adjacent_cells(number_of_cells, deviation):
             print(dist)
             probs[i][j] = norm.pdf(dist, loc=0, scale=deviation)
             steps[i][j] = (i - center[0], j -center[1])
-    print("Probability Matrix")
-    pprint(np.round(probs, 3))
-    print("row step")
-    pprint(steps)
-    return probs
+    # print("Probability Matrix")
+    # pprint(np.round(probs, 3))
+    # print("row step")
+    # pprint(steps)
+    return probs,steps
 
 get_adjacent_cells(5, 0.5)

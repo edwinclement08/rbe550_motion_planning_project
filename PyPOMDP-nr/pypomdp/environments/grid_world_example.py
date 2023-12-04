@@ -46,5 +46,5 @@ if __name__ == '__main__':
     maker.make_T(lines)
     maker.make_O(lines)
 
-    with open('./pomdp/GridWorld-5Dr.POMDP', 'w+') as outfile:
+    with open('./pomdp/GridWorld-5D-new.POMDP', 'w+') as outfile:
         outfile.writelines(lines)

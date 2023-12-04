@@ -4,6 +4,9 @@ from pprint import pprint
 import math
 from math import sqrt
 
+class CustomError(IndexError):
+    pass
+
 class Board:
     def __init__(self, board):
         self.board = board
@@ -16,7 +19,7 @@ class Board:
 
     def state(self, i, j):
         if i < 0 or j < 0 or i >= self.h or j >= self.w:
-            raise IndexError
+            raise CustomError
         return i * self.h + j
 
     def for_each_cell(self, visitor_fn):
@@ -49,43 +52,43 @@ class Board:
     '''
     number_of_cells has to be odd, or it will be made one
     '''
-    def gaussians(self, number_of_cells, deviation):
+    def gaussians(self,y,x, number_of_cells, deviation):
         if number_of_cells % 2 == 0:
             number_of_cells = number_of_cells + 1
         
-        print(number_of_cells)
 
         neighbours_to_left = (number_of_cells - 1) / 2
         rows = number_of_cells
         cols = rows
-        probs = np.zeros((rows, cols))
         # steps = np.zeros((rows, cols, 2))
         steps = []
         
         center = (neighbours_to_left, neighbours_to_left)
+        center_prob = 0
+        sum = 0.0
         for i in range(rows):
             for j in range(cols):
                 dist = sqrt((i-center[0])**2 + (j-center[1])**2)
-                print(dist)
-                probs[i][j] = norm.pdf(dist, loc=0, scale=deviation)
-                # steps[i][j] = (i - center[0], j -center[1])
 
-                steps.append((i - center[0], j -center[1]))
+                prob= norm.pdf(dist, loc=0, scale=deviation)
+                sum += prob
+
+                if dist == 0:
+                    center_prob = prob
+                    continue
+
+                steps.append((y + i - center[0], x + j -center[1], prob))
+
+        steps = [(s[0], s[1], s[2]/sum) for s in steps]
+        center_prob = center_prob/sum
 
         # print("Probability Matrix")
         # pprint(np.round(probs, 3))
         # print("row step")
         # pprint(steps)
 
-        return probs,steps
+        return steps,center_prob
     
-    def probs_for_adjacent(self, i, j, cell_box_width, deviation):
-        probs, steps = self.gaussians(cell_box_width, deviation)
-
-        probs_at_actual = []
-        for (i, j) in steps:
-
-
 
     def adjacent_cells(self, i, j):
         cells = []
@@ -162,16 +165,24 @@ class GridWorldMaker():
                     next_point = self.configs['action_map'](action, i, j)
                     next_state = self.board.state(*next_point)
                     neighbours = self.board.adjacent_cells(*next_point)
-                    gaussians = self.board.gaussians(3, 1)
+
+                    # the 3 is the width of the neighbour cell, has to be odd cuz center
+                    # the 1 is how less likely the center will be detected. Higher is more noisy
+                    width_of_gaussian_matrix = 7
+                    sd= 1
+                    neighbours, center_prob = self.board.gaussians(i, j, width_of_gaussian_matrix, sd)
 
                     lines.append(template.format(a=action, sj=next_state,
-                                                 oj=next_state, p=obs))
-                    for y, x in neighbours:
+                                                 oj=next_state, p=center_prob))
+                    for (y, x,prob) in neighbours:
                         lines.append(template.format(a=action, sj=next_state,
-                                                     oj=self.board.state(y, x), p=(1.0 - obs)/len(neighbours)))
+                                                     oj=self.board.state(int(y), int(x)), p=prob))
+                    self.temp[i][j] = center_prob
+                    if center_prob < 0.1:
+                        print("It is zero")
 
-                    return obs
-                except IndexError:
+                    return center_prob
+                except CustomError as e:
                     return 0
             return wrapper
         
@@ -183,14 +194,6 @@ class GridWorldMaker():
                         next_state = self.board.state(i, j)
 
                         lines.append(template.format(a='down', sj=next_state, oj='null',p=1.0))
-                except:
-                    pass    
-            if action == 'down':
-                try:
-                    for (i, j) in edge_cells:
-                        next_state = self.board.state(i, j)
-
-                        lines.append(template.format(a='up', sj=next_state, oj='null',p=1.0))
                 except:
                     pass    
             if action == 'left':
@@ -218,4 +221,4 @@ class GridWorldMaker():
         self.board.for_each_edge(add_edge_null_transitions)
         print()
         print("Observation Probability for true state")
-        pprint(self.temp)
+        pprint(np.round(self.temp, 2))
