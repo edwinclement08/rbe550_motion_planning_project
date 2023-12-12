@@ -1,0 +1,573 @@
+discount: 0.9
+values: reward
+actions: up down left right halt
+costs: 1 1 1 1 0.25
+states: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+observations: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+init_state: 0
+
+R: up : 0 : *  : *       -10
+R: up : 1 : *  : *       -10
+R: up : 2 : *  : *       -10
+R: up : 3 : *  : *       -10
+R: up : 4 : *  : *       -1
+R: up : 5 : *  : *       -1
+R: up : 6 : *  : *       -1
+R: up : 7 : *  : *       -1
+R: up : 8 : *  : *       -1
+R: up : 9 : *  : *       -1
+R: up : 10 : *  : *      40
+R: up : 11 : *  : *      -1
+R: up : 12 : *  : *      -1
+R: up : 13 : *  : *      -1
+R: up : 14 : *  : *      -1
+R: up : 15 : *  : *      -1
+R: down : 0 : *  : *       -1
+R: down : 1 : *  : *       -1
+R: down : 2 : *  : *        40
+R: down : 3 : *  : *       -1
+R: down : 4 : *  : *       -1
+R: down : 5 : *  : *       -1
+R: down : 6 : *  : *       -1
+R: down : 7 : *  : *       -1
+R: down : 8 : *  : *       -1
+R: down : 9 : *  : *       -1
+R: down : 10 : *  : *      -1
+R: down : 11 : *  : *      -1
+R: down : 12 : *  : *      -10
+R: down : 13 : *  : *      -10
+R: down : 14 : *  : *      -10
+R: down : 15 : *  : *      -10
+R: left : 0 : *  : *       -10
+R: left : 1 : *  : *       -1
+R: left : 2 : *  : *       -1
+R: left : 3 : *  : *       -1
+R: left : 4 : *  : *       -10
+R: left : 5 : *  : *       -1
+R: left : 6 : *  : *       -1
+R: left : 7 : *  : *       40
+R: left : 8 : *  : *       -10
+R: left : 9 : *  : *       -1
+R: left : 10 : *  : *      -1
+R: left : 11 : *  : *      -1
+R: left : 12 : *  : *      -10
+R: left : 13 : *  : *      -1
+R: left : 14 : *  : *      -1
+R: left : 15 : *  : *      -1
+R: right : 0 : *  : *      -1
+R: right : 1 : *  : *      -1
+R: right : 2 : *  : *      -1
+R: right : 3 : *  : *      -10
+R: right : 4 : *  : *      -1
+R: right : 5 : *  : *      10
+R: right : 6 : *  : *      -1
+R: right : 7 : *  : *      -10
+R: right : 8 : *  : *      -1
+R: right : 9 : *  : *      -1
+R: right : 10 : *  : *     -1
+R: right : 11 : *  : *     -10
+R: right : 12 : *  : *     -1
+R: right : 13 : *  : *     -1
+R: right : 14 : *  : *     -1
+R: right : 15 : *  : *     -10
+R: halt : 0 : *  : *       0
+R: halt : 1 : *  : *       0
+R: halt : 2 : *  : *       0
+R: halt : 3 : *  : *       0
+R: halt : 4 : *  : *       0
+R: halt : 5 : *  : *       0
+R: halt : 6 : *  : *       40
+R: halt : 7 : *  : *       0
+R: halt : 8 : *  : *       0
+R: halt : 9 : *  : *       0
+R: halt : 10 : *  : *      0
+R: halt : 11 : *  : *      0
+R: halt : 12 : *  : *      0
+R: halt : 13 : *  : *      0
+R: halt : 14 : *  : *      0
+R: halt : 15 : *  : *      0
+
+T: up : 0 : 0         1.0
+T: up : 1 : 1         1.0
+T: up : 2 : 2         1.0
+T: up : 3 : 3         1.0
+T: up : 4 : 0         1.0
+T: up : 5 : 1         1.0
+T: up : 6 : 2         1.0
+T: up : 7 : 3         1.0
+T: up : 8 : 4         1.0
+T: up : 9 : 5         1.0
+T: up : 10 : 6         1.0
+T: up : 11 : 7         1.0
+T: up : 12 : 8         1.0
+T: up : 13 : 9         1.0
+T: up : 14 : 10         1.0
+T: up : 15 : 11         1.0
+T: down : 0 : 4         1.0
+T: down : 1 : 5         1.0
+T: down : 2 : 6         1.0
+T: down : 3 : 7         1.0
+T: down : 4 : 8         1.0
+T: down : 5 : 9         1.0
+T: down : 6 : 10         1.0
+T: down : 7 : 11         1.0
+T: down : 8 : 12         1.0
+T: down : 9 : 13         1.0
+T: down : 10 : 14         1.0
+T: down : 11 : 15         1.0
+T: down : 12 : 12         1.0
+T: down : 13 : 13         1.0
+T: down : 14 : 14         1.0
+T: down : 15 : 15         1.0
+T: left : 0 : 0         1.0
+T: left : 1 : 0         1.0
+T: left : 2 : 1         1.0
+T: left : 3 : 2         1.0
+T: left : 4 : 4         1.0
+T: left : 5 : 4         1.0
+T: left : 6 : 5         1.0
+T: left : 7 : 6         1.0
+T: left : 8 : 8         1.0
+T: left : 9 : 8         1.0
+T: left : 10 : 9         1.0
+T: left : 11 : 10         1.0
+T: left : 12 : 12         1.0
+T: left : 13 : 12         1.0
+T: left : 14 : 14         1.0
+T: left : 15 : 14         1.0
+T: right : 0 : 1         1.0
+T: right : 1 : 2         1.0
+T: right : 2 : 3         1.0
+T: right : 3 : 3         1.0
+T: right : 4 : 5         1.0
+T: right : 5 : 6         1.0
+T: right : 6 : 7         1.0
+T: right : 7 : 7         1.0
+T: right : 8 : 9         1.0
+T: right : 9 : 10         1.0
+T: right : 10 : 11         1.0
+T: right : 11 : 11         1.0
+T: right : 12 : 13         1.0
+T: right : 13 : 14         1.0
+T: right : 14 : 15         1.0
+T: right : 15 : 16         1.0
+O: up : 0 : 0         0.605
+O: up : 0 : 1         0.14
+O: up : 0 : 4         0.14
+O: up : 0 : 5         0.115
+O: up : 1 : 1         0.35
+O: up : 1 : 0         0.14
+O: up : 1 : 2         0.14
+O: up : 1 : 5         0.14
+O: up : 1 : 4         0.115
+O: up : 1 : 6         0.115
+O: up : 2 : 2         0.35
+O: up : 2 : 1         0.14
+O: up : 2 : 3         0.14
+O: up : 2 : 6         0.14
+O: up : 2 : 5         0.115
+O: up : 2 : 7         0.115
+O: up : 3 : 3         0.605
+O: up : 3 : 2         0.14
+O: up : 3 : 7         0.14
+O: up : 3 : 6         0.115
+O: up : 4 : 4         0.5
+O: up : 4 : 0         0.11
+O: up : 4 : 8         0.11
+O: up : 4 : 5         0.11
+O: up : 4 : 1         0.085
+O: up : 4 : 9         0.085
+O: up : 5 : 5         0.22
+O: up : 5 : 1         0.11
+O: up : 5 : 4         0.11
+O: up : 5 : 6         0.11
+O: up : 5 : 9         0.11
+O: up : 5 : 0         0.085
+O: up : 5 : 2         0.085
+O: up : 5 : 8         0.085
+O: up : 5 : 10         0.085
+O: up : 6 : 6         0.22
+O: up : 6 : 2         0.11
+O: up : 6 : 5         0.11
+O: up : 6 : 7         0.11
+O: up : 6 : 10         0.11
+O: up : 6 : 1         0.085
+O: up : 6 : 3         0.085
+O: up : 6 : 9         0.085
+O: up : 6 : 11         0.085
+O: up : 7 : 7         0.5
+O: up : 7 : 3         0.11
+O: up : 7 : 11         0.11
+O: up : 7 : 6         0.11
+O: up : 7 : 2         0.085
+O: up : 7 : 10         0.085
+O: up : 8 : 8         0.65
+O: up : 8 : 4         0.08
+O: up : 8 : 9        0.08
+O: up : 8 : 12         0.08
+O: up : 8 : 5         0.055
+O: up : 8 : 13         0.055
+O: up : 9 : 9         0.46
+O: up : 9 : 5         0.08
+O: up : 9 : 8         0.08
+O: up : 9 : 10         0.08
+O: up : 9 : 13         0.08
+O: up : 9 : 4         0.055
+O: up : 9 : 6         0.055
+O: up : 9 : 12         0.055
+O: up : 9 : 14         0.055
+O: up : 10 : 10         0.46
+O: up : 10 : 6         0.08
+O: up : 10 : 9         0.08
+O: up : 10 : 11         0.08
+O: up : 10 : 14         0.08
+O: up : 10 : 5         0.055
+O: up : 10 : 7         0.055
+O: up : 10 : 13         0.055
+O: up : 10 : 15         0.055
+O: up : 11 : 11         0.65
+O: up : 11 : 7         0.08
+O: up : 11 : 10         0.08
+O: up : 11 : 15         0.08
+O: up : 11 : 6         0.055
+O: up : 11 : 14         0.055
+O: down : 4 : 4         0.5
+O: down : 4 : 0         0.11
+O: down : 4 : 8         0.11
+O: down : 4 : 5         0.11
+O: down : 4 : 1         0.085
+O: down : 4 : 9         0.085
+O: down : 5 : 5         0.22
+O: down : 5 : 1         0.11
+O: down : 5 : 4         0.11
+O: down : 5 : 6         0.11
+O: down : 5 : 9         0.11
+O: down : 5 : 0         0.085
+O: down : 5 : 2         0.085
+O: down : 5 : 8         0.085
+O: down : 5 : 10         0.085
+O: down : 6 : 6         0.22
+O: down : 6 : 2         0.11
+O: down : 6 : 5         0.11
+O: down : 6 : 7         0.11
+O: down : 6 : 10         0.11
+O: down : 6 : 1         0.085
+O: down : 6 : 3         0.085
+O: down : 6 : 9         0.085
+O: down : 6 : 11         0.085
+O: down : 7 : 7         0.5
+O: down : 7 : 3         0.11
+O: down : 7 : 11         0.11
+O: down : 7 : 6         0.11
+O: down : 7 : 2         0.085
+O: down : 7 : 10         0.085
+O: down : 8 : 8         0.65
+O: down : 8 : 4         0.08
+O: down : 8 : 9        0.08
+O: down : 8 : 12         0.08
+O: down : 8 : 5         0.055
+O: down : 8 : 13         0.055
+O: down : 9 : 9         0.46
+O: down : 9 : 5         0.08
+O: down : 9 : 8         0.08
+O: down : 9 : 10         0.08
+O: down : 9 : 13         0.08
+O: down : 9 : 4         0.055
+O: down : 9 : 6         0.055
+O: down : 9 : 12         0.055
+O: down : 9 : 14         0.055
+O: down : 10 : 10         0.46
+O: down : 10 : 6         0.08
+O: down : 10 : 9         0.08
+O: down : 10 : 11         0.08
+O: down : 10 : 14         0.08
+O: down : 10 : 5         0.055
+O: down : 10 : 7         0.055
+O: down : 10 : 13         0.055
+O: down : 10 : 15         0.055
+O: down : 11 : 11         0.65
+O: down : 11 : 7         0.08
+O: down : 11 : 10         0.08
+O: down : 11 : 15         0.08
+O: down : 11 : 6         0.055
+O: down : 11 : 14         0.055
+O: down : 12 : 12         0.875
+O: down : 12 : 8         0.05
+O: down : 12 : 13         0.05
+O: down : 12 : 9         0.025
+O: down : 13 : 13         0.8
+O: down : 13 : 9         0.05
+O: down : 13 : 12         0.05
+O: down : 13 : 14         0.05
+O: down : 13 : 8         0.025
+O: down : 13 : 10         0.025
+O: down : 14 : 14         0.8
+O: down : 14 : 10         0.05
+O: down : 14 : 13         0.05
+O: down : 14 : 15         0.05
+O: down : 14 : 9         0.025
+O: down : 14 : 11         0.025
+O: down : 15 : 15         0.875
+O: down : 15 : 2         0.05
+O: down : 15 : 7         0.05
+O: down : 15 : 6         0.025
+O: left : 0 : 0         0.605
+O: left : 0 : 1         0.14
+O: left : 0 : 4         0.14
+O: left : 0 : 5         0.115
+O: left : 1 : 1         0.35
+O: left : 1 : 0         0.14
+O: left : 1 : 2         0.14
+O: left : 1 : 5         0.14
+O: left : 1 : 4         0.115
+O: left : 1 : 6         0.115
+O: left : 2 : 2         0.35
+O: left : 2 : 1         0.14
+O: left : 2 : 3         0.14
+O: left : 2 : 6         0.14
+O: left : 2 : 5         0.115
+O: left : 2 : 7         0.115
+O: left : 4 : 4         0.5
+O: left : 4 : 0         0.11
+O: left : 4 : 8         0.11
+O: left : 4 : 5         0.11
+O: left : 4 : 1         0.085
+O: left : 4 : 9         0.085
+O: left : 5 : 5         0.22
+O: left : 5 : 1         0.11
+O: left : 5 : 4         0.11
+O: left : 5 : 6         0.11
+O: left : 5 : 9         0.11
+O: left : 5 : 0         0.085
+O: left : 5 : 2         0.085
+O: left : 5 : 8         0.085
+O: left : 5 : 10         0.085
+O: left : 6 : 6         0.22
+O: left : 6 : 2         0.11
+O: left : 6 : 5         0.11
+O: left : 6 : 7         0.11
+O: left : 6 : 10         0.11
+O: left : 6 : 1         0.085
+O: left : 6 : 3         0.085
+O: left : 6 : 9         0.085
+O: left : 6 : 11         0.085
+O: left : 8 : 8         0.65
+O: left : 8 : 4         0.08
+O: left : 8 : 9        0.08
+O: left : 8 : 12         0.08
+O: left : 8 : 5         0.055
+O: left : 8 : 13         0.055
+O: left : 9 : 9         0.46
+O: left : 9 : 5         0.08
+O: left : 9 : 8         0.08
+O: left : 9 : 10         0.08
+O: left : 9 : 13         0.08
+O: left : 9 : 4         0.055
+O: left : 9 : 6         0.055
+O: left : 9 : 12         0.055
+O: left : 9 : 14         0.055
+O: left : 10 : 10         0.46
+O: left : 10 : 6         0.08
+O: left : 10 : 9         0.08
+O: left : 10 : 11         0.08
+O: left : 10 : 14         0.08
+O: left : 10 : 5         0.055
+O: left : 10 : 7         0.055
+O: left : 10 : 13         0.055
+O: left : 10 : 15         0.055
+O: left : 12 : 12         0.875
+O: left : 12 : 8         0.05
+O: left : 12 : 13         0.05
+O: left : 12 : 9         0.025
+O: left : 13 : 13         0.8
+O: left : 13 : 9         0.05
+O: left : 13 : 12         0.05
+O: left : 13 : 14         0.05
+O: left : 13 : 8         0.025
+O: left : 13 : 10         0.025
+O: left : 14 : 14         0.8
+O: left : 14 : 10         0.05
+O: left : 14 : 13         0.05
+O: left : 14 : 15         0.05
+O: left : 14 : 9         0.025
+O: left : 14 : 11         0.025
+O: right : 1 : 1         0.35
+O: right : 1 : 0         0.14
+O: right : 1 : 2         0.14
+O: right : 1 : 5         0.14
+O: right : 1 : 4         0.115
+O: right : 1 : 6         0.115
+O: right : 2 : 2         0.35
+O: right : 2 : 1         0.14
+O: right : 2 : 3         0.14
+O: right : 2 : 6         0.14
+O: right : 2 : 5         0.115
+O: right : 2 : 7         0.115
+O: right : 3 : 3         0.605
+O: right : 3 : 2         0.14
+O: right : 3 : 7         0.14
+O: right : 3 : 6         0.115
+O: right : 5 : 5         0.22
+O: right : 5 : 1         0.11
+O: right : 5 : 4         0.11
+O: right : 5 : 6         0.11
+O: right : 5 : 9         0.11
+O: right : 5 : 0         0.085
+O: right : 5 : 2         0.085
+O: right : 5 : 8         0.085
+O: right : 5 : 10         0.085
+O: right : 6 : 6         0.22
+O: right : 6 : 2         0.11
+O: right : 6 : 5         0.11
+O: right : 6 : 7         0.11
+O: right : 6 : 10         0.11
+O: right : 6 : 1         0.085
+O: right : 6 : 3         0.085
+O: right : 6 : 9         0.085
+O: right : 6 : 11         0.085
+O: right : 7 : 7         0.5
+O: right : 7 : 3         0.11
+O: right : 7 : 11         0.11
+O: right : 7 : 6         0.11
+O: right : 7 : 2         0.085
+O: right : 7 : 10         0.085
+O: right : 9 : 9         0.46
+O: right : 9 : 5         0.08
+O: right : 9 : 8         0.08
+O: right : 9 : 10         0.08
+O: right : 9 : 13         0.08
+O: right : 9 : 4         0.055
+O: right : 9 : 6         0.055
+O: right : 9 : 12         0.055
+O: right : 9 : 14         0.055
+O: right : 10 : 10         0.46
+O: right : 10 : 6         0.08
+O: right : 10 : 9         0.08
+O: right : 10 : 11         0.08
+O: right : 10 : 14         0.08
+O: right : 10 : 5         0.055
+O: right : 10 : 7         0.055
+O: right : 10 : 13         0.055
+O: right : 10 : 15         0.055
+O: right : 11 : 11         0.65
+O: right : 11 : 7         0.08
+O: right : 11 : 10         0.08
+O: right : 11 : 15         0.08
+O: right : 11 : 6         0.055
+O: right : 11 : 14         0.055
+O: right : 13 : 13         0.8
+O: right : 13 : 9         0.05
+O: right : 13 : 12         0.05
+O: right : 13 : 14         0.05
+O: right : 13 : 8         0.025
+O: right : 13 : 10         0.025
+O: right : 14 : 14         0.8
+O: right : 14 : 10         0.05
+O: right : 14 : 13         0.05
+O: right : 14 : 15         0.05
+O: right : 14 : 9         0.025
+O: right : 14 : 11         0.025
+O: right : 15 : 15         0.875
+O: right : 15 : 2         0.05
+O: right : 15 : 7         0.05
+O: right : 15 : 6         0.025
+O: halt : 0 : 0         0.605
+O: halt : 0 : 1         0.14
+O: halt : 0 : 4         0.14
+O: halt : 0 : 5         0.115
+O: halt : 1 : 1         0.35
+O: halt : 1 : 0         0.14
+O: halt : 1 : 2         0.14
+O: halt : 1 : 5         0.14
+O: halt : 1 : 4         0.115
+O: halt : 1 : 6         0.115
+O: halt : 2 : 2         0.35
+O: halt : 2 : 1         0.14
+O: halt : 2 : 3         0.14
+O: halt : 2 : 6         0.14
+O: halt : 2 : 5         0.115
+O: halt : 2 : 7         0.115
+O: halt : 3 : 3         0.605
+O: halt : 3 : 2         0.14
+O: halt : 3 : 7         0.14
+O: halt : 3 : 6         0.115
+O: halt : 4 : 4         0.5
+O: halt : 4 : 0         0.11
+O: halt : 4 : 8         0.11
+O: halt : 4 : 5         0.11
+O: halt : 4 : 1         0.085
+O: halt : 4 : 9         0.085
+O: halt : 5 : 5         0.22
+O: halt : 5 : 1         0.11
+O: halt : 5 : 4         0.11
+O: halt : 5 : 6         0.11
+O: halt : 5 : 9         0.11
+O: halt : 5 : 0         0.085
+O: halt : 5 : 2         0.085
+O: halt : 5 : 8         0.085
+O: halt : 5 : 10         0.085
+O: halt : 6 : 6         0.22
+O: halt : 6 : 2         0.11
+O: halt : 6 : 5         0.11
+O: halt : 6 : 7         0.11
+O: halt : 6 : 10         0.11
+O: halt : 6 : 1         0.085
+O: halt : 6 : 3         0.085
+O: halt : 6 : 9         0.085
+O: halt : 6 : 11         0.085
+O: halt : 7 : 7         0.5
+O: halt : 7 : 3         0.11
+O: halt : 7 : 11         0.11
+O: halt : 7 : 6         0.11
+O: halt : 7 : 2         0.085
+O: halt : 7 : 10         0.085
+O: halt : 8 : 8         0.65
+O: halt : 8 : 4         0.08
+O: halt : 8 : 9        0.08
+O: halt : 8 : 12         0.08
+O: halt : 8 : 5         0.055
+O: halt : 8 : 13         0.055
+O: halt : 9 : 9         0.46
+O: halt : 9 : 5         0.08
+O: halt : 9 : 8         0.08
+O: halt : 9 : 10         0.08
+O: halt : 9 : 13         0.08
+O: halt : 9 : 4         0.055
+O: halt : 9 : 6         0.055
+O: halt : 9 : 12         0.055
+O: halt : 9 : 14         0.055
+O: halt : 10 : 10         0.46
+O: halt : 10 : 6         0.08
+O: halt : 10 : 9         0.08
+O: halt : 10 : 11         0.08
+O: halt : 10 : 14         0.08
+O: halt : 10 : 5         0.055
+O: halt : 10 : 7         0.055
+O: halt : 10 : 13         0.055
+O: halt : 10 : 15         0.055
+O: halt : 11 : 11         0.65
+O: halt : 11 : 7         0.08
+O: halt : 11 : 10         0.08
+O: halt : 11 : 15         0.08
+O: halt : 11 : 6         0.055
+O: halt : 11 : 14         0.055
+O: halt : 12 : 12         0.875
+O: halt : 12 : 8         0.05
+O: halt : 12 : 13         0.05
+O: halt : 12 : 9         0.025
+O: halt : 13 : 13         0.8
+O: halt : 13 : 9         0.05
+O: halt : 13 : 12         0.05
+O: halt : 13 : 14         0.05
+O: halt : 13 : 8         0.025
+O: halt : 13 : 10         0.025
+O: halt : 14 : 14         0.8
+O: halt : 14 : 10         0.05
+O: halt : 14 : 13         0.05
+O: halt : 14 : 15         0.05
+O: halt : 14 : 9         0.025
+O: halt : 14 : 11         0.025
+O: halt : 15 : 15         0.875
+O: halt : 15 : 2         0.05
+O: halt : 15 : 7         0.05
+O: halt : 15 : 6         0.025

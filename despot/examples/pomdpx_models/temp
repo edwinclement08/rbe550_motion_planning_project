@@ -1,0 +1,36 @@
+184 matches for "\(- Action\|state\)" in buffer: running_output-v3.log
+     15:INFO: [POMDPX::Init	State Initialized state table in 3.00407e-05s
+     37:INFO: [POMDPLogger::InitRound Created start state.
+
+     38:Initial state: 
+     39:	State s2
+     62:- Action = right
+     64:	State s3
+     90:- Action = right
+     92:	State s4
+    118:- Action = right
+    120:	State s5
+    146:- Action = down
+    148:	State s15
+    174:- Action = down
+    176:	State s25
+    202:- Action = down
+    204:	State s35
+    230:- Action = down
+    232:	State s45
+    258:- Action = down
+    260:	State s55
+    286:- Action = down
+    288:	State s65
+    314:- Action = halt
+    316:	State s65
+    342:- Action = halt
+    344:	State s65
+    370:- Action = halt
+    372:	State s65
+    398:- Action = halt
+    400:	State s65
+    426:- Action = halt
+    428:	State s65
+    454:- Action = halt
+    456:	State s65

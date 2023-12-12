@@ -1,0 +1,418 @@
+Model = N6despot3TagE
+Random root seed = 169727000
+Search depth = 90
+Discount = 0.95
+Simulation steps = 90
+Number of scenarios = 500
+Search time per step = 1
+Regularization constant = 0.01
+Lower bound = DEFAULT
+Upper bound = DEFAULT
+Policy simulation depth = 90
+Target gap ratio = 0.95
+
+####################################### Round 0 #######################################
+Initial state: 
+...O......
+R.........
+#####...##
+#####...##
+#####...##
+
+-----------------------------------Round 0 Step 0-----------------------------------
+- Action = South
+- State:
+....O.....
+R.........
+#####...##
+#####...##
+#####...##
+- Observation = Rob at (0, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -1 / -1
+-----------------------------------Round 0 Step 1-----------------------------------
+- Action = North
+- State:
+R...O.....
+..........
+#####...##
+#####...##
+#####...##
+- Observation = Rob at (0, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -1.95 / -2
+-----------------------------------Round 0 Step 2-----------------------------------
+- Action = East
+- State:
+.R........
+....O.....
+#####...##
+#####...##
+#####...##
+- Observation = Rob at (1, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -2.8525 / -3
+-----------------------------------Round 0 Step 3-----------------------------------
+- Action = East
+- State:
+..R.......
+.....O....
+#####...##
+#####...##
+#####...##
+- Observation = Rob at (2, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -3.70987 / -4
+-----------------------------------Round 0 Step 4-----------------------------------
+- Action = East
+- State:
+...R......
+......O...
+#####...##
+#####...##
+#####...##
+- Observation = Rob at (3, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -4.52438 / -5
+-----------------------------------Round 0 Step 5-----------------------------------
+- Action = South
+- State:
+..........
+...R......
+#####.O.##
+#####...##
+#####...##
+- Observation = Rob at (3, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -5.29816 / -6
+-----------------------------------Round 0 Step 6-----------------------------------
+- Action = East
+- State:
+..........
+....R.....
+#####..O##
+#####...##
+#####...##
+- Observation = Rob at (4, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -6.03325 / -7
+-----------------------------------Round 0 Step 7-----------------------------------
+- Action = East
+- State:
+..........
+.....R....
+#####..O##
+#####...##
+#####...##
+- Observation = Rob at (5, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -6.73159 / -8
+-----------------------------------Round 0 Step 8-----------------------------------
+- Action = East
+- State:
+..........
+......R...
+#####..O##
+#####...##
+#####...##
+- Observation = Rob at (6, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -7.39501 / -9
+-----------------------------------Round 0 Step 9-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####.RO##
+#####...##
+#####...##
+- Observation = Rob at (6, 2)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -8.02526 / -10
+-----------------------------------Round 0 Step 10-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####...##
+#####.RO##
+#####...##
+- Observation = Rob at (6, 1)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -8.624 / -11
+-----------------------------------Round 0 Step 11-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####...##
+#####..O##
+#####.R.##
+- Observation = Rob at (6, 0)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -9.1928 / -12
+-----------------------------------Round 0 Step 12-----------------------------------
+- Action = East
+- State:
+..........
+..........
+#####...##
+#####..O##
+#####..R##
+- Observation = Rob at (7, 0)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -9.73316 / -13
+-----------------------------------Round 0 Step 13-----------------------------------
+- Action = North
+- State:
+..........
+..........
+#####...##
+#####.OR##
+#####...##
+- Observation = Rob at (7, 1)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -10.2465 / -14
+-----------------------------------Round 0 Step 14-----------------------------------
+- Action = North
+- State:
+..........
+..........
+#####..R##
+#####.O.##
+#####...##
+- Observation = Rob at (7, 2)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -10.7342 / -15
+-----------------------------------Round 0 Step 15-----------------------------------
+- Action = North
+- State:
+..........
+.......R..
+#####...##
+#####O..##
+#####...##
+- Observation = Rob at (7, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -11.1975 / -16
+-----------------------------------Round 0 Step 16-----------------------------------
+- Action = East
+- State:
+..........
+........R.
+#####...##
+#####O..##
+#####...##
+- Observation = Rob at (8, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -11.6376 / -17
+-----------------------------------Round 0 Step 17-----------------------------------
+- Action = North
+- State:
+........R.
+..........
+#####...##
+#####...##
+#####O..##
+- Observation = Rob at (8, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -12.0557 / -18
+-----------------------------------Round 0 Step 18-----------------------------------
+- Action = East
+- State:
+.........R
+..........
+#####...##
+#####...##
+#####O..##
+- Observation = Rob at (9, 4)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -12.4529 / -19
+-----------------------------------Round 0 Step 19-----------------------------------
+- Action = South
+- State:
+..........
+.........R
+#####...##
+#####...##
+#####O..##
+- Observation = Rob at (9, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -12.8303 / -20
+-----------------------------------Round 0 Step 20-----------------------------------
+- Action = West
+- State:
+..........
+........R.
+#####...##
+#####...##
+#####O..##
+- Observation = Rob at (8, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -13.1888 / -21
+-----------------------------------Round 0 Step 21-----------------------------------
+- Action = West
+- State:
+..........
+.......R..
+#####...##
+#####...##
+#####O..##
+- Observation = Rob at (7, 3)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -13.5293 / -22
+-----------------------------------Round 0 Step 22-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####..R##
+#####...##
+#####O..##
+- Observation = Rob at (7, 2)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -13.8529 / -23
+-----------------------------------Round 0 Step 23-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####...##
+#####..R##
+#####O..##
+- Observation = Rob at (7, 1)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -14.1602 / -24
+-----------------------------------Round 0 Step 24-----------------------------------
+- Action = West
+- State:
+..........
+..........
+#####...##
+#####.R.##
+#####O..##
+- Observation = Rob at (6, 1)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -14.4522 / -25
+-----------------------------------Round 0 Step 25-----------------------------------
+- Action = South
+- State:
+..........
+..........
+#####...##
+#####...##
+#####OR.##
+- Observation = Rob at (6, 0)
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -14.7296 / -26
+-----------------------------------Round 0 Step 26-----------------------------------
+- Action = West
+- State:
+..........
+..........
+#####...##
+#####...##
+#####Q..##
+- Observation = On opponent
+- ObsProb = 1
+
+- Reward = -1
+- Current rewards:
+  discounted / undiscounted = -14.9931 / -27
+-----------------------------------Round 0 Step 27-----------------------------------
+- Action = Tag
+- State:
+..........
+..........
+#####...##
+#####...##
+#####Q..##
+- Observation = On opponent
+- ObsProb = 1
+
+Simulation terminated in 28 steps
+Total discounted reward = -12.4897
+Total undiscounted reward = -17
+
+Completed 1 run(s).
+Average total discounted reward (stderr) = -12.4897 (0)
+Average total undiscounted reward (stderr) = -17 (0)
+Total time: Real / CPU = 28.4076 / 28.3124s

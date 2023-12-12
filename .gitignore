@@ -1,0 +1,7 @@
+.git-old
+
+tools/.vscode/
+
+tools/grid_maker/__pycache__/
+
+despot/.vscode/
