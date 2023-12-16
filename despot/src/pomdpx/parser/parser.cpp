@@ -1372,14 +1372,14 @@ void Parser::PrintState(const vector<int>& state, ostream& out) const {
 		} else {
 			out << curr_state_vars_[s].GetValue(state[s]);
 
-			number = 	curr_state_vars_[s].GetValue(state[s]);
-			number = number.substr(1);
-			int num = stoi(number);
-			int state = floor(num / 8);
-			int rot = num  % 8;
+			// number = 	curr_state_vars_[s].GetValue(state[s]);
+			// number = number.substr(1);
+			// int num = stoi(number);
+			// int state = floor(num / 8);
+			// int rot = num  % 8;
 
 
-			l_file << state << ", " << rot << endl;
+			// l_file << state << ", " << rot << endl;
 		}
 	}
 	out << "]" << endl;

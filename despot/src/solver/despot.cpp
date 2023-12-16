@@ -265,7 +265,7 @@ ValuedAction DESPOT::Search() {
 	l_file.open("output_files/despot_belief_v3_out.log", ios::app);
 
 
-	root_->PrintTree();
+	// root_->PrintTree();
 	POMDPXState* f;
 	vector<State*> ps = root_->particles();
 	for (int i = 0; i <ps.size(); i++) {

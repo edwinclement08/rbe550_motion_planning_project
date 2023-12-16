@@ -101,12 +101,14 @@ void ParticleBelief::Update(ACT_TYPE action, OBS_TYPE obs) {
 	OBS_TYPE o;
 	// Update particles
 	ofstream l_file;
-	l_file.open("output_files/despot_belief_out.log", ios::app);
+	l_file.open("output_files/despot_belief_out_v4.log", ios::app);
 
 	POMDPXState* f;
 
 	for (int i = 0; i <particles_.size(); i++) {
 		State* particle = particles_[i];
+		f = (POMDPXState*)  particle;
+		l_file << "(" << f->vec_id << ", " << f->weight << ") " ;
 		bool terminal = model_->Step(*particle, Random::RANDOM.NextDouble(),
 			action, reward, o);
 		double prob = model_->ObsProb(obs, *particle, action);
@@ -115,8 +117,6 @@ void ParticleBelief::Update(ACT_TYPE action, OBS_TYPE obs) {
 			particle->weight *= prob;
 			total_weight += particle->weight;
 			updated.push_back(particle);
-			f = (POMDPXState*)  particle;
-			l_file << "(" << f->vec_id << ", " << f->weight << ") " ;
 		} else {
 			model_->Free(particle);
 		}
