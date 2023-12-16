@@ -5,6 +5,4 @@ rotations = [i % 8 for i in traj_i]
 
 traj_rc = [i//8 for i in traj_i]
 row_col = [(i//10,i%10) for i in traj_rc]
-print(traj_i)
-print(rotations)
 print(list(zip(row_col, rotations)))
